@@ -1415,7 +1415,7 @@ td {
  */
 .container {
   box-sizing: content-box;
-  max-width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -1428,6 +1428,18 @@ td {
   .container {
     width: 100%;
   }
+}
+
+.inner-container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: white;
+  height: 80px;
 }
 
 .grid {
@@ -1705,5 +1717,15 @@ td {
  * ==========================================================================
  * This is a placeholder and example for a view.
  */
+.container {
+  background: url("../img/fpo-homepage-bg.jpg") no-repeat;
+  border: 2px red solid;
+  min-height: 3550px;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
 
 /*# sourceMappingURL=styles.css.map */
