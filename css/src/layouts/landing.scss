@@ -7,10 +7,12 @@
 /*MAIN CONTAINER & HEADER CONTENT */
 
  .container{
- 	background: url('../img/fpo-homepage-bg.jpg') no-repeat;
+ 	// background: #e6e4e2 url('../img/fpo-homepage-bg.jpg') no-repeat;
  	background-size: 100%;
+ 	background-color: #e6e4e2;
+
  	// border: 2px red solid;
- 	min-height: 3550px;
+ 	// min-height: 3550px;
  	padding:0;
  }
 
@@ -32,17 +34,46 @@
  	height: 140px;
  }
 
+ .seperator-blue{
+ 	background: url('../img/hrbg-blue.jpg') repeat-y;
+ 	background-size: 100%;
+ 	height: 140px;
+ }
+
+ .seperator-aqua{
+ 	background: url('../img/hrbg-aqua.jpg') repeat-y;
+ 	background-size: 100%;
+ 	height: 140px;
+ }
+
  .inner-container{
  	margin-top:-20px;
  	position: relative;
  	z-index: 5;
  	padding: 40px;
  	text-align: center;
+ 	background-color: white;
 
- 	h2{
- 		text-align: center;
- 		color: #42bdb7;
- 	}
+ 	.biz-block{
+	 	h2{
+	 		text-align: center;
+	 		color: #42bdb7;
+	 	}
+	 }
+
+	 .personal-block{
+	 	h2{
+	 		text-align: center;
+	 		color: #e2273d;
+	 	}
+	 }
+
+	 .alumni-block{
+	 	h2{
+	 		text-align: center;
+	 		color: #658bea;
+	 	}
+	 }
 
  	p{
  		color: #5f5952;
@@ -55,6 +86,20 @@
 
  .biz-ico{
  	margin: 10px 6px;
+ }
+
+
+
+ //Footer styles
+ .footer{
+ 	background-color: #c0bcb7;
+ 	color: black;
+ 	font-size: 12px;
+ 	.inner-container{
+ 		background-color: transparent;
+ 		margin-top:0;
+ 		text-align:left;
+ 	}
  }
 
 
