@@ -1761,6 +1761,7 @@ td {
   padding: 40px;
   text-align: center;
   background-color: white;
+  box-shadow: 0px 0px 22px 1px rgba(74, 74, 74, 0.3);
 }
 .inner-container .biz-block h2 {
   text-align: center;
@@ -1786,15 +1787,42 @@ td {
   margin: 10px 6px;
 }
 
+.section-cta {
+  margin-top: 25px;
+  display: inline-block;
+  border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  -webkit-border-radius: 27px 27px 27px 27px;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+.biz-cta {
+  color: #42bdb7;
+  border: 2px solid #42bdb7;
+}
+
+.personal-cta {
+  color: #e2273d;
+  border: 2px solid #e2273d;
+}
+
+.alumni-cta {
+  color: #658bea;
+  border: 2px solid #658bea;
+}
+
 .footer {
   background-color: #c0bcb7;
   color: black;
   font-size: 12px;
+  z-index: 10;
 }
 .footer .inner-container {
   background-color: transparent;
   margin-top: 0;
   text-align: left;
+  box-shadow: 0px 0px 0px 0px rgba(74, 74, 74, 0);
 }
 
 /*# sourceMappingURL=styles.css.map */

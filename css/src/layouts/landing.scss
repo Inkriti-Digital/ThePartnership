@@ -53,6 +53,9 @@
  	padding: 40px;
  	text-align: center;
  	background-color: white;
+ 	-webkit-box-shadow: 0px 0px 22px 1px rgba(74,74,74, 0.3);
+	-moz-box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.3);
+	box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.3);
 
  	.biz-block{
 	 	h2{
@@ -88,6 +91,32 @@
  	margin: 10px 6px;
  }
 
+.section-cta{
+	margin-top: 25px;
+	display: inline-block;
+	border-radius: 27px 27px 27px 27px;
+	-moz-border-radius: 27px 27px 27px 27px;
+	-webkit-border-radius: 27px 27px 27px 27px;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.biz-cta{
+	color: #42bdb7;
+	border: 2px solid #42bdb7;
+}
+
+.personal-cta{
+	color: #e2273d;
+	border: 2px solid #e2273d;
+}
+
+.alumni-cta{
+	color: #658bea;
+	border: 2px solid #658bea;
+}
+
+
 
 
  //Footer styles
@@ -95,10 +124,14 @@
  	background-color: #c0bcb7;
  	color: black;
  	font-size: 12px;
+ 	z-index: 10;
  	.inner-container{
  		background-color: transparent;
  		margin-top:0;
  		text-align:left;
+ 		-webkit-box-shadow: 0px 0px 0px 0px rgba(74,74,74,0);
+		-moz-box-shadow: 0px 0px 0px 0px rgba(74,74,74,0);
+		box-shadow: 0px 0px 0px 0px rgba(74,74,74,0);
  	}
  }
 
