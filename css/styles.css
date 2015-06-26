@@ -1742,6 +1742,11 @@ td {
   display: inline-block;
   height: 80px;
 }
+.main-nav a {
+  height: 80px;
+  display: inline-block;
+  padding: 25px 20px;
+}
 .main-nav a, .main-nav a:link, .main-nav a:visited {
   color: #5f5952;
 }
@@ -1749,13 +1754,17 @@ td {
   color: #000;
 }
 .main-nav span {
-  padding: 25px 20px;
   display: inline-block;
   border-right: 1px #dfdddb solid;
   height: 80px;
+  margin-left: -5px;
 }
 .main-nav span:first-child {
   border-left: 1px #dfdddb solid;
+}
+.main-nav span:hover {
+  background-color: #ccc;
+  color: black;
 }
 
 .header {

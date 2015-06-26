@@ -31,9 +31,14 @@
  }
 
  .main-nav{
- 	// border: thin gray solid;
  	display: inline-block;
  	height: 80px;
+
+ 	a{
+ 		height: 80px;
+ 		display: inline-block;
+ 		padding: 25px 20px;
+ 	}
 
  	a, a:link, a:visited{
  		color: #5f5952;
@@ -43,14 +48,20 @@
  	}
 
  	span{
- 		padding: 25px 20px;
+ 		// padding: 0px 20px;
  		display: inline-block;
  		border-right: 1px #dfdddb solid;
  		height: 80px;
+ 		margin-left: -5px;
  	}
 
  	span:first-child{
  		border-left: 1px #dfdddb solid;
+ 	}
+
+ 	span:hover{
+ 		background-color: #ccc;
+ 		color: black;
  	}
  }
 
