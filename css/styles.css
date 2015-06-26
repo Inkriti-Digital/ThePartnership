@@ -1405,6 +1405,35 @@ td {
   font: 12px/1.5 sans-serif;
 }
 
+/***FONTS***/
+@font-face {
+  font-family: 'anaheim-reg';
+  src: url("fonts/Anaheim-Regular.eot");
+  src: local("☺"), url("fonts/Anaheim-Regular.woff") format("woff"), url("fonts/Anaheim-Regular.ttf") format("truetype"), url("fonts/Anaheim-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'kepler-std';
+  src: url("fonts/KeplerStd-Disp.eot");
+  src: local("☺"), url("fonts/KeplerStd-Disp.woff") format("woff"), url("fonts/KeplerStd-Disp.ttf") format("truetype"), url("fonts/KeplerStd-Disp.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto-bold';
+  src: url("fonts/RobotoCondensed-Bold.eot");
+  src: local("☺"), url("fonts/RobotoCondensed-Bold.woff") format("woff"), url("fonts/RobotoCondensed-Bold.ttf") format("truetype"), url("fonts/RobotoCondensed-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto-light';
+  src: url("fonts/RobotoCondensed-Light.eot");
+  src: local("☺"), url("fonts/RobotoCondensed-Light.woff") format("woff"), url("fonts/RobotoCondensed-Light.ttf") format("truetype"), url("fonts/RobotoCondensed-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /**
  * Vitamin U (Utilities)
  * --------------------------------------------------------------------------
@@ -1722,6 +1751,7 @@ td {
 .container {
   background-size: 100%;
   background-color: #e6e4e2;
+  font-family: 'anaheim-reg';
   padding: 0;
 }
 .container a, .container a:link, .container a:visited {
@@ -1729,6 +1759,14 @@ td {
 }
 .container a:hover {
   color: #ee6760;
+}
+.container h2 {
+  font-family: 'kepler-std';
+  letter-spacing: 0.05em;
+}
+.container p {
+  font-family: 'roboto-light';
+  letter-spacing: 0.03em;
 }
 
 .logo {
@@ -1746,6 +1784,7 @@ td {
   height: 80px;
   display: inline-block;
   padding: 25px 20px;
+  text-transform: uppercase;
 }
 .main-nav a, .main-nav a:link, .main-nav a:visited {
   color: #5f5952;
@@ -1772,6 +1811,25 @@ td {
   text-align: center;
   overflow: hidden;
   margin-bottom: -10px;
+}
+.header .head-title {
+  text-align: left;
+  position: absolute;
+  color: white;
+  z-index: 10;
+  left: 21%;
+  top: 18%;
+}
+.header .head-title h1 {
+  font-family: 'kepler-std';
+  letter-spacing: 0.05em;
+  font-size: 48px;
+  line-height: 54px;
+}
+.header .head-title .head-cta {
+  color: #e66057;
+  font-size: 34px;
+  text-transform: uppercase;
 }
 
 .seperator-red {
@@ -1848,6 +1906,9 @@ td {
   -webkit-border-radius: 27px 27px 27px 27px;
   text-transform: uppercase;
   padding: 8px;
+}
+.section-cta img {
+  top: 1px;
 }
 
 .biz-cta {

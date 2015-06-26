@@ -10,9 +10,7 @@
  	// background: #e6e4e2 url('../img/fpo-homepage-bg.jpg') no-repeat;
  	background-size: 100%;
  	background-color: #e6e4e2;
-
- 	// border: 2px red solid;
- 	// min-height: 3550px;
+ 	font-family: 'anaheim-reg';
  	padding:0;
 
  	a, a:link, a:visited{
@@ -21,6 +19,16 @@
  	a:hover{
  		color: #ee6760;
  	}
+
+ 	h2{
+		font-family: 'kepler-std';
+		letter-spacing: 0.05em;
+	}
+
+	p{
+		font-family: 'roboto-light';
+		letter-spacing: 0.03em;
+	}
  }
 
  .logo{
@@ -38,6 +46,7 @@
  		height: 80px;
  		display: inline-block;
  		padding: 25px 20px;
+ 		text-transform: uppercase;
  	}
 
  	a, a:link, a:visited{
@@ -70,6 +79,27 @@
  	text-align:center;
  	overflow:hidden;
  	margin-bottom: -10px;
+
+ 	.head-title{
+ 		text-align: left;
+ 		position: absolute;
+	  	color: white;
+	  	z-index: 10;
+	  	left: 21%;
+	  	top: 18%;
+ 		h1{
+ 			font-family: 'kepler-std';
+ 			letter-spacing: 0.05em;
+  			font-size: 48px;
+  			line-height: 54px;
+ 		}
+
+ 		.head-cta{
+ 			color: #e66057;
+ 			font-size: 34px;
+ 			text-transform: uppercase;
+ 		}
+ 	}
  }
 
  .seperator-red{
@@ -100,6 +130,8 @@
  	-webkit-box-shadow: 0px 0px 22px 1px rgba(74,74,74, 0.2);
 	-moz-box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.2);
 	box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.2);
+
+
 
  	.biz-block{
 	 	h2{
@@ -160,6 +192,10 @@
 	-webkit-border-radius: 27px 27px 27px 27px;
 	text-transform: uppercase;
 	padding: 8px;
+
+	img{
+		top:1px;
+	}
 }
 
 .biz-cta{
