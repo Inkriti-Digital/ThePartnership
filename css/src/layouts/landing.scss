@@ -14,11 +14,44 @@
  	// border: 2px red solid;
  	// min-height: 3550px;
  	padding:0;
+
+ 	a, a:link, a:visited{
+ 		color: #000;
+ 	}
+ 	a:hover{
+ 		color: #ee6760;
+ 	}
  }
 
  .logo{
  	padding-top: 20px;
  	padding-left: 20px;
+ 	left: 0px;
+ 	position: absolute;
+ }
+
+ .main-nav{
+ 	// border: thin gray solid;
+ 	display: inline-block;
+ 	height: 80px;
+
+ 	a, a:link, a:visited{
+ 		color: #5f5952;
+ 	}
+ 	a:hover{
+ 		color: #000;
+ 	}
+
+ 	span{
+ 		padding: 25px 20px;
+ 		display: inline-block;
+ 		border-right: 1px #dfdddb solid;
+ 		height: 80px;
+ 	}
+
+ 	span:first-child{
+ 		border-left: 1px #dfdddb solid;
+ 	}
  }
 
  .header{
@@ -50,12 +83,12 @@
  	margin-top:-20px;
  	position: relative;
  	z-index: 5;
- 	padding: 40px;
+ 	padding: 40px 150px;
  	text-align: center;
  	background-color: white;
- 	-webkit-box-shadow: 0px 0px 22px 1px rgba(74,74,74, 0.3);
-	-moz-box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.3);
-	box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.3);
+ 	-webkit-box-shadow: 0px 0px 22px 1px rgba(74,74,74, 0.2);
+	-moz-box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.2);
+	box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.2);
 
  	.biz-block{
 	 	h2{
@@ -85,6 +118,23 @@
 
  .graphic-row{
  	margin-top: 30px;
+ }
+
+ .quote-block{
+ 	text-align: left;
+ 	width: 100%;
+ 	margin-left: 10px;
+ 	margin-top: 25px;
+
+ 	span{ 
+ 		display: inline-block; 
+ 		vertical-align: top;
+ 	}
+
+ 	.quote{
+ 		width: 76%;
+ 		margin-left: 20px;
+ 	}
  }
 
  .biz-ico{
@@ -132,6 +182,11 @@
  		-webkit-box-shadow: 0px 0px 0px 0px rgba(74,74,74,0);
 		-moz-box-shadow: 0px 0px 0px 0px rgba(74,74,74,0);
 		box-shadow: 0px 0px 0px 0px rgba(74,74,74,0);
+ 	}
+
+ 	.copyright{
+ 		float:right;
+ 		vertical-align:top;
  	}
  }
 

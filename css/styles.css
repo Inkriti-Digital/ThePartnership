@@ -1431,7 +1431,7 @@ td {
 }
 
 .inner-container {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: white;
 }
@@ -1440,6 +1440,7 @@ td {
   width: 100%;
   background-color: white;
   height: 80px;
+  text-align: center;
 }
 
 .grid {
@@ -1723,10 +1724,38 @@ td {
   background-color: #e6e4e2;
   padding: 0;
 }
+.container a, .container a:link, .container a:visited {
+  color: #000;
+}
+.container a:hover {
+  color: #ee6760;
+}
 
 .logo {
   padding-top: 20px;
   padding-left: 20px;
+  left: 0px;
+  position: absolute;
+}
+
+.main-nav {
+  display: inline-block;
+  height: 80px;
+}
+.main-nav a, .main-nav a:link, .main-nav a:visited {
+  color: #5f5952;
+}
+.main-nav a:hover {
+  color: #000;
+}
+.main-nav span {
+  padding: 25px 20px;
+  display: inline-block;
+  border-right: 1px #dfdddb solid;
+  height: 80px;
+}
+.main-nav span:first-child {
+  border-left: 1px #dfdddb solid;
 }
 
 .header {
@@ -1758,10 +1787,10 @@ td {
   margin-top: -20px;
   position: relative;
   z-index: 5;
-  padding: 40px;
+  padding: 40px 150px;
   text-align: center;
   background-color: white;
-  box-shadow: 0px 0px 22px 1px rgba(74, 74, 74, 0.3);
+  box-shadow: 0px 0px 22px 1px rgba(74, 74, 74, 0.2);
 }
 .inner-container .biz-block h2 {
   text-align: center;
@@ -1781,6 +1810,21 @@ td {
 
 .graphic-row {
   margin-top: 30px;
+}
+
+.quote-block {
+  text-align: left;
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+.quote-block span {
+  display: inline-block;
+  vertical-align: top;
+}
+.quote-block .quote {
+  width: 76%;
+  margin-left: 20px;
 }
 
 .biz-ico {
@@ -1823,6 +1867,10 @@ td {
   margin-top: 0;
   text-align: left;
   box-shadow: 0px 0px 0px 0px rgba(74, 74, 74, 0);
+}
+.footer .copyright {
+  float: right;
+  vertical-align: top;
 }
 
 /*# sourceMappingURL=styles.css.map */
