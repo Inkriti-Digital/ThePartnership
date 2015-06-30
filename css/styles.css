@@ -1830,6 +1830,10 @@ td {
   color: #e66057;
   font-size: 34px;
   text-transform: uppercase;
+  vertical-align: top;
+}
+.header .head-title .head-cta img {
+  margin-top: 5px;
 }
 
 .seperator-red {
