@@ -17,10 +17,16 @@
     }
 }
 
-.inner-container{
+.inner-container, .inner-seperator{
     max-width: 1000px;
+    min-width: 640px;
     margin: 0 auto;
     background-color: white;
+}
+
+.inner-seperator{
+    // margin-top:-20px;
+    z-index:10;
 }
 
 .nav-container{
