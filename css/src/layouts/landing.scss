@@ -35,12 +35,16 @@
  	padding-top: 20px;
  	padding-left: 20px;
  	left: 0px;
- 	position: absolute;
+ 	display: inline-block;
+ 	padding-right: 15px;
+ 	float: left;
  }
 
- .main-nav{
- 	display: inline-block;
- 	height: 80px;
+.main-nav{
+	  display: inline-block;
+	  height: 80px;
+	  margin-top: 0;
+	  vertical-align: top;
 
  	a{
  		height: 80px;
@@ -57,7 +61,6 @@
  	}
 
  	span{
- 		// padding: 0px 20px;
  		display: inline-block;
  		border-right: 1px #dfdddb solid;
  		height: 80px;
@@ -72,6 +75,30 @@
  		background-color: #ccc;
  		color: black;
  	}
+ }
+
+ .mobile-nav{
+ 	background-color: white;
+ 	
+ 	.colapsed{
+ 		background-color: #f96758;
+ 		float: right;
+		width: 80px;
+		height: 80px;
+		padding-top: 20px;
+ 	}
+ }
+
+ .social{
+ 	float: right;
+ 	margin-top: 28px;
+ 	margin-right: 20px;
+ 	
+ 	img{
+ 		margin: 0 5px;
+ 	}
+
+
  }
 
  .header{
@@ -92,6 +119,16 @@
  			letter-spacing: 0.05em;
   			font-size: 48px;
   			line-height: 54px;
+
+  			@include media-query(portable){
+  				font-size: 30px;
+  				line-height: 34px;
+  			}
+
+  			@include media-query(palm){
+  				font-size: 30px;
+  				line-height: 34px;
+  			}
  		}
 
  		.head-cta{
@@ -100,8 +137,28 @@
  			text-transform: uppercase;
  			vertical-align: top;
 
+ 			@include media-query(portable){
+  				font-size: 26px;
+  				line-height: 24px;
+  			}
+
+  			@include media-query(palm){
+  				font-size: 26px;
+  				line-height: 24px;
+  			}
+
  			img{
  				margin-top: 5px;
+
+	 			@include media-query(portable){
+	  				width: 26px;
+	  				margin-top: -2px;
+	  			}
+
+	  			@include media-query(palm){
+	  				width: 26px;
+	  				  margin-top: -2px;
+	  			}
  			}
  		}
  	}

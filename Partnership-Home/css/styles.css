@@ -1773,16 +1773,12 @@ td {
   padding-top: 20px;
   padding-left: 20px;
   left: 0px;
-  display: inline-block;
-  padding-right: 15px;
-  float: left;
+  position: absolute;
 }
 
 .main-nav {
   display: inline-block;
   height: 80px;
-  margin-top: 0;
-  vertical-align: top;
 }
 .main-nav a {
   height: 80px;
@@ -1810,26 +1806,6 @@ td {
   color: black;
 }
 
-.mobile-nav {
-  background-color: white;
-}
-.mobile-nav .colapsed {
-  background-color: #f96758;
-  float: right;
-  width: 80px;
-  height: 80px;
-  padding-top: 20px;
-}
-
-.social {
-  float: right;
-  margin-top: 28px;
-  margin-right: 20px;
-}
-.social img {
-  margin: 0 5px;
-}
-
 .header {
   width: 100%;
   text-align: center;
@@ -1850,50 +1826,14 @@ td {
   font-size: 48px;
   line-height: 54px;
 }
-@media only screen and (max-width: 1024px) {
-  .header .head-title h1 {
-    font-size: 30px;
-    line-height: 34px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .header .head-title h1 {
-    font-size: 30px;
-    line-height: 34px;
-  }
-}
 .header .head-title .head-cta {
   color: #e66057;
   font-size: 34px;
   text-transform: uppercase;
   vertical-align: top;
 }
-@media only screen and (max-width: 1024px) {
-  .header .head-title .head-cta {
-    font-size: 26px;
-    line-height: 24px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .header .head-title .head-cta {
-    font-size: 26px;
-    line-height: 24px;
-  }
-}
 .header .head-title .head-cta img {
   margin-top: 5px;
-}
-@media only screen and (max-width: 1024px) {
-  .header .head-title .head-cta img {
-    width: 26px;
-    margin-top: -2px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .header .head-title .head-cta img {
-    width: 26px;
-    margin-top: -2px;
-  }
 }
 
 .seperator-red {
@@ -2005,24 +1945,6 @@ td {
 .footer .copyright {
   float: right;
   vertical-align: top;
-}
-
-/**
- * $RESPONSIVE
- * ==========================================================================
- */
-.mobile {
-  display: none;
-}
-
-@media only screen and (max-width: 768px) {
-  .desktop {
-    display: none !important;
-  }
-
-  .mobile {
-    display: block;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
