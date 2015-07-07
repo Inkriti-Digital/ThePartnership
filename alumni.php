@@ -34,17 +34,29 @@
 					<div class="three-col">
 						<h2>Alums Only Event</h2>
 						<p>
-							Biotech Night<br/>
+							<b>Biotech Night</b><br/>
 							Meet colleagues in the industry. <br/>
 							Wednesday, August 12, 6–8pm
 						</p>
+						<a href="#">
+							<span class="section-cta biz-cta">
+								LEARN MORE AND RSVP
+								<img src="img/arrow-aqua.png"/>
+							</span>
+						</a>
 					</div>
 					<div class="three-col">
 						<h2>Join a Board</h2>
 						<p>
-							<b>Make a Difference.</b>
+							<b>Make a Difference.</b><br/>
 							Influence an organization through <br/>BoardLink.
 						</p>
+						<a href="#">
+							<span class="section-cta biz-cta">
+								LEARN MORE
+								<img src="img/arrow-aqua.png"/>
+							</span>
+						</a>
 					</div>
 					<div class="three-col">
 						<h2>Connect In</h2>
@@ -53,69 +65,74 @@
 							at Any Point in Your Career. <br/>
 							Our group is just for alums, all over the world.
 						</p>
+						<a href="#">
+							<span class="section-cta biz-cta">
+								JOIN OUR LINKEDIN ALUMNI GROUP
+								<img src="img/arrow-aqua.png"/>
+							</span>
+						</a>
 					</div>
 				</div>
 			</div>
-			<div class="seperator-blue"></div>
+
 			<div class="inner-container">
-				<div class="personal-block">
-					<h2>Professionals Become Even Higher Performers After Our Leadership Programs.</h2>
+				<div class="page-body-block">
+					<h3>FEATURED ALUMNI</h3>
 
-					<p>
-						From recent graduates to experienced executives, our participants are proven high performers that are even stronger. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut commodo. 
-					</p>
-
-					<div class="graphic-row">
-						<div class="quote-block">
-							<span class="headshot">
-								<img src="img/home-headshot1.png"/>
-							</span>
-							<span class="quote">
-								<p>
-									<b>Quote from a professional who participated in the program.</b><br/>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
-									Firstname Last, Position, Company
-								</p>
-							</span>
+					<div>
+						<div class="alum-pic left"><img src="img/alumni1.jpg" alt="Juan Torres"/></div>
+						<div class="alum-info left push-left">
+							<h2>Juan Torres</h2>
+							<span>Etiam Inceptos, Ultricies<br/> C-Suite Alumni</span>
+							<p>&ldquo;I’ve never made so many important connections 
+								in my life. Donec id elit non mi porta gravida 
+								at eget metus. Integer posuere erat a ante 
+								venenatis dapibus posuere velit aliquet. 
+								Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
-						<div class="quote-block">
-							<span class="headshot">
-								<img src="img/home-headshot2.png"/>
-							</span>
-							<span class="quote">
-								<p>
-									<b>Quote from a professional who participated in the program.</b><br/>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
-									Firstname Last, Position, Company
-								</p>
-							</span>
+						<div class="clear-fix"></div>
+
+
+						<div class="alum-info left">
+							<h2>Kelly Porter</h2>
+							<span>Dolor Bibendum, Parturient Vestibulum<br/> Next Generation Executive</span>
+							<p>&ldquo;I learned new strategies to be more effective. Donec id elit non mi 
+								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus 
+								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
-					</div>
+						<div class="alum-pic left push-left"><img src="img/alumni2.jpg" alt="Kelly Porter"/></div>
+						<div class="clear-fix"></div>
 
-					<span class="section-cta personal-cta">
-						How we work with professionals <img src="img/arrow-red.png"/>
-					</span>
-				</div>
-			</div>
-			<div class="seperator-aqua"></div>
-			<div class="inner-container">
-				<div class="alumni-block">
-					<h2>Our Alumni Network Is a Connected Community That Stays in Touch.</h2>
-					<p>
-						Having a network matters. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo tempor consequat.
-					</p>
 
-					<div class="graphic-row">
-						<span class="biz-ico"><img src="img/fpo-graph1.png"/></span>
-						<span class="biz-ico"><img src="img/fpo-graph2.png"/></span>
-						<span class="biz-ico"><img src="img/fpo-graph3.png"/></span>
+						<div class="alum-pic left"><img src="img/alumni3.jpg" alt="Juan Torres"/></div>
+						<div class="alum-info left push-left">
+							<h2>Avni Kurapathy</h2>
+							<span>Quam, Adipiscing Egestas<br/> Fellows Program</span>
+							<p>&ldquo;I encountered a lot of diverse opinions and smart 
+								people that I can rely on. Donec id elit non mi porta gravida 
+								at eget metus. Integer posuere erat a ante venenatis dapibus 
+								posuere velit aliquet. Donec ullamcorper nulla non metus auctor
+								 fringilla.&ldquo;
+							</p>
+						</div>
+						<div class="clear-fix"></div>
+
+
+						<div class="alum-info left">
+							<h2>Brian Warner</h2>
+							<span>Ornare Elit, Commodo<br/> Associates Program</span>
+							<p>&ldquo;I met so many people I can reach out to at any 
+								point in my career. Donec id elit non mi porta gravida 
+								at eget metus. Integer posuere erat a ante venenatis 
+								dapibus posuere velit aliquet. Donec ullamcorper nulla 
+								non metus auctor fringilla.&ldquo;
+							</p>
+						</div>
+						<div class="alum-pic left push-left"><img src="img/alumni4.jpg" alt="Kelly Porter"/></div>
+						<div class="clear-fix"></div>
 					</div>
-					<span class="section-cta alumni-cta">
-						How our network stays connected
-						<img src="img/arrow-blue.png"/>
-					</span>
 				</div>
-			</div>
+			</div>			
 			<div class="footer">
 				<div class="inner-container">
 					<span class="copyright">

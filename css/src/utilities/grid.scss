@@ -17,6 +17,19 @@
     }
 }
 
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear-fix{
+    clear: both;
+}
+
 .inner-container, .inner-seperator{
     max-width: 1000px;
     min-width: 640px;
@@ -25,7 +38,6 @@
 }
 
 .inner-seperator{
-    // margin-top:-20px;
     z-index:10;
 }
 

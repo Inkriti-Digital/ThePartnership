@@ -13,14 +13,67 @@
  	color: white;
  	padding-top:20px;
 
-
  	h2{
  		color: $ui-darkaqua;
  		font-family: 'kepler-std';
+ 		margin-bottom: 12px;
  	}
+
+ 	b{
+ 		font-family: 'roboto-bold';
+ 	}
+
  }
 
  .three-col{
  	width: 30%;
  	display: inline-block;
+ 	vertical-align: top;
+
+ 	.section-cta{
+ 		color: $white;
+ 		background-color: $ui-darkaqua;
+ 		border-color: $white;
+ 		margin-top: 5px;
+ 		padding-left: 12px;
+ 		padding-right: 12px;
+ 	}
+ }
+
+ .page-body-block{
+ 	text-align: left;
+ 	margin-top: 5%;
+
+ 	h3{
+ 		color: $ui-blue;
+ 	}
+
+ 	.alum-pic{
+ 		width: 35%;
+ 		margin-bottom: 5%;
+ 	}
+
+ 	.alum-info{
+ 		width: 58%;
+
+ 		h2{
+ 			color: $ui-blue;
+ 			margin-bottom: 0;
+ 			padding-bottom: 0;
+ 		}
+ 		span{
+ 			color: $copy-lightgray;
+ 			font-style: italic;
+ 			font-family: 'kepler-std';
+ 			font-size: 18px;
+ 		}
+ 		p{
+ 			margin-top: 20px;
+ 		}
+ 	}
+
+ 	.push-left{
+ 		margin-left: 5%;
+ 	}
+
  }
