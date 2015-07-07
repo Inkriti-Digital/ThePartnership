@@ -12,79 +12,48 @@
 
 		<!-- Content -->
 		<div class="container">
-			<div class="nav-container">
-				<div class="logo">
-					<img class="desktop" src="img/partnership-logo.png" alt="The Partnership Logo"/>
+			<?php include ("includes/mainnav.php"); ?>
 
-					<img class="mobile" src="img/partnership-logo-mobile.png" alt="The Partnership Logo"/>
-					
-				</div>
-				<div class="main-nav desktop">
-					<span><a href="#">For Corporations</a></span>
-					<span><a href="#">For Professionals</a></span>
-					<span><a href="#">For Alumni</a></span>
-					<span><a href="#">Services</a></span>
-					<span><a href="#">About</a></span>
-				</div>
-				<div class="mobile-nav mobile">
-					<div class="colapsed">
-						<img src="img/mobile-menu-ico.png" alt="mobile navigation"/>
-					</div>
-				</div>
-				<div class="social desktop">
-					<a href="#">
-						<img class="ico-linked" src="img/social-linkedin.png" onmouseover="this.src='img/social-linkedin-on.png'" onmouseout="this.src='img/social-linkedin.png'"  alt="Linked In"/>
-					</a>
-					<a href="#">
-						<img class="ico-fb" src="img/social-fb.png" onmouseover="this.src='img/social-fb-on.png'" onmouseout="this.src='img/social-fb.png'" alt="facebook"/>
-					</a>
-					<a href="#">
-						<img class="ico-twitter" src="img/social-twitter.png" onmouseover="this.src='img/social-twitter-on.png'" onmouseout="this.src='img/social-twitter.png'" alt="twitter"/>
-					</a>
-					<a href="#">
-						<img class="ico-youtube" onmouseover="this.src='img/social-youtube-on.png'" onmouseout="this.src='img/social-youtube.png'" src="img/social-youtube.png" alt="youtube"/>
-					</a>
-					<a href="#">
-						<img class="ico-google" src="img/social-google.png" onmouseover="this.src='img/social-google-on.png'" onmouseout="this.src='img/social-google.png'" alt="google +"/>
-					</a>
-
-				</div>
-			</div>
 			<div class="header">
-				<div class="head-title">
-					<h1>
-						Diverse leadership<br/>
-						is a competitive<br/>
-						imperative.
-					</h1>
-					<div class="head-cta">
-						are you ready? <img src="img/header-arrow-red.png"/>
-					</div>
-				</div>
 				<div class="head-image">
-					<img src="img/home-header.jpg"/>
+					<img src="img/alumni-header.jpg"/>
 				</div>
 			</div>
-			<div class="seperator-red"></div>
+
+			<div class="seperator-aqua"></div>
 			<div class="inner-container">
 				<div class="biz-block">
-					<h2>We Work with Businesses to Develop a Diverse Pool of Professional Leaders at All Levels of Experience.</h2>
+					<h2>For Alumni</h2>
 					<p>
-						In industries that range from finance, high tech, legal, and medical, we lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Our alumni networking has strong connections in diverse sectors – every population has access to an active community. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.
 					</p>
-
-					<div class="graphic-row">
-						<span class="biz-ico"><img src="img/ico-financial.png"/></span>
-						<span class="biz-ico"><img src="img/ico-tech.png"/></span>
-						<span class="biz-ico"><img src="img/ico-health.png"/></span>
-						<span class="biz-ico"><img src="img/ico-science.png"/></span>
-						<span class="biz-ico"><img src="img/ico-legal.png"/></span>
+				</div>
+			</div>
+			<div class="inner-seperator">
+				<div class="aqua-block">
+					<div class="three-col">
+						<h2>Alums Only Event</h2>
+						<p>
+							Biotech Night<br/>
+							Meet colleagues in the industry. <br/>
+							Wednesday, August 12, 6–8pm
+						</p>
 					</div>
-					<span class="section-cta biz-cta">
-						How we benefit business
-						<img src="img/arrow-aqua.png"/>
-					</span>
-
+					<div class="three-col">
+						<h2>Join a Board</h2>
+						<p>
+							<b>Make a Difference.</b>
+							Influence an organization through <br/>BoardLink.
+						</p>
+					</div>
+					<div class="three-col">
+						<h2>Connect In</h2>
+						<p>
+							<b>Network All the Time,</b><br/>
+							at Any Point in Your Career. <br/>
+							Our group is just for alums, all over the world.
+						</p>
+					</div>
 				</div>
 			</div>
 			<div class="seperator-blue"></div>
@@ -150,7 +119,7 @@
 			<div class="footer">
 				<div class="inner-container">
 					<span class="copyright">
-						©2015 The Partnership, Inc. All Rights Reserved
+						&copy; 2015 The Partnership, Inc. All Rights Reserved
 					</span>
 					<span class="address">
 						155 Seaport Blvd., 13th Floor,<br/>
