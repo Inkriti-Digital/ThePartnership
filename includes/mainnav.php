@@ -8,7 +8,7 @@
 	<div class="main-nav desktop">
 		<span><a href="#">For Corporations</a></span>
 		<span><a href="#">For Professionals</a></span>
-		<span><a href="#">For Alumni</a></span>
+		<span><a href="alumni.php">For Alumni</a></span>
 		<span><a href="#">Services</a></span>
 		<span><a href="#">About</a></span>
 	</div>

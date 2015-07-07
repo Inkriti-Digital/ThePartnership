@@ -9,7 +9,7 @@
  .container{
  	// background: #e6e4e2 url('../img/fpo-homepage-bg.jpg') no-repeat;
  	background-size: 100%;
- 	background-color: #e6e4e2;
+ 	background-color: $bg-gray;
  	font-family: 'anaheim-reg';
  	padding:0;
 
@@ -17,7 +17,7 @@
  		color: #000;
  	}
  	a:hover{
- 		color: #ee6760;
+ 		color: $ui-lightred;
  	}
 
  	h2{
@@ -54,10 +54,11 @@
  	}
 
  	a, a:link, a:visited{
- 		color: #5f5952;
+ 		color: $nav-gray;
  	}
+
  	a:hover{
- 		color: #000;
+ 		color: $white;
  	}
 
  	span{
@@ -72,13 +73,13 @@
  	}
 
  	span:hover{
- 		background-color: #ccc;
- 		color: black;
+ 		background-color: $ui-lightred;
+ 		color: $black;
  	}
  }
 
  .mobile-nav{
- 	background-color: white;
+ 	background-color: $white;
  	
  	.colapsed{
  		background-color: #f96758;
@@ -110,7 +111,7 @@
  	.head-title{
  		text-align: left;
  		position: absolute;
-	  	color: white;
+	  	color: $white;
 	  	z-index: 10;
 	  	left: 21%;
 	  	top: 18%;
@@ -132,7 +133,7 @@
  		}
 
  		.head-cta{
- 			color: #e66057;
+ 			color: $ui-red;
  			font-size: 34px;
  			text-transform: uppercase;
  			vertical-align: top;
@@ -157,7 +158,7 @@
 
 	  			@include media-query(palm){
 	  				width: 26px;
-	  				  margin-top: -2px;
+	  				margin-top: -2px;
 	  			}
  			}
  		}
@@ -188,7 +189,7 @@
  	z-index: 5;
  	padding: 40px 150px;
  	text-align: center;
- 	background-color: white;
+ 	background-color: $white;
  	-webkit-box-shadow: 0px 0px 22px 1px rgba(74,74,74, 0.2);
 	-moz-box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.2);
 	box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.2);
@@ -198,21 +199,21 @@
  	.biz-block{
 	 	h2{
 	 		text-align: center;
-	 		color: #42bdb7;
+	 		color: $ui-aqua;
 	 	}
 	 }
 
 	 .personal-block{
 	 	h2{
 	 		text-align: center;
-	 		color: #e2273d;
+	 		color: $ui-red;
 	 	}
 	 }
 
 	 .alumni-block{
 	 	h2{
 	 		text-align: center;
-	 		color: #658bea;
+	 		color: $ui-blue;
 	 	}
 	 }
 
@@ -261,18 +262,18 @@
 }
 
 .biz-cta{
-	color: #42bdb7;
-	border: 2px solid #42bdb7;
+	color: $ui-aqua;
+	border: 2px solid $ui-aqua;
 }
 
 .personal-cta{
-	color: #e2273d;
-	border: 2px solid #e2273d;
+	color: $ui-lightred;
+	border: 2px solid $ui-lightred;
 }
 
 .alumni-cta{
-	color: #658bea;
-	border: 2px solid #658bea;
+	color: $ui-blue;
+	border: 2px solid $ui-blue;
 }
 
 
@@ -280,10 +281,11 @@
 
  //Footer styles
  .footer{
- 	background-color: #c0bcb7;
+ 	background-color: $foot-gray;
  	color: black;
  	font-size: 12px;
  	z-index: 10;
+ 	
  	.inner-container{
  		background-color: transparent;
  		margin-top:0;

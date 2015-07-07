@@ -1755,7 +1755,7 @@ td {
 /*MAIN CONTAINER & HEADER CONTENT */
 .container {
   background-size: 100%;
-  background-color: #e6e4e2;
+  background-color: #d4cfc7;
   font-family: 'anaheim-reg';
   padding: 0;
 }
@@ -1763,7 +1763,7 @@ td {
   color: #000;
 }
 .container a:hover {
-  color: #ee6760;
+  color: #e2273d;
 }
 .container h2 {
   font-family: 'kepler-std';
@@ -1799,7 +1799,7 @@ td {
   color: #5f5952;
 }
 .main-nav a:hover {
-  color: #000;
+  color: white;
 }
 .main-nav span {
   display: inline-block;
@@ -1811,7 +1811,7 @@ td {
   border-left: 1px #dfdddb solid;
 }
 .main-nav span:hover {
-  background-color: #ccc;
+  background-color: #e2273d;
   color: black;
 }
 
@@ -1868,7 +1868,7 @@ td {
   }
 }
 .header .head-title .head-cta {
-  color: #e66057;
+  color: #f5675c;
   font-size: 34px;
   text-transform: uppercase;
   vertical-align: top;
@@ -1934,7 +1934,7 @@ td {
 }
 .inner-container .personal-block h2 {
   text-align: center;
-  color: #e2273d;
+  color: #f5675c;
 }
 .inner-container .alumni-block h2 {
   text-align: center;
@@ -2019,7 +2019,7 @@ td {
  */
 /*Alumni Elements */
 .aqua-block {
-  background-color: #74d3cf;
+  background-color: #42bdb7;
   height: 260px;
   text-align: center;
   color: white;
