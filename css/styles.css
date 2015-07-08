@@ -2071,7 +2071,7 @@ td {
 }
 .page-body-block .alum-pic {
   width: 35%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 .page-body-block .alum-info {
   width: 58%;
@@ -2126,6 +2126,40 @@ td {
 }
 .corp-block .alum-info h2 {
   color: #42bdb7;
+}
+
+/**
+ * $CORPORATIONS
+
+/*Corporations Elements */
+.blue-block {
+  background-color: #658bea;
+  height: 260px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+.blue-block .percentage {
+  font-family: 'roboto-bold';
+  font-size: 110px;
+  line-height: 94px;
+  color: #234bb0;
+}
+.blue-block p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.blue-block .share-cta {
+  color: #234bb0;
+  border: 1px #234bb0 solid;
+  padding: 3px 8px;
+}
+
+.pro-block h3, .pro-block h2 {
+  color: #f5675c;
+}
+.pro-block .alum-info h2 {
+  color: #f5675c;
 }
 
 /**

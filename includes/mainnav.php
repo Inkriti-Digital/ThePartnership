@@ -7,7 +7,7 @@
 	</div>
 	<div class="main-nav desktop">
 		<span><a href="corporations.php">For Corporations</a></span>
-		<span><a href="#">For Professionals</a></span>
+		<span><a href="professionals.php">For Professionals</a></span>
 		<span><a href="alumni.php">For Alumni</a></span>
 		<span><a href="#">Services</a></span>
 		<span><a href="#">About</a></span>
