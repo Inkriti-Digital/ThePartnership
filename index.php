@@ -104,16 +104,21 @@
 					</p>
 
 					<div class="graphic-row">
-						<span class="biz-ico">
-							<canvas id="chart-area1" width="180" height="180"/>
-						</span>
-						<span class="biz-ico"><canvas id="chart-area2" width="180" height="180"/></span>
-						<span class="biz-ico"><canvas id="chart-area3" width="180" height="180"/></span>
+						<div>
+							<span class="biz-ico"><canvas id="chart-area1" width="180" height="180"/></span>
+							<span class="biz-ico"><canvas id="chart-area2" width="180" height="180"/></span>
+							<span class="biz-ico"><canvas id="chart-area3" width="180" height="180"/></span>
+						</div>
+						<div class="graph-labels">
+							<span class="biz-ico">Geography</span>
+							<span class="biz-ico">Career Level</span>
+							<span class="biz-ico">Industries</span>
+						</div>
 					</div>
-					<span class="section-cta alumni-cta">
+					<a href="#"><span class="section-cta alumni-cta">
 						How our network stays connected
 						<img src="img/arrow-blue.png"/>
-					</span>
+					</span></a>
 				</div>
 			</div>
 			<div class="footer">
@@ -134,111 +139,11 @@
 		<!-- Load Scripts -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/Chart.min.js"></script>
+		<script src="js/chart-control.js"></script>		
 		<!--script src="js/vendors.js"></script-->
 		<!--script src="js/scripts.js"></script-->
 
-		<script>
 
-		var pieData1 = [
-				{
-					value: 300,
-					color:"#F7464A",
-					highlight: "#FF5A5E",
-					label: "Red"
-				},
-				{
-					value: 50,
-					color: "#46BFBD",
-					highlight: "#5AD3D1",
-					label: "Green"
-				},
-				{
-					value: 100,
-					color: "#FDB45C",
-					highlight: "#FFC870",
-					label: "Yellow"
-				},
-				{
-					value: 40,
-					color: "#949FB1",
-					highlight: "#A8B3C5",
-					label: "Grey"
-				},
-				{
-					value: 120,
-					color: "#4D5360",
-					highlight: "#616774",
-					label: "Dark Grey"
-				}
-
-			];
-
-			var pieData2 = [
-				{
-					value: 50,
-					color:"#F7464A",
-					highlight: "#FF5A5E",
-					label: "Red"
-				},
-				
-				{
-					value: 100,
-					color: "#FDB45C",
-					highlight: "#FFC870",
-					label: "Yellow"
-				},
-				
-				{
-					value: 120,
-					color: "#4D5360",
-					highlight: "#616774",
-					label: "Dark Grey"
-				}
-
-			];
-
-			var pieData3 = [
-				{
-					value: 90,
-					color:"#F7464A",
-					highlight: "#FF5A5E",
-					label: "Red"
-				},
-				{
-					value: 50,
-					color: "#46BFBD",
-					highlight: "#5AD3D1",
-					label: "Green"
-				},
-				{
-					value: 100,
-					color: "#FDB45C",
-					highlight: "#FFC870",
-					label: "Yellow"
-				},
-				{
-					value: 200,
-					color: "#4D5360",
-					highlight: "#616774",
-					label: "Dark Grey"
-				}
-
-			];
-
-			window.onload = function(){
-				var ctx1 = document.getElementById("chart-area1").getContext("2d");
-				window.myPie = new Chart(ctx1).Pie(pieData1);
-
-				var ctx2 = document.getElementById("chart-area2").getContext("2d");
-				window.myPie = new Chart(ctx2).Pie(pieData2);
-
-				var ctx3 = document.getElementById("chart-area3").getContext("2d");
-				window.myPie = new Chart(ctx3).Pie(pieData3);
-
-				// animationEasing : "easeOut";
-			};
-
-	</script>
 
 	</body>
 </html>

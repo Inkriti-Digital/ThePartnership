@@ -245,8 +245,16 @@
  	}
  }
 
+
  .biz-ico{
  	margin: 10px 6px;
+ 	min-width: 180px;
+ 	text-align: center;
+ 	display: inline-block;
+ }
+
+ .graph-labels{
+ 	margin-top: -10px;
  }
 
 .section-cta{
