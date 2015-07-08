@@ -108,6 +108,10 @@
  	overflow:hidden;
  	margin-bottom: -10px;
 
+ 	.head-image{
+ 		img{ width: 100%; }
+ 	}
+
  	.head-title{
  		text-align: left;
  		position: absolute;

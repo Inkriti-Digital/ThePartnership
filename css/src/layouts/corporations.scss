@@ -1,0 +1,42 @@
+/**
+ * $CORPORATIONS
+
+/*Corporations Elements */
+
+.red-block{
+ 	background-color: $ui-red;
+ 	height: 260px;
+ 	text-align: center;
+ 	color: white;
+ 	padding-top: 20px;
+
+ 	.percentage{
+ 		font-family: 'roboto-bold';
+ 		font-size: 110px;
+ 		line-height: 94px;
+ 		color: $ui-darkred;
+ 	}
+
+ 	p{
+ 		margin-top: 15px;
+ 		margin-bottom: 15px;
+ 	}
+
+ 	.share-cta{
+ 		color: $ui-darkred;
+ 		border: 1px $ui-darkred solid;
+ 		padding: 3px 8px;
+ 	}
+ }
+
+ .corp-block{
+ 	h3{
+ 		color: $ui-aqua;
+ 	}
+
+ 	.alum-info{
+ 		h2{
+ 			color: $ui-aqua;
+ 		}
+ 	}
+ }

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>The Partnership - Alumni</title>
+		<title>The Partnership - Corporations</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=640, initial-scale=1">
 		<link rel="stylesheet" href="css/styles.css">
@@ -16,59 +16,54 @@
 
 			<div class="header">
 				<div class="head-image">
-					<img src="img/alumni-header.jpg"/>
+					<img src="img/corp-header.jpg"/>
 				</div>
 			</div>
 
-			<div class="seperator-aqua"></div>
+			<div class="seperator-red"></div>
 			<div class="inner-container">
 				<div class="biz-block">
-					<h2>For Alumni</h2>
+					<h2>For Corporations</h2>
 					<p>
-						Our alumni networking has strong connections in diverse sectors – every population has access to an active community. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.
+						Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere vestibulum at eros velit aliquet. 
 					</p>
 				</div>
 			</div>
 			<div class="inner-seperator">
-				<div class="aqua-block">
+				<div class="red-block">
 					<div class="three-col">
-						<h2>Alums Only Event</h2>
+						<div class="percentage">81%</div>
 						<p>
-							<b>Biotech Night</b><br/>
-							Meet colleagues in the industry. <br/>
-							Wednesday, August 12, 6–8pm
+							Praesent commodo<br/> cursus magna, vel nisl<br/> consectetur et.
 						</p>
 						<a href="#">
-							<span class="section-cta biz-cta">
-								LEARN MORE AND RSVP
-								<img src="img/arrow-aqua.png"/>
+							<span class="share-cta">
+								share
+								<img src="img/share-arrow.png"/>
 							</span>
 						</a>
 					</div>
 					<div class="three-col">
-						<h2>Join a Board</h2>
+						<div class="percentage">88%</div>
 						<p>
-							<b>Make a Difference.</b><br/>
-							Influence an organization through <br/>BoardLink.
+							Lorem ipsum dolor sit<br/> amet, consectetur<br/> adipiscing elit.
 						</p>
 						<a href="#">
-							<span class="section-cta biz-cta">
-								LEARN MORE
-								<img src="img/arrow-aqua.png"/>
+							<span class="share-cta">
+								share
+								<img src="img/share-arrow.png"/>
 							</span>
 						</a>
 					</div>
 					<div class="three-col">
-						<h2>Connect In</h2>
+						<div class="percentage">93%</div>
 						<p>
-							<b>Network All the Time,</b><br/>
-							at Any Point in Your Career. <br/>
-							Our group is just for alums, all over the world.
+							Aenean eu leo ornare<br/> sem lacinia quam<br/> venenatis vestibulum.
 						</p>
 						<a href="#">
-							<span class="section-cta biz-cta">
-								JOIN OUR LINKEDIN ALUMNI GROUP
-								<img src="img/arrow-aqua.png"/>
+							<span class="share-cta">
+								share
+								<img src="img/share-arrow.png"/>
 							</span>
 						</a>
 					</div>
@@ -76,11 +71,11 @@
 			</div>
 
 			<div class="inner-container">
-				<div class="page-body-block">
-					<h3>FEATURED ALUMNI</h3>
+				<div class="page-body-block corp-block">
+					<h3>Featured Clients</h3>
 
 					<div>
-						<div class="alum-pic left"><img src="img/alumni1.jpg" alt="Juan Torres"/></div>
+						<div class="alum-pic left"><img src="img/corp-bio1.jpg" alt="Juan Torres"/></div>
 						<div class="alum-info left push-left">
 							<h2>Juan Torres</h2>
 							<span>Etiam Inceptos, Ultricies<br/> C-Suite Alumni</span>
@@ -94,20 +89,20 @@
 
 
 						<div class="alum-info left">
-							<h2>Kelly Porter</h2>
-							<span>Dolor Bibendum, Parturient Vestibulum<br/> Next Generation Executive</span>
+							<h2>Paul Randall</h2>
+							<span>Commodo, Aenean Magna</span>
 							<p>&ldquo;I learned new strategies to be more effective. Donec id elit non mi 
 								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus 
 								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
-						<div class="alum-pic left push-left"><img src="img/alumni2.jpg" alt="Kelly Porter"/></div>
+						<div class="alum-pic left push-left"><img src="img/corp-bio2.jpg" alt="Kelly Porter"/></div>
 						<div class="clear-fix"></div>
 
 
-						<div class="alum-pic left"><img src="img/alumni3.jpg" alt="Juan Torres"/></div>
+						<div class="alum-pic left"><img src="img/corp-bio3.jpg" alt="Juan Torres"/></div>
 						<div class="alum-info left push-left">
-							<h2>Avni Kurapathy</h2>
-							<span>Quam, Adipiscing Egestas<br/> Fellows Program</span>
+							<h2>Maria Calderon</h2>
+							<span>Consectetur, Tortor Nibh</span>
 							<p>&ldquo;I encountered a lot of diverse opinions and smart 
 								people that I can rely on. Donec id elit non mi porta gravida 
 								at eget metus. Integer posuere erat a ante venenatis dapibus 
@@ -119,8 +114,8 @@
 
 
 						<div class="alum-info left">
-							<h2>Brian Warner</h2>
-							<span>Ornare Elit, Commodo<br/> Associates Program</span>
+							<h2>Linda McCarthy</h2>
+							<span>Mattis. Tellus Tortor</span>
 							<p>&ldquo;I met so many people I can reach out to at any 
 								point in my career. Donec id elit non mi porta gravida 
 								at eget metus. Integer posuere erat a ante venenatis 
@@ -128,7 +123,7 @@
 								non metus auctor fringilla.&ldquo;
 							</p>
 						</div>
-						<div class="alum-pic left push-left"><img src="img/alumni4.jpg" alt="Kelly Porter"/></div>
+						<div class="alum-pic left push-left"><img src="img/corp-bio4.jpg" alt="Kelly Porter"/></div>
 						<div class="clear-fix"></div>
 					</div>
 				</div>

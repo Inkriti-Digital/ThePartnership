@@ -1853,6 +1853,9 @@ td {
   overflow: hidden;
   margin-bottom: -10px;
 }
+.header .head-image img {
+  width: 100%;
+}
 .header .head-title {
   text-align: left;
   position: absolute;
@@ -2026,9 +2029,7 @@ td {
 
 /**
  * $ALUMNI
- * ==========================================================================
- * This is a placeholder and example for a view.
- */
+
 /*Alumni Elements */
 .aqua-block {
   background-color: #42bdb7;
@@ -2066,6 +2067,7 @@ td {
 }
 .page-body-block h3 {
   color: #658bea;
+  text-transform: uppercase;
 }
 .page-body-block .alum-pic {
   width: 35%;
@@ -2090,6 +2092,40 @@ td {
 }
 .page-body-block .push-left {
   margin-left: 5%;
+}
+
+/**
+ * $CORPORATIONS
+
+/*Corporations Elements */
+.red-block {
+  background-color: #f5675c;
+  height: 260px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+.red-block .percentage {
+  font-family: 'roboto-bold';
+  font-size: 110px;
+  line-height: 94px;
+  color: #a7192a;
+}
+.red-block p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.red-block .share-cta {
+  color: #a7192a;
+  border: 1px #a7192a solid;
+  padding: 3px 8px;
+}
+
+.corp-block h3 {
+  color: #42bdb7;
+}
+.corp-block .alum-info h2 {
+  color: #42bdb7;
 }
 
 /**
