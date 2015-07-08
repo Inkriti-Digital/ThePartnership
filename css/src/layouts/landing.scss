@@ -226,6 +226,47 @@
 
  .graphic-row{
  	margin-top: 30px;
+ 	margin-bottom: 30px;
+ }
+
+ .tips-row{
+ 	  margin-top: -25px;
+	  text-align: left;
+
+ 	div{
+ 		display: inline-block;
+ 		position: absolute;
+ 		float: left;
+ 		width: 200px;
+ 		height: 160px;
+ 		background: url('../img/home-tooltip-bg.png') no-repeat 100%;
+ 		z-index: 10;
+ 		cursor: pointer;
+ 		
+ 	}
+
+ 	.tip-copy{
+ 		text-align: center;
+ 		padding: 20px;
+  		padding-top: 48px;
+ 	}
+
+ 	h4{
+ 		color: $ui-aqua;
+ 		margin: 0;
+		font-size: 16px;
+ 	}
+
+ 	p{
+ 		color: $copy-lightgray;
+ 		font-size: 14px;
+ 	}
+
+ 	.financial-tip{ left: 53px; display: none; }
+ 	.tech-tip{ left: 160px; display: none;}
+ 	.health-tip{ left: 268px; display: none;}
+ 	.science-tip{ left: 375px; display: none;}
+ 	.legal-tip{ left: 480px; display: none;}
  }
 
  .quote-block{
@@ -247,6 +288,10 @@
 
 
  .biz-ico{
+ 	margin: 10px 6px;
+ }
+
+.graph-ico{
  	margin: 10px 6px;
  	min-width: 180px;
  	text-align: center;

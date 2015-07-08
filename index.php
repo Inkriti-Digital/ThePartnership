@@ -41,11 +41,43 @@
 					</p>
 
 					<div class="graphic-row">
-						<span class="biz-ico"><img src="img/ico-financial.png"/></span>
-						<span class="biz-ico"><img src="img/ico-tech.png"/></span>
-						<span class="biz-ico"><img src="img/ico-health.png"/></span>
-						<span class="biz-ico"><img src="img/ico-science.png"/></span>
-						<span class="biz-ico"><img src="img/ico-legal.png"/></span>
+						<span id="financial-ico" class="biz-ico"><img src="img/ico-financial.png"/></span>
+						<span id="tech-ico" class="biz-ico"><img src="img/ico-tech.png"/></span>
+						<span id="health-ico" class="biz-ico"><img src="img/ico-health.png"/></span>
+						<span id="science-ico" class="biz-ico"><img src="img/ico-science.png"/></span>
+						<span id="legal-ico" class="biz-ico"><img src="img/ico-legal.png"/></span>
+					</div>
+					<div class="tips-row">
+						<div class="financial-tip">
+							<div class="tip-copy">
+								<h4>Finance</h4>
+								<p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+							</div>
+						</div>
+						<div class="tech-tip">
+							<div class="tip-copy">
+								<h4>Technology</h4>
+								<p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+							</div>
+						</div>
+						<div class="health-tip">
+							<div class="tip-copy">
+								<h4>Health</h4>
+								<p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+							</div>
+						</div>
+						<div class="science-tip">
+							<div class="tip-copy">
+								<h4>Science</h4>
+								<p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+							</div>
+						</div>
+						<div class="legal-tip">
+							<div class="tip-copy">
+								<h4>Legal</h4>
+								<p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+							</div>
+						</div>
 					</div>
 					<span class="section-cta biz-cta">
 						How we benefit business
@@ -54,6 +86,9 @@
 
 				</div>
 			</div>
+
+			
+
 			<div class="seperator-blue"></div>
 			<div class="inner-container">
 				<div class="personal-block">
@@ -105,14 +140,14 @@
 
 					<div class="graphic-row">
 						<div>
-							<span class="biz-ico"><canvas id="chart-area1" width="180" height="180"/></span>
-							<span class="biz-ico"><canvas id="chart-area2" width="180" height="180"/></span>
-							<span class="biz-ico"><canvas id="chart-area3" width="180" height="180"/></span>
+							<span class="graph-ico"><canvas id="chart-area1" width="180" height="180"/></span>
+							<span class="graph-ico"><canvas id="chart-area2" width="180" height="180"/></span>
+							<span class="graph-ico"><canvas id="chart-area3" width="180" height="180"/></span>
 						</div>
 						<div class="graph-labels">
-							<span class="biz-ico">Geography</span>
-							<span class="biz-ico">Career Level</span>
-							<span class="biz-ico">Industries</span>
+							<span class="graph-ico">Geography</span>
+							<span class="graph-ico">Career Level</span>
+							<span class="graph-ico">Industries</span>
 						</div>
 					</div>
 					<a href="#"><span class="section-cta alumni-cta">
@@ -142,6 +177,39 @@
 		<script src="js/chart-control.js"></script>		
 		<!--script src="js/vendors.js"></script-->
 		<!--script src="js/scripts.js"></script-->
+
+		<script>
+				$("#financial-ico").hover(function() {
+					$(".financial-tip").fadeIn();
+				}, function() {
+					$(".financial-tip").fadeOut();
+				});
+
+				$("#tech-ico").hover(function() {
+					$(".tech-tip").fadeIn();
+				}, function() {
+					$(".tech-tip").fadeOut();
+				});
+
+				$("#health-ico").hover(function() {
+					$(".health-tip").fadeIn();
+				}, function() {
+					$(".health-tip").fadeOut();
+				});
+
+				$("#science-ico").hover(function() {
+					$(".science-tip").fadeIn();
+				}, function() {
+					$(".science-tip").fadeOut();
+				});
+
+				$("#legal-ico").hover(function() {
+					$(".legal-tip").fadeIn();
+				}, function() {
+					$(".legal-tip").fadeOut();
+				});
+			</script>
+
 
 
 
