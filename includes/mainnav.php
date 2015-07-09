@@ -1,8 +1,8 @@
 <div class="nav-container">
 	<div class="logo">
-		<img class="desktop" src="img/partnership-logo.png" alt="The Partnership Logo"/>
+		<a href="index.php"><img class="desktop" src="img/partnership-logo.png" alt="The Partnership Logo"/>
 
-		<img class="mobile" src="img/partnership-logo-mobile.png" alt="The Partnership Logo"/>
+		<img class="mobile" src="img/partnership-logo-mobile.png" alt="The Partnership Logo"/></a>
 		
 	</div>
 	<div class="main-nav desktop">
