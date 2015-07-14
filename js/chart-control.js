@@ -1,84 +1,100 @@
 var pieData1 = [
 	{
-		value: 300,
-		color:"#F7464A",
+		value: 170,
+		color:"#f33043",
 		highlight: "#FF5A5E",
-		label: "Red"
+		label: "option"
 	},
 	{
-		value: 50,
-		color: "#46BFBD",
+		value: 10,
+		color: "#fcb3ac",
+		highlight: "#FF5A5E",
+		label: "option"
+	},
+	{
+		value: 20,
+		color: "#3fbfae",
 		highlight: "#5AD3D1",
-		label: "Green"
+		label: "option"
 	},
 	{
 		value: 100,
-		color: "#FDB45C",
-		highlight: "#FFC870",
-		label: "Yellow"
+		color: "#69ccca",
+		highlight: "#3da9a9",
+		label: "option"
 	},
 	{
 		value: 40,
-		color: "#949FB1",
-		highlight: "#A8B3C5",
-		label: "Grey"
-	},
-	{
-		value: 120,
-		color: "#4D5360",
-		highlight: "#616774",
-		label: "Dark Grey"
+		color: "#9ddada",
+		highlight: "#3da9a9",
+		label: "option"
 	}
 ];
 
 var pieData2 = [
 	{
-		value: 50,
-		color:"#F7464A",
+		value: 170,
+		color:"#f33043",
 		highlight: "#FF5A5E",
-		label: "Red"
+		label: "option"
 	},
-	
+	{
+		value: 10,
+		color: "#fcb3ac",
+		highlight: "#FF5A5E",
+		label: "option"
+	},
+	{
+		value: 20,
+		color: "#3fbfae",
+		highlight: "#5AD3D1",
+		label: "option"
+	},
 	{
 		value: 100,
-		color: "#FDB45C",
-		highlight: "#FFC870",
-		label: "Yellow"
+		color: "#69ccca",
+		highlight: "#3da9a9",
+		label: "option"
 	},
-	
 	{
-		value: 120,
-		color: "#4D5360",
-		highlight: "#616774",
-		label: "Dark Grey"
+		value: 40,
+		color: "#9ddada",
+		highlight: "#3da9a9",
+		label: "option"
 	}
 
 ];
 
 var pieData3 = [
 	{
-		value: 90,
-		color:"#F7464A",
+		value: 170,
+		color:"#f33043",
 		highlight: "#FF5A5E",
-		label: "Red"
+		label: "option"
 	},
 	{
-		value: 50,
-		color: "#46BFBD",
+		value: 10,
+		color: "#fcb3ac",
+		highlight: "#FF5A5E",
+		label: "option"
+	},
+	{
+		value: 20,
+		color: "#3fbfae",
 		highlight: "#5AD3D1",
-		label: "Green"
+		label: "option"
 	},
 	{
 		value: 100,
-		color: "#FDB45C",
-		highlight: "#FFC870",
-		label: "Yellow"
+		color: "#69ccca",
+		highlight: "#3da9a9",
+		label: "option"
 	},
 	{
-		value: 200,
-		color: "#4D5360",
-		highlight: "#616774",
-		label: "Dark Grey"
+		value: 40,
+		color: "#9ddada",
+		highlight: "#3da9a9",
+		label: "option"
 	}
 
 ];

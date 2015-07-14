@@ -63,24 +63,24 @@
 
  	span{
  		display: inline-block;
- 		border-right: 1px #dfdddb solid;
+ 	// 	border-right: 1px #dfdddb solid;
  		height: 80px;
  		margin-left: -5px;
  	}
 
  	span:first-child{
- 		border-left: 1px #dfdddb solid;
+ 	// 	border-left: 1px #dfdddb solid;
  	}
 
  	span:hover{
- 		background-color: $ui-lightred;
+ 		background: $ui-red;
  		color: $black;
  	}
  }
 
  .mobile-nav{
  	background-color: $white;
- 	
+
  	.colapsed{
  		background-color: #f96758;
  		float: right;
@@ -94,7 +94,7 @@
  	float: right;
  	margin-top: 28px;
  	margin-right: 20px;
- 	
+
  	img{
  		margin: 0 5px;
  	}
@@ -194,9 +194,10 @@
  	padding: 2% 8%;
  	text-align: center;
  	background-color: $white;
- 	-webkit-box-shadow: 0px 0px 22px 1px rgba(74,74,74, 0.2);
-	-moz-box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.2);
-	box-shadow: 0px 0px 22px 1px rgba(74,74,74,0.2);
+ 	-webkit-box-shadow: 0px 0px 12px 1px rgba(192, 185, 185, 0.2);
+	-moz-box-shadow: 0px 0px 12px 1px rgba(192, 185, 185, 0.2);
+	box-shadow: 0px 0px 12px 1px rgba(192, 185, 185, 0.2);
+
 
  	.biz-block{
 	 	h2{
@@ -206,6 +207,7 @@
 	 }
 
 	 .personal-block{
+     padding-bottom: 30px;
 	 	h2{
 	 		text-align: center;
 	 		color: $ui-red;
@@ -224,50 +226,6 @@
  	}
  }
 
- .graphic-row{
- 	margin-top: 30px;
- 	margin-bottom: 30px;
- }
-
- .tips-row{
- 	  margin-top: -45px;
-	  text-align: left;
-
- 	div{
- 		display: inline-block;
- 		position: absolute;
- 		float: left;
- 		width: 200px;
- 		height: 160px;
- 		background: url('../img/home-tooltip-bg.png') no-repeat 100%;
- 		z-index: 10;
- 		cursor: pointer;
-
- 	}
-
- 	.tip-copy{
- 		text-align: center;
- 		padding: 20px;
-  		padding-top: 48px;
- 	}
-
- 	h4{
- 		color: $ui-aqua;
- 		margin: 0;
-		font-size: 16px;
- 	}
-
- 	p{
- 		color: $copy-lightgray;
- 		font-size: 14px;
- 	}
-
- 	.financial-tip{ left: 53px; display: none; }
- 	.tech-tip{ left: 160px; display: none;}
- 	.health-tip{ left: 268px; display: none;}
- 	.science-tip{ left: 375px; display: none;}
- 	.legal-tip{ left: 480px; display: none;}
- }
 
  .quote-block{
  	text-align: left;
@@ -275,8 +233,8 @@
  	margin-left: 10px;
  	margin-top: 25px;
 
- 	span{ 
- 		display: inline-block; 
+ 	span{
+ 		display: inline-block;
  		vertical-align: top;
  	}
 
@@ -289,6 +247,7 @@
 
  .biz-ico{
  	margin: 10px 6px;
+  float: left;
  }
 
 .graph-ico{
@@ -296,6 +255,9 @@
  	min-width: 180px;
  	text-align: center;
  	display: inline-block;
+  font-family: 'roboto-bold';
+  color: $nav-gray;
+  letter-spacing: 0.5px;
  }
 
  .graph-labels{
@@ -309,11 +271,14 @@
 	-moz-border-radius: 27px 27px 27px 27px;
 	-webkit-border-radius: 27px 27px 27px 27px;
 	text-transform: uppercase;
-	padding: 8px;
-
-	img{
-		top:1px;
-	}
+	padding: 5px 32px 5px 12px;
+  color: $ui-aquadark !important;
+  background: url(#{$basepath}/btnsprite.png) no-repeat right 11px $white;
+  margin-bottom: 45px;
+ &:hover {
+   color: $white !important;
+   background: url(#{$basepath}/btnsprite.png) no-repeat right -39px $ui-aqualight;
+ }
 }
 
 .biz-cta{
@@ -352,5 +317,3 @@
  		vertical-align:top;
  	}
  }
-
-

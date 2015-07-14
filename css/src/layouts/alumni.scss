@@ -4,11 +4,12 @@
 /*Alumni Elements */
 
  .aqua-block{
- 	background-color: $ui-aqua;
- 	height: 260px;
+ 	background-color: $aqualight;
+ 	height: 250px;
  	text-align: center;
  	color: white;
  	padding-top:20px;
+  padding-bottom:20px;
 
  	h2{
  		color: $ui-darkaqua;
@@ -26,14 +27,16 @@
  	width: 30%;
  	display: inline-block;
  	vertical-align: top;
+  border-right: 1px dashed $aquaborder;
+  margin-bottom: 5px;
 
  	.section-cta{
- 		color: $white;
- 		background-color: $ui-darkaqua;
+ 		color: $white !important;
+ 		background: $ui-aquadark;
  		border-color: $white;
  		margin-top: 5px;
- 		padding-left: 12px;
- 		padding-right: 12px;
+    font-size: 13px;
+    padding: 3px 12px;
  	}
  }
 

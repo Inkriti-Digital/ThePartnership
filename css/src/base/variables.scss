@@ -22,13 +22,13 @@ $position-relative-global:	true;
 /**
  * Base type configurations
  * --------------------------------------------------------------------------
- * Base font-size, line-height, and font-family for the project are 
+ * Base font-size, line-height, and font-family for the project are
  * defined on <html> in "_scaffolding.scss", based on the variables below.
  *
- * 1. Used as the denominator in calculating the REM of a all other 
+ * 1. Used as the denominator in calculating the REM of a all other
  *    font-sizes that are defined using the "font-size" mixin, found in
  *	  "_mixins.scss".
- * 2. Used as a divisor in the same mixin as mentioned in (2) in order to 
+ * 2. Used as a divisor in the same mixin as mentioned in (2) in order to
  *    calculate the appropriate line-height for those font-sizes.
  */
 $font-size-base: 			16px; /* 1 */
@@ -40,7 +40,7 @@ $font-family-base: 			sans-serif;
  * Utility font sizes
  * --------------------------------------------------------------------------
  * 1. Applied to "<small>" in "components/_smallprint.scss".
- * 2. Applied to ".lead" class, for slightly larger paragraphs in 
+ * 2. Applied to ".lead" class, for slightly larger paragraphs in
  *    "components/_paragraphs.scss".
  */
 $font-size-small: 			12px; /* 1 */
@@ -91,11 +91,14 @@ $spacing-unit-grid:			20px;
 $palm-start:				768px;
 $portable-start:         	1024px;
 
+//img path
+$basepath:"../img";
+
 /**
  * Base UI colors
  * --------------------------------------------------------------------------
  * This $ui-color is simply serving as a placeholder, and is not used.
- * Go ahead and start creating your projects own color pallette to be applied 
+ * Go ahead and start creating your projects own color pallette to be applied
  * to your modifier classes.
  */
 
@@ -119,11 +122,10 @@ $nav-gray: 					#5f5952;
 
 $copy-lightgray:			#948d85;
 $copy-gray:					#5f5952;
-
-
-
-
-
-
-
-
+$light-gray:        #f5f6f7;
+$gray-lightdark:    #dfdddb;
+$white-lightdark:   #fffefe;
+$ui-aquadark:       #14b3ab;
+$ui-aqualight:       #34b9b1;
+$aqualight:         #74d3cf;
+$aquaborder:        #b3e3e0;

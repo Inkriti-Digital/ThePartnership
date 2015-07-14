@@ -1,0 +1,364 @@
+/* nav css*/
+ .main-nav {
+    span {
+      height: 76px;
+    }
+    ul {
+       float: left;
+        border-right: 1px $gray-lightdark solid;
+      li {
+          border-left: 1px $gray-lightdark solid;
+          float: left;
+          list-style: none;
+          position: relative;
+
+          .dropdown {
+            position: absolute;
+            left: -4px;
+            top: 76px;
+            z-index: 999;
+            // width: 133%;
+            background: $gray-lightdark;
+            padding: 12px 1px 12px 0;
+            display: none;
+            &.multi {
+              width: 365px;
+            }
+          }
+          &:hover {
+            a {
+              background: $ui-red;
+           		color: $white;
+            }
+            .dropdown {
+              display: block;
+            }
+
+            ul {
+              padding: 0;
+              margin: 0;
+              border: 0;
+              min-width: 160px;
+              position: relative;
+
+              li {
+                padding: 0;
+                margin: 0;
+                border: 0;
+                border-bottom: 1px solid $gray-lightdark;
+                float: none;
+                position: static;
+                a {
+                  color: $nav-gray;
+                }
+                &.hassub {
+                  a {
+                    // background: url(#{$basepath}/dropdown_arrow.png) no-repeat right center $ui-red;
+
+                      color: $nav-gray;
+
+                    &:hover {
+                      background: url(#{$basepath}/hasul_bg.png) no-repeat right center $ui-red;
+                      color: $white;
+                      position: relative;
+                      z-index: 999;
+
+                    }
+                  }
+                  &:hover > {
+                    a {
+                      background: url(#{$basepath}/hasul_bg.png) no-repeat right center $ui-red;
+                      color: $white;
+                      position: relative;
+                      z-index: 999;
+
+                    }
+                  }
+                  ul {
+                    li {
+                      a {
+                        line-height: 55px;
+                        color: $ui-red;
+                        background: none !important;
+                        line-height: normal;
+                        margin-top: 28px;
+                        &:hover {
+                          color: $ui-red;
+                          background: $white-lightdark;
+                        }
+                      }
+                    }
+                  }
+                }
+                ul {
+                  position: absolute;
+                  left: 160px;
+                  top: 0;
+                  min-width:204px;
+                  background: $white-lightdark;
+                  border: 0;
+                  border-left: 1px solid $gray-lightdark;
+                  height: 100%;
+                  display: none;
+                  li {
+                    border: 0;
+                  }
+                }
+                &:hover {
+                  ul {
+                    display: block;
+                  }
+                }
+                a {
+                  display: block;
+                  line-height: 76px;
+                  padding: 0 20px;
+                  height: auto;
+                  text-align: left;
+                  background: $white-lightdark;
+                  margin-right: -1px;
+                  &:hover,&.active {
+                    background: $ui-red;
+                    color: $white;
+                  }
+                }
+              }
+            }
+          }
+      }
+
+    }
+ }
+.nav-container {
+  position: relative;
+  height: 76px;
+
+  .logo {
+    padding-top: 18px;
+  }
+    #searchbtn {
+      float: right;
+      width: 76px;
+      height: 76px;
+      cursor: pointer;
+      background: url(#{$basepath}/search_icon.png) no-repeat center center $ui-red;
+      &.active {
+           background: url(#{$basepath}/search_close.png) no-repeat center center $ui-red;
+      }
+  }
+
+  #searchblock {
+    position: absolute;
+    width: 412px;
+    right: 0;
+    top: 76px;
+    display: none;
+    z-index: 9999;
+    background: red;
+
+     input[type='text'] {
+      width: 336px;
+      height: 77px;
+      z-index: 9999;
+      float: left;
+      background:$gray-lightdark;
+      padding: 0 28px;
+      font-size: $font-size-lead+1;
+      color: $nav-gray;
+     }
+      .search_button {
+        float: right;
+        width: 76px;
+        height: 77px;
+        background: url(#{$basepath}/search_arrow.png) no-repeat center center $ui-lightred;
+      }
+  }
+}
+ .header .head-title {
+   h1 {
+     font-size: 60px;
+   }
+ }
+ .header {
+   .head-title {
+     .head-cta {
+       font-size: 35px;
+     }
+   }
+ }
+ .header {
+   .head-title {
+     left: 20.5%;
+   }
+ }
+ .inner-container {
+   max-width: 1196px;
+ }
+ .biz-block {
+   max-width: 795px;
+   margin: 0 auto;
+ }
+
+ .nav-container {
+   &.scrolling {
+     position: fixed;
+     top: 0;
+     z-index: 999;
+     transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    border-bottom: 1px solid $light-gray;
+   }
+ }
+ .inner-seperator {
+   max-width: 1196px;
+ }
+// main content
+.inner-container {
+   .biz-block {
+    p{
+       font-size: 21px;
+     }
+  }
+// personal-block
+  .personal-block {
+    max-width: 740px;
+    margin: 0 auto;
+    padding-top: 55px;
+
+    p {
+      font-size: 21px;
+      text-align: center;
+    }
+
+     h2 {
+       font-size: 42px;
+       line-height: 52px;
+       letter-spacing: normal;
+     }
+
+     .quote-block {
+       max-width: 576px;
+       margin: 0 auto;
+       padding: 20px 0 0 0;
+       clear: both;
+
+       .headshot {
+         float: left;
+         margin-top: -10px;
+       }
+       .quote {
+         width: 71%;
+         float: left;
+
+         p {
+           font-size: 16px;
+           text-align: left;
+           line-height: 26px;
+           em {
+             display: block;
+             padding: 10px 0 0 0;
+           }
+         }
+
+         b {
+           font-size: 16px;
+           font-family: 'roboto-bold';
+         }
+       }
+     }
+
+  }
+  // alumni-block
+  .alumni-block {
+    max-width: 730px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+
+    p {
+      font-size: 21px;
+    }
+
+    h2 {
+      font-size: 42px;
+      line-height: 52px;
+      margin-bottom: 12px;
+    }
+    .alumni-cta {
+      color: $ui-blue !important;
+
+      background: url(#{$basepath}/arrow-blue.png) no-repeat right 10px $white;
+      &:hover {
+          color: $white !important;
+          background: url(#{$basepath}/arrow-blue.png) no-repeat right -29px $ui-blue;
+      }
+    }
+  }
+
+
+  .biz-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+     h2 {
+       font-size: 40px;
+       letter-spacing: normal;
+       line-height: 50px;
+     }
+  }
+  .personal-cta {
+     background: url(#{$basepath}/arrow-red.png) no-repeat right 11px $white;
+     color: $ui-lightred !important;
+     &:hover {
+       color: $white !important;
+       background: url(#{$basepath}/arrow-red.png) no-repeat right -22px $ui-lightred;
+     }
+  }
+}
+// service_list
+.service_list {
+  clear: both;
+  margin: 0 auto 30px auto;
+  max-width: 560px;
+
+  li {
+    display: inline;
+    position: relative;
+    margin-right: 23px;
+
+    .tootip{
+   		position: absolute;
+   		width: 200px;
+   		height: 160px;
+   		background: url('../img/home-tooltip-bg.png') no-repeat 100%;
+   		z-index: 10;
+   		cursor: pointer;
+      left: -50%;
+      margin-left: -10px;
+      margin-top: -32px;
+      display: none;
+
+      h4{
+        color: $ui-aqua;
+        margin: 0;
+        font-size: 16px;
+      }
+      .tip-copy{
+        text-align: center;
+        padding: 20px;
+          padding-top: 48px;
+      }
+   	}
+  }
+}
+// footer scss
+.footer {
+  font-family: 'roboto-light';
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+  .address {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .copyright {
+    padding-top: 5px;
+  }
+}

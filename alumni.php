@@ -5,7 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>The Partnership - Alumni</title>
 		<meta name="description" content="">
-		<meta name="viewport" content="width=640, initial-scale=1">
+		<!-- <meta name="viewport" content="width=640, initial-scale=1"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
@@ -41,7 +42,7 @@
 						<a href="#">
 							<span class="section-cta biz-cta">
 								LEARN MORE AND RSVP
-								<img src="img/arrow-aqua.png"/>
+								<img src="img/event_arrow.png"/>
 							</span>
 						</a>
 					</div>
@@ -54,7 +55,7 @@
 						<a href="#">
 							<span class="section-cta biz-cta">
 								LEARN MORE
-								<img src="img/arrow-aqua.png"/>
+								<img src="img/event_arrow.png"/>
 							</span>
 						</a>
 					</div>
@@ -68,7 +69,7 @@
 						<a href="#">
 							<span class="section-cta biz-cta">
 								JOIN OUR LINKEDIN ALUMNI GROUP
-								<img src="img/arrow-aqua.png"/>
+								<img src="img/event_arrow.png"/>
 							</span>
 						</a>
 					</div>
@@ -84,10 +85,10 @@
 						<div class="alum-info left push-left">
 							<h2>Juan Torres</h2>
 							<span>Etiam Inceptos, Ultricies<br/> C-Suite Alumni</span>
-							<p>&ldquo;I’ve never made so many important connections 
-								in my life. Donec id elit non mi porta gravida 
-								at eget metus. Integer posuere erat a ante 
-								venenatis dapibus posuere velit aliquet. 
+							<p>&ldquo;I’ve never made so many important connections
+								in my life. Donec id elit non mi porta gravida
+								at eget metus. Integer posuere erat a ante
+								venenatis dapibus posuere velit aliquet.
 								Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
 						<div class="clear-fix"></div>
@@ -96,8 +97,8 @@
 						<div class="alum-info left">
 							<h2>Kelly Porter</h2>
 							<span>Dolor Bibendum, Parturient Vestibulum<br/> Next Generation Executive</span>
-							<p>&ldquo;I learned new strategies to be more effective. Donec id elit non mi 
-								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus 
+							<p>&ldquo;I learned new strategies to be more effective. Donec id elit non mi
+								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
 								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
 						<div class="alum-pic left push-left"><img src="img/alumni2.jpg" alt="Kelly Porter"/></div>
@@ -108,9 +109,9 @@
 						<div class="alum-info left push-left">
 							<h2>Avni Kurapathy</h2>
 							<span>Quam, Adipiscing Egestas<br/> Fellows Program</span>
-							<p>&ldquo;I encountered a lot of diverse opinions and smart 
-								people that I can rely on. Donec id elit non mi porta gravida 
-								at eget metus. Integer posuere erat a ante venenatis dapibus 
+							<p>&ldquo;I encountered a lot of diverse opinions and smart
+								people that I can rely on. Donec id elit non mi porta gravida
+								at eget metus. Integer posuere erat a ante venenatis dapibus
 								posuere velit aliquet. Donec ullamcorper nulla non metus auctor
 								 fringilla.&ldquo;
 							</p>
@@ -121,10 +122,10 @@
 						<div class="alum-info left">
 							<h2>Brian Warner</h2>
 							<span>Ornare Elit, Commodo<br/> Associates Program</span>
-							<p>&ldquo;I met so many people I can reach out to at any 
-								point in my career. Donec id elit non mi porta gravida 
-								at eget metus. Integer posuere erat a ante venenatis 
-								dapibus posuere velit aliquet. Donec ullamcorper nulla 
+							<p>&ldquo;I met so many people I can reach out to at any
+								point in my career. Donec id elit non mi porta gravida
+								at eget metus. Integer posuere erat a ante venenatis
+								dapibus posuere velit aliquet. Donec ullamcorper nulla
 								non metus auctor fringilla.&ldquo;
 							</p>
 						</div>
@@ -132,7 +133,7 @@
 						<div class="clear-fix"></div>
 					</div>
 				</div>
-			</div>			
+			</div>
 			<div class="footer">
 				<div class="inner-container">
 					<span class="copyright">
@@ -143,7 +144,7 @@
 						Boston, MA 02210<br/>
 						Tel. 617.262.2828<br/>
 						Fax 617.988.6157
-					</span>					
+					</span>
 				</div>
 			</div>
 		</div>

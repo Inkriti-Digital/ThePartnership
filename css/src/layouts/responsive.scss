@@ -22,3 +22,36 @@
 		display: block;
 	}
 }
+
+/*for mobiles*/
+@media (min-width:320px) and (max-width:480px){
+
+}
+
+/*for landscape*/
+@media (min-width:481px) and (max-width:767px){
+
+}
+
+/*for tablet*/
+@media (min-width:768px) and (max-width:1023px){
+
+}
+/*for desktop*/
+@media (min-width:768px) and (max-width:1023px){
+
+}
+/*for desktop*/
+@media (min-width:1024px) and (max-width:1249px){
+
+}
+/*for desktop*/
+@media (min-width:1250px) and (max-width:1799px){
+.header {
+	.head-title {
+		 h1 {
+			 font-size: 48px;
+		 }
+	}
+}
+}
