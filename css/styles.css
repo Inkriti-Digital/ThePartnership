@@ -2012,6 +2012,11 @@ td {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+@media only screen and (max-width: 768px) {
+  .aqua-block {
+    height: auto;
+  }
+}
 .aqua-block h2 {
   color: #158680;
   font-family: 'kepler-std';
@@ -2027,6 +2032,13 @@ td {
   vertical-align: top;
   border-right: 1px dashed #b3e3e0;
   margin-bottom: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .three-col {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+  }
 }
 .three-col .section-cta {
   color: white !important;
@@ -2045,12 +2057,37 @@ td {
   color: #658bea;
   text-transform: uppercase;
 }
+@media only screen and (max-width: 768px) {
+  .page-body-block h3 {
+    text-align: center;
+  }
+}
 .page-body-block .alum-pic {
   width: 35%;
   margin-bottom: 10%;
 }
+@media only screen and (max-width: 768px) {
+  .page-body-block .alum-pic {
+    width: 75%;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+}
+.page-body-block .alum-pic img {
+  width: 100%;
+}
 .page-body-block .alum-info {
   width: 58%;
+}
+@media only screen and (max-width: 768px) {
+  .page-body-block .alum-info {
+    width: 75%;
+    margin: auto;
+    float: none;
+    display: block;
+    padding-bottom: 25px;
+  }
 }
 .page-body-block .alum-info h2 {
   color: #658bea;
@@ -2069,6 +2106,11 @@ td {
 .page-body-block .push-left {
   margin-left: 5%;
 }
+@media only screen and (max-width: 768px) {
+  .page-body-block .push-left {
+    margin: auto;
+  }
+}
 
 /**
  * $CORPORATIONS
@@ -2080,6 +2122,14 @@ td {
   text-align: center;
   color: white;
   padding-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .red-block {
+    height: auto;
+  }
+}
+.red-block .three-col {
+  border: none;
 }
 .red-block .percentage {
   font-family: 'roboto-bold';

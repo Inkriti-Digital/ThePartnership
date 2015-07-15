@@ -11,6 +11,10 @@
  	padding-top:20px;
   padding-bottom:20px;
 
+  @include media-query(palm){
+  	height: auto;
+  }
+
  	h2{
  		color: $ui-darkaqua;
  		font-family: 'kepler-std';
@@ -27,8 +31,14 @@
  	width: 30%;
  	display: inline-block;
  	vertical-align: top;
-  border-right: 1px dashed $aquaborder;
-  margin-bottom: 5px;
+  	border-right: 1px dashed $aquaborder;
+  	margin-bottom: 5px;
+
+  	@include media-query(palm){
+  	display: block;
+  	margin: auto;
+  	padding-bottom: 20px;
+  	}
 
  	.section-cta{
  		color: $white !important;
@@ -47,15 +57,39 @@
  	h3{
  		color: $ui-blue;
  		text-transform: uppercase;
+
+ 		@include media-query(palm){
+ 			text-align: center;
+ 		}
  	}
 
  	.alum-pic{
  		width: 35%;
  		margin-bottom: 10%;
+
+ 		@include media-query(palm){
+ 			width: 75%;
+ 			float: none; 
+ 			margin: auto;
+ 			text-align: center;
+ 		}
+
+ 		img{
+ 			width: 100%;
+ 		}
  	}
 
  	.alum-info{
  		width: 58%;
+
+ 		@include media-query(palm){
+ 		  width: 75%;
+		  margin: auto;
+		  float: none;
+		  display: block;
+		  // margin-left: 0;
+		  padding-bottom: 25px;
+		}
 
  		h2{
  			color: $ui-blue;
@@ -75,6 +109,10 @@
 
  	.push-left{
  		margin-left: 5%;
+
+ 		@include media-query(palm){
+ 			margin: auto;
+ 		}
  	}
 
  }
