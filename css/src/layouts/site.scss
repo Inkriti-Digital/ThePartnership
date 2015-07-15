@@ -316,8 +316,9 @@
 // service_list
 .service_list {
   clear: both;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 10px auto;
   max-width: 560px;
+  cursor: pointer;
 
   li {
     display: inline;
