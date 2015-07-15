@@ -1733,6 +1733,7 @@ td {
   background-color: #d4cfc7;
   font-family: 'anaheim-reg';
   padding: 0;
+  color: #5f5952;
 }
 .container a, .container a:link, .container a:visited {
   color: #000;
@@ -2196,6 +2197,49 @@ td {
 }
 .pro-block .alum-info h2 {
   color: #f5675c;
+}
+
+/**
+ * $MISC PAGES
+
+/*Corporations Elements */
+.misc-block h3 {
+  color: #658bea;
+}
+.misc-block h2 {
+  color: #658bea !important;
+}
+.misc-block h4 {
+  color: #948d85;
+  padding-top: 22px;
+}
+.misc-block .main-copy {
+  font-size: 20px;
+  color: #5f5952;
+}
+.misc-block .main-copy p h4 {
+  color: #948d85;
+  padding-top: 22px;
+}
+.misc-block .main-copy p img {
+  float: left;
+  padding: 0 20px 20px 0;
+  vertical-align: top;
+}
+.misc-block .main-copy b {
+  font-family: 'roboto-bold';
+}
+.misc-block .main-copy blockquote {
+  font-style: italic;
+  color: #a0b5eb;
+  padding: 10px 40px;
+  font-family: 'roboto-light';
+}
+.misc-block .main-copy a, .misc-block .main-copy a:visited, .misc-block .main-copy a:link {
+  color: #658bea;
+}
+.misc-block .main-copy a:hover {
+  color: #658bea;
 }
 
 /* nav css*/

@@ -19,14 +19,14 @@
 				<!-- dropdown here -->
 				<div class="dropdown">
 					 <ul>
-						 	<li><a href="#">Overview</a></li>
-							<li><a href="#">Alumni Page</a></li>
-							<li><a href="#">Get Involved</a>
+						 	<li><a href="misc.php">Overview</a></li>
+							<li><a href="misc.php">Alumni Page</a></li>
+							<li><a href="misc.php">Get Involved</a>
 								<!-- multi level dropdown -->
 								<ul>
-									<li><a href="#">Overview</a></li>
-									<li><a href="#">Alumni Page</a></li>
-									<li><a href="#">Get Involved</a>
+									<li><a href="misc.php">Overview</a></li>
+									<li><a href="misc.php">Alumni Page</a></li>
+									<li><a href="misc.php">Get Involved</a>
 								</ul>
 							</li>
 					 </ul>

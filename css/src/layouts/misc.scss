@@ -1,0 +1,62 @@
+/**
+ * $MISC PAGES
+
+/*Corporations Elements */
+
+
+
+
+ .misc-block{
+
+ 	// font-size: 20px;
+ 	h3{
+ 		color: $ui-blue;
+ 	}
+ 	h2{
+ 		color: $ui-blue !important;
+ 	}
+
+ 	h4{
+ 		color: #948d85;
+ 		padding-top:22px;
+ 	}
+
+
+ 	.main-copy{
+ 		font-size: 20px;
+ 		color: #5f5952;
+ 		p {
+ 			h4{
+ 				color: #948d85;
+ 				padding-top:22px;
+ 			}
+
+ 			img{ 
+ 				float: left;
+ 				padding: 0 20px 20px 0;
+ 				vertical-align: top;
+ 			}
+
+ 			
+ 		}
+
+ 		b{
+ 				font-family: 'roboto-bold';
+ 			}
+
+ 		blockquote{
+ 			font-style: italic;
+ 			color: $ui-lightblue;
+ 			padding: 10px 40px;
+ 			font-family: 'roboto-light';
+ 		}
+
+ 		a, a:visited, a:link{
+ 			color: $ui-blue;
+ 		}
+ 		a:hover{
+ 			color: $ui-blue;
+ 		}
+ 	}
+ }
+
