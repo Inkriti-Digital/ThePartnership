@@ -35,15 +35,38 @@
 
 /*for tablet*/
 @media (min-width:768px) and (max-width:1023px){
-
+	.social, #searchbtn, #searchblock{
+		display:none !important;
+	}
 }
 /*for desktop*/
 @media (min-width:768px) and (max-width:1023px){
-
+	.social, #searchbtn, #searchblock{
+		display:none !important;
+	}
 }
 /*for desktop*/
 @media (min-width:1024px) and (max-width:1249px){
+	.nav-container{
+		.logo{
+			width: 25%;
+			padding-right: 5px;
+			// .desktop{ display: none; }
+			.mobile{ 
+				// display: block; 
+				padding-top: 12px;
+				width: 100%;
+			}
+		}
+	}
 
+	.main-nav{
+		margin-left: -2%;
+	}
+
+	.social{
+		display:none;
+	}
 }
 /*for desktop*/
 @media (min-width:1250px) and (max-width:1799px){
@@ -54,4 +77,8 @@
 		 }
 	}
 }
+
+
+
+
 }

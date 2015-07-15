@@ -1,6 +1,7 @@
 <div class="nav-container">
 	<div class="logo">
-		<a href="index.php"><img class="desktop" src="img/partnership-logo.png" alt="The Partnership Logo"/>
+		<a href="index.php">
+		<img class="desktop" src="img/partnership-logo.png" alt="The Partnership Logo"/>
 
 		<img class="mobile" src="img/partnership-logo-mobile.png" alt="The Partnership Logo"/></a>
 
@@ -46,8 +47,8 @@
 		</div>
 	</div>
 	<!-- search button -->
-	<div id="searchbtn"></div>
-	<div id="searchblock">
+	<div id="searchbtn" class="desktop"></div>
+	<div id="searchblock" class="desktop">
 			<form action="#">
 				<input type="text" placeholder="Enter search">
 				<input type="submit" value="" class="search_button">

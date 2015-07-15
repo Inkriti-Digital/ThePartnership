@@ -6,6 +6,7 @@
     ul {
        float: left;
         border-right: 1px $gray-lightdark solid;
+        margin-left: 0px;
       li {
           border-left: 1px $gray-lightdark solid;
           float: left;
@@ -131,15 +132,15 @@
  }
 .nav-container {
   position: relative;
-  height: 76px;
+  height: 80px;
 
   .logo {
     padding-top: 18px;
   }
     #searchbtn {
       float: right;
-      width: 76px;
-      height: 76px;
+      width: 80px;
+      height: 80px;
       cursor: pointer;
       background: url(#{$basepath}/search_icon.png) no-repeat center center $ui-red;
       &.active {
@@ -176,19 +177,19 @@
 }
  .header .head-title {
    h1 {
-     font-size: 60px;
+     
    }
  }
  .header {
    .head-title {
      .head-cta {
-       font-size: 35px;
+       
      }
    }
  }
  .header {
    .head-title {
-     left: 20.5%;
+     
    }
  }
  .inner-container {
@@ -325,7 +326,7 @@
     position: relative;
     margin-right: 23px;
 
-    .tootip{
+    .tooltip{
    		position: absolute;
    		width: 200px;
    		height: 160px;

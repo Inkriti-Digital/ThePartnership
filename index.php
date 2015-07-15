@@ -35,7 +35,7 @@
 		<!-- service_list -->
     <ul class="service_list">
       <li><img src="img/ico-financial.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -43,7 +43,7 @@
         </div>
       </li>
       <li><img src="img/ico-tech.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -51,7 +51,7 @@
         </div>
       </li>
       <li><img src="img/ico-health.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -59,7 +59,7 @@
         </div>
       </li>
       <li><img src="img/ico-science.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -67,7 +67,7 @@
         </div>
       </li>
       <li><img src="img/ico-legal.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -78,7 +78,7 @@
 
     <ul class="service_list">
       <li><img src="img/ico-academia.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Academia</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -86,7 +86,7 @@
         </div>
       </li>
       <li><img src="img/ico-shopping.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Lipsum</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -94,7 +94,7 @@
         </div>
       </li>
       <li><img src="img/ico-ideabulb.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Loremipsum</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -102,7 +102,7 @@
         </div>
       </li>
       <li><img src="img/ico-dna.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Lipsum</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -171,9 +171,9 @@
 <script>
 		 		$(document).ready(function () {
 		        $(document).on('mouseenter', '.service_list li', function () {
-		            $(this).find(".tootip").fadeIn();
+		            $(this).find(".tooltip").fadeIn();
 		        }).on('mouseleave', '.service_list li', function () {
-		            $(this).find(".tootip").fadeOut();
+		            $(this).find(".tooltip").fadeOut();
 		        });
 		    });
  </script>

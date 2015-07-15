@@ -8,9 +8,11 @@
 	max-width: $container-width;
 	margin: 0 auto;
     padding: 0 $spacing-unit-grid;
+    min-width: 980px;
 
     @include media-query(portable){
         width: $palm-start;
+
     }
     @include media-query(palm){
         width: 100%;
@@ -46,6 +48,7 @@
     background-color: white;
     height: 80px;
     text-align: center;
+    // min-width: 1180px;
 }
 
 .grid {

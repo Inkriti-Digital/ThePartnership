@@ -1462,6 +1462,7 @@ td {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  min-width: 980px;
 }
 @media only screen and (max-width: 768px) {
   .container {
@@ -1818,14 +1819,19 @@ td {
   position: absolute;
   color: white;
   z-index: 10;
-  left: 21%;
+  left: 12%;
   top: 18%;
+}
+@media only screen and (max-width: 768px) {
+  .header .head-title {
+    left: 12%;
+  }
 }
 .header .head-title h1 {
   font-family: 'kepler-std';
   letter-spacing: 0.05em;
-  font-size: 48px;
-  line-height: 54px;
+  font-size: 60px;
+  line-height: 58px;
 }
 @media only screen and (max-width: 768px) {
   .header .head-title h1 {
@@ -1835,7 +1841,7 @@ td {
 }
 .header .head-title .head-cta {
   color: #f5675c;
-  font-size: 34px;
+  font-size: 35px;
   text-transform: uppercase;
   vertical-align: top;
 }
@@ -2129,6 +2135,7 @@ td {
 .main-nav ul {
   float: left;
   border-right: 1px #dfdddb solid;
+  margin-left: 0px;
 }
 .main-nav ul li {
   border-left: 1px #dfdddb solid;
@@ -2232,15 +2239,15 @@ td {
 
 .nav-container {
   position: relative;
-  height: 76px;
+  height: 80px;
 }
 .nav-container .logo {
   padding-top: 18px;
 }
 .nav-container #searchbtn {
   float: right;
-  width: 76px;
-  height: 76px;
+  width: 80px;
+  height: 80px;
   cursor: pointer;
   background: url(../img/search_icon.png) no-repeat center center #f5675c;
 }
@@ -2271,18 +2278,6 @@ td {
   width: 76px;
   height: 77px;
   background: url(../img/search_arrow.png) no-repeat center center #e2273d;
-}
-
-.header .head-title h1 {
-  font-size: 60px;
-}
-
-.header .head-title .head-cta {
-  font-size: 35px;
-}
-
-.header .head-title {
-  left: 20.5%;
 }
 
 .inner-container {
@@ -2401,7 +2396,7 @@ td {
   position: relative;
   margin-right: 23px;
 }
-.service_list li .tootip {
+.service_list li .tooltip {
   position: absolute;
   width: 200px;
   height: 160px;
@@ -2413,12 +2408,12 @@ td {
   margin-top: -32px;
   display: none;
 }
-.service_list li .tootip h4 {
+.service_list li .tooltip h4 {
   color: #42bdb7;
   margin: 0;
   font-size: 16px;
 }
-.service_list li .tootip .tip-copy {
+.service_list li .tooltip .tip-copy {
   text-align: center;
   padding: 20px;
   padding-top: 48px;
@@ -2457,8 +2452,36 @@ td {
 /*for mobiles*/
 /*for landscape*/
 /*for tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .social, #searchbtn, #searchblock {
+    display: none !important;
+  }
+}
 /*for desktop*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .social, #searchbtn, #searchblock {
+    display: none !important;
+  }
+}
 /*for desktop*/
+@media (min-width: 1024px) and (max-width: 1249px) {
+  .nav-container .logo {
+    width: 25%;
+    padding-right: 5px;
+  }
+  .nav-container .logo .mobile {
+    padding-top: 12px;
+    width: 100%;
+  }
+
+  .main-nav {
+    margin-left: -2%;
+  }
+
+  .social {
+    display: none;
+  }
+}
 /*for desktop*/
 @media (min-width: 1250px) and (max-width: 1799px) {
   .header .head-title h1 {
