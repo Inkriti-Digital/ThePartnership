@@ -89,6 +89,8 @@
 						<div class="clear-fix"></div>
 
 
+						
+						<div class="alum-pic right push-left"><img src="img/corp-bio2.jpg" alt="Kelly Porter"/></div>
 						<div class="alum-info left">
 							<h2>Paul Randall</h2>
 							<span>Commodo, Aenean Magna</span>
@@ -96,7 +98,6 @@
 								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
 								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
-						<div class="alum-pic left push-left"><img src="img/corp-bio2.jpg" alt="Kelly Porter"/></div>
 						<div class="clear-fix"></div>
 
 
@@ -114,6 +115,8 @@
 						<div class="clear-fix"></div>
 
 
+						
+						<div class="alum-pic right push-left"><img src="img/corp-bio4.jpg" alt="Kelly Porter"/></div>
 						<div class="alum-info left">
 							<h2>Linda McCarthy</h2>
 							<span>Mattis. Tellus Tortor</span>
@@ -124,7 +127,6 @@
 								non metus auctor fringilla.&ldquo;
 							</p>
 						</div>
-						<div class="alum-pic left push-left"><img src="img/corp-bio4.jpg" alt="Kelly Porter"/></div>
 						<div class="clear-fix"></div>
 					</div>
 				</div>

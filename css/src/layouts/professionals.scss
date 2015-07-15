@@ -12,6 +12,14 @@
  	color: white;
  	padding-top: 20px;
 
+ 	@include media-query(palm){
+ 		height: auto;
+ 	}
+
+ 	.three-col{
+ 		border: none;
+ 	}
+
  	.percentage{
  		font-family: 'roboto-bold';
  		font-size: 110px;
