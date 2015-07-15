@@ -45,7 +45,7 @@
 	  height: 80px;
 	  margin-top: 0;
 	  vertical-align: top;
-	  
+
 
  	a{
  		height: 80px;
@@ -242,6 +242,7 @@
  	span{
  		display: inline-block;
  		vertical-align: top;
+
  	}
 
  	.quote{
@@ -261,9 +262,17 @@
  	min-width: 180px;
  	text-align: center;
  	display: inline-block;
-  font-family: 'roboto-bold';
-  color: $nav-gray;
-  letter-spacing: 0.5px;
+  	font-family: 'roboto-bold';
+  	color: $nav-gray;
+  	letter-spacing: 0.5px;
+
+  	@include media-query(palm){
+  		min-width: 80px;
+	  	canvas{
+	  		width: 120px;
+	  		height: 120px;
+	  	}
+	}
  }
 
  .graph-labels{

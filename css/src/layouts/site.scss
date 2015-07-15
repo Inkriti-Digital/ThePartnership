@@ -136,6 +136,10 @@
 
   .logo {
     padding-top: 18px;
+
+    @include media-query(palm){
+      padding-top: 28px;
+    }
   }
     #searchbtn {
       float: right;
@@ -235,6 +239,11 @@
        font-size: 42px;
        line-height: 52px;
        letter-spacing: normal;
+
+       @include media-query(palm){
+        font-size: 36px;
+        line-height: 40px;
+       }
      }
 
      .quote-block {
@@ -244,17 +253,37 @@
        clear: both;
 
        .headshot {
-         float: left;
-         margin-top: -10px;
+        float: left;
+        margin-top: -10px;
+
+        @include media-query(palm){
+          float: none;
+          margin-top: -10px;
+          display: block;
+          text-align: center;
+        }
        }
        .quote {
          width: 71%;
          float: left;
 
+         @include media-query(palm){
+          text-align: center;
+          float: none;
+          display: block;
+          width: 80%;
+          margin: auto;
+         }
+
          p {
            font-size: 16px;
            text-align: left;
            line-height: 26px;
+           
+           @include media-query(palm){
+            text-align: center;
+           }
+
            em {
              display: block;
              padding: 10px 0 0 0;
@@ -283,6 +312,11 @@
       font-size: 42px;
       line-height: 52px;
       margin-bottom: 12px;
+
+      @include media-query(palm){
+        font-size: 36px;
+        line-height: 40px;
+       }
     }
     .alumni-cta {
       color: $ui-blue !important;
@@ -303,6 +337,11 @@
        font-size: 40px;
        letter-spacing: normal;
        line-height: 50px;
+
+       @include media-query(palm){
+        font-size: 36px;
+        line-height: 40px;
+       }
      }
   }
   .personal-cta {
@@ -325,6 +364,10 @@
     display: inline;
     position: relative;
     margin-right: 23px;
+
+    @include media-query(palm){
+      margin-right: 10px;
+    }
 
     .tooltip{
    		position: absolute;

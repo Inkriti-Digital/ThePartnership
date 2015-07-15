@@ -16,6 +16,7 @@
     }
     @include media-query(palm){
         width: 100%;
+        min-width: 640px;
     }
 }
 
