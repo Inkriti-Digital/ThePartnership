@@ -94,6 +94,8 @@
 						<div class="clear-fix"></div>
 
 
+						
+						<div class="alum-pic right push-left"><img src="img/alumni2.jpg" alt="Kelly Porter"/></div>
 						<div class="alum-info left">
 							<h2>Kelly Porter</h2>
 							<span>Dolor Bibendum, Parturient Vestibulum<br/> Next Generation Executive</span>
@@ -101,7 +103,6 @@
 								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
 								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
-						<div class="alum-pic left push-left"><img src="img/alumni2.jpg" alt="Kelly Porter"/></div>
 						<div class="clear-fix"></div>
 
 
@@ -119,6 +120,8 @@
 						<div class="clear-fix"></div>
 
 
+						
+						<div class="alum-pic right push-left"><img src="img/alumni4.jpg" alt="Kelly Porter"/></div>
 						<div class="alum-info left">
 							<h2>Brian Warner</h2>
 							<span>Ornare Elit, Commodo<br/> Associates Program</span>
@@ -129,7 +132,6 @@
 								non metus auctor fringilla.&ldquo;
 							</p>
 						</div>
-						<div class="alum-pic left push-left"><img src="img/alumni4.jpg" alt="Kelly Porter"/></div>
 						<div class="clear-fix"></div>
 					</div>
 				</div>
