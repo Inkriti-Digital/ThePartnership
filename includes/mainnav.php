@@ -18,26 +18,48 @@
 				<span><a href="alumni.php">For Alumni</a></span>
 				<!-- dropdown here -->
 				<div class="dropdown">
-					 <ul>
-						 	<li><a href="misc.php">Overview</a></li>
-							<li><a href="misc.php">Alumni Page</a></li>
-							<li><a href="misc.php">Get Involved</a>
-								<!-- multi level dropdown -->
-								<ul>
-									<li><a href="misc.php">Overview</a></li>
-									<li><a href="misc.php">Alumni Page</a></li>
-									<li><a href="misc.php">Get Involved</a>
-								</ul>
-							</li>
+					 <ul>						 	
+							<li><a href="alumni-events.php">Alumni Events</a></li>
+							<li><a href="alumni-contribute.php">Contribute</a></li>
 					 </ul>
 
 				</div>
 			</li>
 			<li>
 				<span><a href="services.php">Services</a></span>
+					<div class="dropdown serv-dropdown">
+					 	<ul>						 	
+							<li><a href="serv-leadership.php">Leadership Development</a>
+								<ul class="large-sub">
+									<li><a href="lead-csuit.php">C-Suit</a></li>
+									<li><a href="lead-exec.php">Executive</a></li>
+									<li><a href="lead-midcareer.php">Mid-Career</a>
+									<li><a href="lead-earlycareer.php">Early-Career</a>
+								</ul>
+							</li>
+							<li><a href="serv-consulting.php">Consulting</a></li>
+							<li><a href="serv-boardlink.php">Boardlink</a></li>
+							<li><a href="serv-learning.php">Learning Center</a></li>
+							<li><a href="serv-partners.php">Client/Partners</a></li>
+						</ul>
+					</div>
 			</li>
 			<li>
 				<span><a href="about.php">About</a></span>
+					<div class="dropdown">
+					 	<ul>						 	
+							<li><a href="about-leadership.php">Our Leadership</a>
+								<ul>
+									<li><a href="lead-csuit.php">Staff</a></li>
+									<li><a href="lead-exec.php">Faculty</a></li>
+									<li><a href="lead-midcareer.php">Board</a>
+								</ul>
+							</li>
+							<li><a href="about-events.php">Events</a></li>
+							<li><a href="about-news.php">In the News</a></li>
+							<li><a href="about-contact.php">Learning Center</a></li>
+						</ul>
+					</div>
 		  </li>
 		</ul>
 	</div>

@@ -65,9 +65,27 @@
             padding: 12px 1px 12px 0;
             display: none;
             &.multi {
-              width: 365px;
+              width: 345px;
+              // width: auto;
             }
           }
+
+          .serv-dropdown{
+            &.multi {
+              width: 395px;
+            }
+          }
+
+          .serv-dropdown{
+            min-width: 210px;
+            
+            .large-sub{
+              left: 208px;
+            }
+          }
+
+
+
           &:hover {
             a {
               background: $ui-red;
@@ -137,7 +155,7 @@
                   position: absolute;
                   left: 160px;
                   top: 0;
-                  min-width:204px;
+                  min-width:175px;
                   background: $white-lightdark;
                   border: 0;
                   border-left: 1px solid $gray-lightdark;
