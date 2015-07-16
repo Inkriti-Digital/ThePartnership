@@ -35,21 +35,15 @@
 					<p>
 						No two corporate clients have the same infrastructure, priorities, or resources .The Partnership has both the flexibility and experience to work with our clients and identify the best approach to their short and long term leadership talent development and retention needs.
 					</p>
-<<<<<<< HEAD
+
 				</div>
-=======
-				</div>		
->>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
+
 				<!--div class="page-body-block misc-block">
 					<div class="main-copy">
 						<p>
 							<img class="left" src="img/corp-bio1.jpg" alt="Juan Torres"/>
 							<h2>Content Headline Lorem Ipsum</h2>
-<<<<<<< HEAD
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Vestibulum id ligula porta felis euismod
-=======
 							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Vestibulum id ligula porta felis euismod 
->>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 						</p>
 					</div>
 					<div class="clear-fix"></div>
@@ -79,11 +73,11 @@
 					</div>
 				</div-->
 			</div>
-<<<<<<< HEAD
-		</div>
-=======
 
->>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
+		</div>
+
+
+
 
 
 			<div class="footer">
@@ -99,20 +93,18 @@
 					</span>
 				</div>
 			</div>
-<<<<<<< HEAD
 
-=======
+
+
 		</div>
->>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
+
 
 		<!-- Load Scripts -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<!--script src="js/vendors.js"></script-->
 		<!--script src="js/scripts.js"></script-->
-<<<<<<< HEAD
-<script src="js/app.js"></script>
-=======
 
->>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
+		<script src="js/app.js"></script>
+
 	</body>
 </html>

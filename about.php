@@ -34,21 +34,16 @@
 					<p>
 						Formed in 1987, The Partnership has evolved from its original focus on the advancement of African Americans in corporate Boston, into an organization that supports multicultural professionals at all levels in an increasingly diverse and global workforce. Over the last three decades we have collaborated with 300 organizations and helped more than 4000 diverse professionals reach their full potential in organizations across the country.
 					</p>
-<<<<<<< HEAD
+
 				</div>
-=======
-				</div>		
->>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
+
 				<!--div class="page-body-block misc-block">
 					<div class="main-copy">
 						<p>
 							<img class="left" src="img/corp-bio1.jpg" alt="Juan Torres"/>
 							<h2>Content Headline Lorem Ipsum</h2>
-<<<<<<< HEAD
 							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Vestibulum id ligula porta felis euismod
-=======
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Vestibulum id ligula porta felis euismod 
->>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
+
 						</p>
 					</div>
 					<div class="clear-fix"></div>
@@ -100,10 +95,6 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<!--script src="js/vendors.js"></script-->
 		<!--script src="js/scripts.js"></script-->
-<<<<<<< HEAD
-<script src="js/app.js"></script>
-=======
-
->>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
+		<script src="js/app.js"></script>
 	</body>
 </html>

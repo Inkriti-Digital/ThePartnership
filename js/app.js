@@ -46,7 +46,7 @@ $(document).ready(function () {
     $('.expanded-nav').slideToggle();
   });
 
-<<<<<<< HEAD
+
 
   $('.primary-nav #m-alumni').click(function (e) {
     e.preventDefault();
@@ -66,8 +66,7 @@ $(document).ready(function () {
     $('.alumni-nav').slideUp();
     $('.involved-nav').slideDown();
   });
-=======
->>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
+
 
   $('.primary-nav #m-alumni').click(function (e) {
     e.preventDefault();

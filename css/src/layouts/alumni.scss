@@ -83,13 +83,17 @@
 
  	.alum-info{
  		width: 58%;
+ 		max-width: 455px;
+	    width: auto;
+	    padding-top: 70px;
 
  		@include media-query(palm){
  		  width: 75%;
+ 		  max-width: 75%;
 		  margin: auto;
 		  float: none;
 		  display: block;
-		  // margin-left: 0;
+		  
 		  padding-bottom: 25px;
 		}
 
