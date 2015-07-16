@@ -22,10 +22,19 @@
 
 			<div class="seperator-red seperatormini"></div>
 			<div class="inner-container">
-				<div class="biz-block">
-					<h2>Next Generation Executive</h2>
+				<div class="biz-block misc-block">
+					<h2>Next Generation Executive Overview</h2>
 					<p>
-						Designed for top multicultural talent ready for the next step in their careers, this program prepares you to act and think like an executive. 	
+						The Next Generation Executive program prepares you to act and think like an executive. An experiential, peer-supported curriculum – taught by academics and industry leaders – provides you with the strategic and interpersonal tools you need to accelerate your executive career. Balancing theory with practical know-how in areas such as innovation, global markets, and organizational change, this program will help you develop a new multicultural framework for leadership.
+					</p>
+					<p class=" text-left">
+						Program features:
+						<ul class="text-left">
+							<li>•	Four-day immersion experience.</li>
+							<li>•	Five-month leadership incubator with high-level executive coaches and peer supporters.</li>
+							<li>•	Capstone leadership retreat.</li>
+							<li>•	Access to a national, cross-industry network of peers and opinion leaders.</li>
+						</ul>
 					</p>
 				</div>
 

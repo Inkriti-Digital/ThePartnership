@@ -2445,7 +2445,9 @@ td {
 
 /*Corporations Elements */
 .misc-block {
+  padding-top: 0;
   text-align: left;
+  font-size: 21px;
 }
 .misc-block h3 {
   color: #658bea;
@@ -2455,11 +2457,21 @@ td {
 }
 .misc-block h4 {
   color: #948d85;
-  padding-top: 22px;
+  padding-top: 15px;
+  font-size: 24px;
+}
+.misc-block b {
+  font-family: 'roboto-bold';
 }
 .misc-block li {
   font-size: 21px;
   margin-bottom: 20px;
+}
+.misc-block .bluelink, .misc-block .bluelink:visited {
+  text-decoration: underline;
+}
+.misc-block .bluelink:hover {
+  color: #658bea;
 }
 .misc-block .main-copy {
   font-size: 18px;
@@ -2513,6 +2525,9 @@ td {
   max-width: 1196px;
 }
 
+.inner-container .text-left {
+  text-align: left;
+}
 .inner-container .biz-block p, .inner-container .pro-block p {
   font-size: 21px;
 }
@@ -2850,7 +2865,7 @@ td {
   margin-top: 60px;
   max-width: 895px;
   margin: 0 auto;
-  padding: 30px 0 0 0;
+  padding: 0px 0 0 0;
 }
 
 .blue-block .three-col:nth-child(3) {

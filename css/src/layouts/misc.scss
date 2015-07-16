@@ -4,6 +4,10 @@
 /*Corporations Elements */
 
  .misc-block{
+ 	padding-top: 0;
+
+ 	text-align: left;
+ 	font-size: 21px;
 
  	// font-size: 20px;
  	h3{
@@ -15,16 +19,28 @@
 
  	h4{
  		color: #948d85;
- 		padding-top:22px;
+ 		padding-top:15px;
+ 		font-size: 24px;
  	}
 
- 	text-align: left;
+ 	b{
+ 				font-family: 'roboto-bold';
+ 			}
 
 
  	li{
 		font-size: 21px;
 		margin-bottom: 20px;
 		
+	}
+
+	.bluelink, .bluelink:visited{
+		
+		text-decoration: underline;
+	} 
+
+	.bluelink:hover{
+		color: $ui-blue;
 	}
 
  	.main-copy{

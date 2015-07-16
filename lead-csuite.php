@@ -22,10 +22,20 @@
 
 			<div class="seperator-red seperatormini"></div>
 			<div class="inner-container">
-				<div class="biz-block">
+				<div class="biz-block misc-block">
 					<h2>C-Suite</h2>
 					<p>
-						Open to individuals at the highest levels of their organizations, this program is your link to a powerful network of the region’s top multicultural leaders. 
+						The C-Suite program is your link you to the Commonwealth’s top multicultural leaders. Designed for individuals at the highest levels of their organizations, it brings together corporate CEO’s, Presidents, and C-Suite executives, as well as leaders from government, academia, and the civic sector.<br/><br/>
+						The program is centered around quarterly convenings that foster personal and professional relationships, and encourage dialogue on the critical issues impacting the region. It’s a unique opportunity to learn from your peers, make a difference in your community, and engage with the next generation of multicultural leaders.
+						
+					</p>
+					<p class=" text-left">
+						Program features:
+						<ul class="text-left">
+							<li>•	Quarterly convenings featuring nationally-recognized guests such as David Axelrod, Boston Mayor Martin Walsh, and Massachusetts Governor Deval Patrick.</li>
+							<li>•	Networking with both seasoned multicultural leaders and executives new to the region.</li>
+							<li>•	Sharing best practices and new strategies with exceptional multicultural leaders.</li>
+						</ul>
 					</p>
 				</div>
 

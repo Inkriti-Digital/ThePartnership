@@ -24,6 +24,10 @@
  }
 // main content
 .inner-container {
+
+  .text-left{
+    text-align: left;
+  }
    .biz-block,.pro-block {
     p{
        font-size: 21px;
@@ -392,7 +396,7 @@ font-size: 12px;
   margin-top: 60px;
   max-width: 895px;
   margin: 0 auto;
-  padding: 30px 0 0 0;
+  padding: 0px 0 0 0;
 }
 .blue-block {
   .three-col:nth-child(3){border:none}
