@@ -16,11 +16,11 @@
 
 			<div class="header">
 				<div class="head-image">
-					<img src="img/corp-header.jpg"/>
+					<img src="img/headers/corporations.jpg"/>
 				</div>
 			</div>
 
-			<div class="seperator-red"></div>
+			<div class="seperator-red seperatormini"></div>
 			<div class="inner-container">
 				<div class="biz-block">
 					<h2>For Corporations</h2>
@@ -75,29 +75,36 @@
 					<h3>Featured Clients</h3>
 
 					<div>
+						<span class="divider"></span>
+						<div class="alumni-row">
+
+
 						<div class="alum-pic left"><img src="img/corp-bio1.jpg" alt="Juan Torres"/></div>
 						<div class="alum-info left push-left">
-							<h2>Juan Torres</h2>
-							<span>Etiam Inceptos, Ultricies<br/> C-Suite Alumni</span>
+							<h2>Paul Randall</h2>
+							<span>Commodo, Aenean Magna</span>
 							<p>&ldquo;I’ve never made so many important connections
 								in my life. Donec id elit non mi porta gravida
 								at eget metus. Integer posuere erat a ante
 								venenatis dapibus posuere velit aliquet.
 								Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
-						<div class="clear-fix"></div>
+					</div>
+					<span class="divider"></span>
+					<div class="alumni-row right">
 
 
 						<div class="alum-info left">
-							<h2>Paul Randall</h2>
+							<h2>Maria Calderon</h2>
 							<span>Commodo, Aenean Magna</span>
 							<p>&ldquo;I learned new strategies to be more effective. Donec id elit non mi
 								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
 								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
 						<div class="alum-pic left push-left"><img src="img/corp-bio2.jpg" alt="Kelly Porter"/></div>
-						<div class="clear-fix"></div>
-
+					</div>
+<span class="divider"></span>
+					<div class="alumni-row">
 
 						<div class="alum-pic left"><img src="img/corp-bio3.jpg" alt="Juan Torres"/></div>
 						<div class="alum-info left push-left">
@@ -110,8 +117,9 @@
 								 fringilla.&ldquo;
 							</p>
 						</div>
-						<div class="clear-fix"></div>
-
+					</div>
+<span class="divider"></span>
+					<div class="alumni-row right">
 
 						<div class="alum-info left">
 							<h2>Linda McCarthy</h2>
@@ -124,10 +132,11 @@
 							</p>
 						</div>
 						<div class="alum-pic left push-left"><img src="img/corp-bio4.jpg" alt="Kelly Porter"/></div>
-						<div class="clear-fix"></div>
+					</div>
 					</div>
 				</div>
 			</div>
+		 </div>
 			<div class="footer">
 				<div class="inner-container">
 					<span class="copyright">
@@ -141,12 +150,12 @@
 					</span>
 				</div>
 			</div>
-		</div>
+
 
 		<!-- Load Scripts -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<!--script src="js/vendors.js"></script-->
 		<!--script src="js/scripts.js"></script-->
-
+<script src="js/app.js"></script>
 	</body>
 </html>

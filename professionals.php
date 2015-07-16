@@ -21,7 +21,7 @@
 				</div>
 			</div>
 
-			<div class="seperator-blue"></div>
+			<div class="seperator-blue seperatormini"></div>
 			<div class="inner-container">
 				<div class="pro-block">
 					<h2>For Professionals</h2>
@@ -33,9 +33,9 @@
 			<div class="inner-seperator">
 				<div class="blue-block">
 					<div class="three-col">
-						<div class="percentage">81%</div>
+						<div class="percentage">85%</div>
 						<p>
-							Praesent commodo<br/> cursus magna, vel nisl<br/> consectetur et.
+						Participants get promoted 85% more after our programs.
 						</p>
 						<a href="#">
 							<span class="share-cta">
@@ -45,9 +45,11 @@
 						</a>
 					</div>
 					<div class="three-col">
-						<div class="percentage">88%</div>
+						<div class="percentage">
+								<img src="img/title_icon.png"/>
+						</div>
 						<p>
-							Lorem ipsum dolor sit<br/> amet, consectetur<br/> adipiscing elit.
+							Fellow participants are from diverse organizations.
 						</p>
 						<a href="#">
 							<span class="share-cta">
@@ -57,9 +59,9 @@
 						</a>
 					</div>
 					<div class="three-col">
-						<div class="percentage">93%</div>
+						<div class="percentage">95%</div>
 						<p>
-							Aenean eu leo ornare<br/> sem lacinia quam<br/> venenatis vestibulum.
+							Our participants report a 95% satisfactory rate.
 						</p>
 						<a href="#">
 							<span class="share-cta">
@@ -73,37 +75,44 @@
 
 			<div class="inner-container">
 				<div class="page-body-block pro-block">
-					<h3>Featured Clients</h3>
+					<h3>Featured Alumni and clients</h3>
 
 					<div>
-						<div class="alum-pic left"><img src="img/corp-bio1.jpg" alt="Juan Torres"/></div>
+						<span class="divider"></span>
+						<div class="alumni-row">
+
+
+						<div class="alum-pic left"><img src="img/alumni1.jpg" alt="Juan Torres"/></div>
 						<div class="alum-info left push-left">
 							<h2>Juan Torres</h2>
-							<span>Etiam Inceptos, Ultricies<br/> C-Suite Alumni</span>
+							<span>Justo, Tortor Fermentum<br>C-Suite Alumni</span>
 							<p>&ldquo;I’ve never made so many important connections
 								in my life. Donec id elit non mi porta gravida
 								at eget metus. Integer posuere erat a ante
 								venenatis dapibus posuere velit aliquet.
 								Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
-						<div class="clear-fix"></div>
+					</div>
+					<span class="divider"></span>
+					<div class="alumni-row right">
 
 
 						<div class="alum-info left">
-							<h2>Paul Randall</h2>
-							<span>Commodo, Aenean Magna</span>
+							<h2>Kelly Porter</h2>
+							<span>Consectetur, Mollis Pellentesque<br>Next Generation Executive</span>
 							<p>&ldquo;I learned new strategies to be more effective. Donec id elit non mi
 								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
 								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
-						<div class="alum-pic left push-left"><img src="img/corp-bio2.jpg" alt="Kelly Porter"/></div>
-						<div class="clear-fix"></div>
+						<div class="alum-pic left push-left"><img src="img/alumni2.jpg" alt=""/></div>
+					</div>
+<span class="divider"></span>
+					<div class="alumni-row">
 
-
-						<div class="alum-pic left"><img src="img/corp-bio3.jpg" alt="Juan Torres"/></div>
+						<div class="alum-pic left"><img src="img/alumni.jpg" alt="Juan Torres"/></div>
 						<div class="alum-info left push-left">
-							<h2>Maria Calderon</h2>
-							<span>Consectetur, Tortor Nibh</span>
+							<h2>Madori Sakura</h2>
+							<span>Amet, Sollicitudin Aenean</span>
 							<p>&ldquo;I encountered a lot of diverse opinions and smart
 								people that I can rely on. Donec id elit non mi porta gravida
 								at eget metus. Integer posuere erat a ante venenatis dapibus
@@ -111,12 +120,13 @@
 								 fringilla.&ldquo;
 							</p>
 						</div>
-						<div class="clear-fix"></div>
-
+					</div>
+<span class="divider"></span>
+					<div class="alumni-row right">
 
 						<div class="alum-info left">
-							<h2>Linda McCarthy</h2>
-							<span>Mattis. Tellus Tortor</span>
+							<h2>Brian Warner</h2>
+							<span>Amet Ridiculus, Tellus Porta</span>
 							<p>&ldquo;I met so many people I can reach out to at any
 								point in my career. Donec id elit non mi porta gravida
 								at eget metus. Integer posuere erat a ante venenatis
@@ -124,11 +134,12 @@
 								non metus auctor fringilla.&ldquo;
 							</p>
 						</div>
-						<div class="alum-pic left push-left"><img src="img/corp-bio4.jpg" alt="Kelly Porter"/></div>
-						<div class="clear-fix"></div>
+						<div class="alum-pic left push-left"><img src="img/alumni_photo.jpg" alt="Kelly Porter"/></div>
+					</div>
 					</div>
 				</div>
 			</div>
+	   </div>
 			<div class="footer">
 				<div class="inner-container">
 					<span class="copyright">
@@ -142,12 +153,12 @@
 					</span>
 				</div>
 			</div>
-		</div>
+
 
 		<!-- Load Scripts -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<!--script src="js/vendors.js"></script-->
 		<!--script src="js/scripts.js"></script-->
-
+<script src="js/app.js"></script>
 	</body>
 </html>

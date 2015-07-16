@@ -1,0 +1,124 @@
+
+// C-Suite pase scss
+.classview {
+  float: left;
+  p {
+    margin: 0;
+    margin-top: 12px;
+
+  }
+}
+.classdetails{
+  clear: both;
+  overflow: hidden;
+  a {
+    color: $ui-red !important;
+    font-size: 16px;
+    float: left;
+    clear: left;
+    margin-top: 13px;
+    img {
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+  }
+}
+.calltoaction {
+  img {
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+}
+.alumni-network {
+  float: right;
+  max-width: 290px;
+  padding: 75px 0 0 0;
+  p {
+    clear: both;
+    font-size: 15px;
+    color: $nav-gray;
+    overflow: hidden;
+    padding: 25px 0 0 0;
+    strong {
+      display: block;
+      font-weight: bold;
+    }
+    span {
+      display: block;
+      color: $ui-red;
+    }
+  }
+  .networkconnect {
+    max-width: 150px;
+    float: left;
+    padding-left: 60px;
+    text-align: center;
+    padding-top: 5px;
+
+    a {
+      color: $nav-gray !important;
+      img {
+        vertical-align: middle;
+        margin-left: 3px;
+      }
+      span {
+        display: block;
+        font-weight:  bold;
+        padding: 10px 0 0 0;
+      }
+    }
+  }
+
+  h4 {
+    font-size: 18px;
+    text-transform:  uppercase;
+    color: $ui-red;
+  }
+  .network-num {
+    max-width: 95px;
+    float: left;
+    text-align: center;
+
+  strong {
+    color: $titlered;
+    font-size: 62px;
+    font-family: 'roboto-bold';
+    display: block;
+    line-height:  normal;
+  }
+  span {
+    display: block;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  }
+}
+.curriculum-wrap {
+  clear: both;
+  overflow: hidden;
+  padding: 150px 0 25px 0;
+
+  .classdetails {
+    max-width: 720px;
+    margin: 0 auto;
+    .classview {
+      float: left;
+    }
+
+    .classinfo {
+      float: right;
+      max-width: 200px;
+      padding: 70px 0 0 0;
+      p {
+        margin: 12px 0 0 0;
+      }
+      h4 {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin: 0 0 12px 0;
+        color: $ui-red;
+      }
+    }
+  }
+}

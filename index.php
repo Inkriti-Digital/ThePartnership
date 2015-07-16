@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>The Partnership</title>
 <meta name="description" content="">
-<!-- <meta name="viewport" content="width=640, initial-scale=1"> -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=640, initial-scale=0.5, user-scalable=no">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=0.5"> -->
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -35,7 +35,7 @@
 		<!-- service_list -->
     <ul class="service_list">
       <li><img src="img/ico-financial.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -43,7 +43,7 @@
         </div>
       </li>
       <li><img src="img/ico-tech.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -51,7 +51,7 @@
         </div>
       </li>
       <li><img src="img/ico-health.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -59,7 +59,7 @@
         </div>
       </li>
       <li><img src="img/ico-science.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
@@ -67,9 +67,74 @@
         </div>
       </li>
       <li><img src="img/ico-legal.png"/>
-        <div class="tootip">
+        <div class="tooltip">
           <div class="tip-copy">
             <h4>Finance</h4>
+            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+          </div>
+        </div>
+      </li>
+      <li><img src="img/ico-legal.png"/>
+        <div class="tooltip">
+          <div class="tip-copy">
+            <h4>Finance</h4>
+            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+          </div>
+        </div>
+      </li>  <li><img src="img/ico-legal.png"/>
+          <div class="tooltip">
+            <div class="tip-copy">
+              <h4>Finance</h4>
+              <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+            </div>
+          </div>
+        </li>  <li><img src="img/ico-legal.png"/>
+            <div class="tooltip">
+              <div class="tip-copy">
+                <h4>Finance</h4>
+                <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+              </div>
+            </div>
+          </li>  <li><img src="img/ico-legal.png"/>
+              <div class="tooltip">
+                <div class="tip-copy">
+                  <h4>Finance</h4>
+                  <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+                  
+                </div>
+              </div>
+            </li>
+    </ul>
+
+    <ul class="service_list">
+      <li><img src="img/ico-academia.png"/>
+        <div class="tooltip">
+          <div class="tip-copy">
+            <h4>Academia</h4>
+            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+          </div>
+        </div>
+      </li>
+      <li><img src="img/ico-shopping.png"/>
+        <div class="tooltip">
+          <div class="tip-copy">
+            <h4>Lipsum</h4>
+            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+          </div>
+        </div>
+      </li>
+      <li><img src="img/ico-ideabulb.png"/>
+        <div class="tooltip">
+          <div class="tip-copy">
+            <h4>Loremipsum</h4>
+            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+          </div>
+        </div>
+      </li>
+      <li><img src="img/ico-dna.png"/>
+        <div class="tooltip">
+          <div class="tip-copy">
+            <h4>Lipsum</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
           </div>
         </div>
@@ -118,30 +183,20 @@
       </div>
       <a href="#"><span class="section-cta alumni-cta"> How our network stays connected</span></a> </div>
   </div>
+  </div>
+
   <div class="footer">
     <div class="inner-container"> <span class="copyright"> ©2015 The Partnership, Inc. All Rights Reserved </span> <span class="address"> 155 Seaport Blvd., 13th Floor,<br/>
       Boston, MA 02210<br/>
       Tel. 617.262.2828<br/>
       Fax 617.988.6157 </span> </div>
   </div>
-</div>
 
 <!-- Load Scripts -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/Chart.min.js"></script>
 <script src="js/chart-control.js"></script>
-<!--script src="js/vendors.js"></script-->
-<!--script src="js/scripts.js"></script-->
-
-<script>
-		 		$(document).ready(function () {
-		        $(document).on('mouseenter', '.service_list li', function () {
-		            $(this).find(".tootip").fadeIn();
-		        }).on('mouseleave', '.service_list li', function () {
-		            $(this).find(".tootip").fadeOut();
-		        });
-		    });
- </script>
 <script src="js/app.js"></script>
+
 </body>
 </html>

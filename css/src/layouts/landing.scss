@@ -12,6 +12,7 @@
  	background-color: $bg-gray;
  	font-family: 'anaheim-reg';
  	padding:0;
+ 	color: #5f5952;
 
  	a, a:link, a:visited{
  		color: #000;
@@ -38,56 +39,6 @@
  	display: inline-block;
  	padding-right: 15px;
  	float: left;
- }
-
-.main-nav{
-	  display: inline-block;
-	  height: 80px;
-	  margin-top: 0;
-	  vertical-align: top;
-
- 	a{
- 		height: 80px;
- 		display: inline-block;
- 		padding: 25px 20px;
- 		text-transform: uppercase;
- 	}
-
- 	a, a:link, a:visited{
- 		color: $nav-gray;
- 	}
-
- 	a:hover{
- 		color: $white;
- 	}
-
- 	span{
- 		display: inline-block;
- 	// 	border-right: 1px #dfdddb solid;
- 		height: 80px;
- 		margin-left: -5px;
- 	}
-
- 	span:first-child{
- 	// 	border-left: 1px #dfdddb solid;
- 	}
-
- 	span:hover{
- 		background: $ui-red;
- 		color: $black;
- 	}
- }
-
- .mobile-nav{
- 	background-color: $white;
-
- 	.colapsed{
- 		background-color: #f96758;
- 		float: right;
-		width: 80px;
-		height: 80px;
-		padding-top: 20px;
- 	}
  }
 
  .social{
@@ -117,33 +68,38 @@
  		position: absolute;
 	  	color: $white;
 	  	z-index: 10;
-	  	left: 21%;
+	  	left: 12%;
 	  	top: 18%;
+
+	  	@include media-query(palm){
+	  		left: 12%;
+	  	}
+
  		h1{
  			font-family: 'kepler-std';
  			letter-spacing: 0.05em;
-  			font-size: 48px;
-  			line-height: 54px;
+  			font-size: 60px;
+  			line-height: 58px;
 
   			@include media-query(portable){
-  				font-size: 30px;
-  				line-height: 34px;
+  				font-size: 34px;
+  				line-height: 40px;	
   			}
 
   			@include media-query(palm){
   				font-size: 30px;
-  				line-height: 34px;
+  				line-height: 34px; 				
   			}
  		}
 
  		.head-cta{
  			color: $ui-red;
- 			font-size: 34px;
+ 			font-size: 35px;
  			text-transform: uppercase;
  			vertical-align: top;
 
  			@include media-query(portable){
-  				font-size: 26px;
+  				font-size: 24px;
   				line-height: 24px;
   			}
 
@@ -236,6 +192,7 @@
  	span{
  		display: inline-block;
  		vertical-align: top;
+
  	}
 
  	.quote{
@@ -255,9 +212,17 @@
  	min-width: 180px;
  	text-align: center;
  	display: inline-block;
-  font-family: 'roboto-bold';
-  color: $nav-gray;
-  letter-spacing: 0.5px;
+  	font-family: 'roboto-bold';
+  	color: $nav-gray;
+  	letter-spacing: 0.5px;
+
+  	@include media-query(palm){
+  		min-width: 80px;
+	  	canvas{
+	  		width: 120px;
+	  		height: 120px;
+	  	}
+	}
  }
 
  .graph-labels{

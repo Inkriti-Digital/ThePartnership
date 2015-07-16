@@ -39,18 +39,6 @@ var pieData2 = [
 		label: "option"
 	},
 	{
-		value: 10,
-		color: "#fcb3ac",
-		highlight: "#FF5A5E",
-		label: "option"
-	},
-	{
-		value: 20,
-		color: "#3fbfae",
-		highlight: "#5AD3D1",
-		label: "option"
-	},
-	{
 		value: 100,
 		color: "#69ccca",
 		highlight: "#3da9a9",
@@ -67,13 +55,13 @@ var pieData2 = [
 
 var pieData3 = [
 	{
-		value: 170,
+		value: 100,
 		color:"#f33043",
 		highlight: "#FF5A5E",
 		label: "option"
 	},
 	{
-		value: 10,
+		value: 100,
 		color: "#fcb3ac",
 		highlight: "#FF5A5E",
 		label: "option"
@@ -84,18 +72,7 @@ var pieData3 = [
 		highlight: "#5AD3D1",
 		label: "option"
 	},
-	{
-		value: 100,
-		color: "#69ccca",
-		highlight: "#3da9a9",
-		label: "option"
-	},
-	{
-		value: 40,
-		color: "#9ddada",
-		highlight: "#3da9a9",
-		label: "option"
-	}
+	
 
 ];
 

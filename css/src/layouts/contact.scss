@@ -1,0 +1,28 @@
+.address-view {
+  float: right;
+  max-width: 270px;
+  padding: 30px 50px 0 0;
+      text-align: left;
+      min-height: 225px;
+  p {
+    font-size: 18px;
+    margin: 25px 0 0 0;
+
+  }
+  h4 {
+    color: $ui-darkred;
+    font-size: 28px;
+    font-family: 'Conv_KeplerStd-Disp';
+    margin: 0;
+  }
+  .directions-link {
+    float: left;
+    border: 2px solid $uilightred;
+    padding: 3px 12px 3px 12px;
+    background: $ui-darkred;
+    text-transform: uppercase;
+    border-radius: 15px;
+    color: $white !important;
+    margin: 25px 0 0 0;
+  }
+}

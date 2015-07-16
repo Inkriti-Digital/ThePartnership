@@ -1,0 +1,318 @@
+/**
+ * $Main Navigation styles */
+
+ .main-nav{
+	  display: inline-block;
+	  height: 80px;
+	  margin-top: 0;
+	  vertical-align: top;
+
+
+ 	a{
+ 		height: 76px;
+ 		display: inline-block;
+ 		padding: 25px 20px;
+ 		text-transform: uppercase;
+ 	}
+
+ 	a, a:link, a:visited{
+ 		color: $nav-gray;
+ 	}
+
+ 	a:hover{
+ 		color: $white;
+ 	}
+
+ 	span{
+ 		display: inline-block;
+  		height: 80px;
+ 		margin-left: -5px;
+ 	}
+
+ 	span:first-child{
+ 	// 	border-left: 1px #dfdddb solid;
+ 	}
+
+ 	span:hover{
+ 		background: $ui-red;
+ 		color: $black;
+ 	}
+ }
+
+
+
+ .main-nav {
+    span {
+      height: 76px;
+    }
+    ul {
+       float: left;
+        border-right: 1px $gray-lightdark solid;
+        margin-left: 0px;
+      li {
+          border-left: 1px $gray-lightdark solid;
+          float: left;
+          list-style: none;
+          position: relative;
+
+          .dropdown {
+            position: absolute;
+            left: -4px;
+            top: 76px;
+            z-index: 999;
+            // width: 133%;
+            background: $gray-lightdark;
+            padding: 12px 1px 12px 0;
+            display: none;
+            &.multi {
+              width: 365px;
+            }
+          }
+          &:hover {
+            a {
+              background: $ui-red;
+           		color: $white;
+            }
+            .dropdown {
+              display: block;
+            }
+
+            ul {
+              padding: 0;
+              margin: 0;
+              border: 0;
+              min-width: 160px;
+              position: relative;
+
+              li {
+                padding: 0;
+                margin: 0;
+                border: 0;
+                border-bottom: 1px solid $gray-lightdark;
+                float: none;
+                position: static;
+                a {
+                  color: $nav-gray;
+                }
+                &.hassub {
+                  a {
+                    // background: url(#{$basepath}/dropdown_arrow.png) no-repeat right center $ui-red;
+
+                      color: $nav-gray;
+
+                    &:hover {
+                      background: url(#{$basepath}/hasul_bg.png) no-repeat right center $ui-red;
+                      color: $white;
+                      position: relative;
+                      z-index: 999;
+
+                    }
+                  }
+                  &:hover > {
+                    a {
+                      background: url(#{$basepath}/hasul_bg.png) no-repeat right center $ui-red;
+                      color: $white;
+                      position: relative;
+                      z-index: 999;
+
+                    }
+                  }
+                  ul {
+                    li {
+                      a {
+                        line-height: 55px;
+                        color: $ui-red;
+                        background: none !important;
+                        line-height: normal;
+                        margin-top: 28px;
+                        &:hover {
+                          color: $ui-red;
+                          background: $white-lightdark;
+                        }
+                      }
+                    }
+                  }
+                }
+                ul {
+                  position: absolute;
+                  left: 160px;
+                  top: 0;
+                  min-width:204px;
+                  background: $white-lightdark;
+                  border: 0;
+                  border-left: 1px solid $gray-lightdark;
+                  height: 100%;
+                  display: none;
+                  li {
+                    border: 0;
+                  }
+                }
+                &:hover {
+                  ul {
+                    display: block;
+                  }
+                }
+                a {
+                  display: block;
+                  line-height: 76px;
+                  padding: 0 20px;
+                  height: auto;
+                  text-align: left;
+                  background: $white-lightdark;
+                  margin-right: -1px;
+                  &:hover,&.active {
+                    background: $ui-red;
+                    color: $white;
+                  }
+                }
+              }
+            }
+          }
+      }
+
+    }
+ }
+.nav-container {
+  position: relative;
+  height: 80px;
+
+  .logo {
+    padding-top: 18px;
+
+    @include media-query(palm){
+      padding-top: 28px;
+    }
+  }
+    #searchbtn {
+      float: right;
+      width: 80px;
+      height: 80px;
+      cursor: pointer;
+      background: url(#{$basepath}/search_icon.png) no-repeat center center $ui-red;
+      &.active {
+           background: url(#{$basepath}/search_close.png) no-repeat center center $ui-red;
+      }
+  }
+
+  #searchblock {
+    position: absolute;
+    width: 412px;
+    right: 0;
+    top: 76px;
+    display: none;
+    z-index: 9999;
+    background: red;
+
+     input[type='text'] {
+      width: 336px;
+      height: 77px;
+      z-index: 9999;
+      float: left;
+      background:$gray-lightdark;
+      padding: 0 28px;
+      font-size: $font-size-lead+1;
+      color: $nav-gray;
+     }
+      .search_button {
+        float: right;
+        width: 76px;
+        height: 77px;
+        background: url(#{$basepath}/search_arrow.png) no-repeat center center $ui-lightred;
+      }
+  }
+}
+
+
+ .mobile-nav{
+ 	background-color: $white;
+
+ 	.colapsed{
+ 		background-color: #f96758;
+ 		float: right;
+		width: 80px;
+		height: 80px;
+		padding-top: 20px;
+		cursor: pointer;
+ 	}
+
+ 	.expanded-nav{
+ 	  position: fixed;
+	  top: 80px;
+	  background-color: white;
+	  right: 0;
+	  z-index: 100;
+	  text-align: left;
+	  width: 70%;
+	  height: 100%;
+	  display: none;
+
+	  // .primary-nav{ display: none; }
+
+	  .alumni-nav{ display: none; }
+
+	  .involved-nav{ display: none; }
+
+	  ul{
+	  	padding: 0;
+	  	margin: 0;
+	  	padding-top: 10px;
+	  	border-top: 5px #ccc solid;
+	  }
+
+	  li{
+	  	height: 62px;
+	  	border-bottom: 1px #ccc solid;
+	  	font-size: 22px;
+	  	text-transform: uppercase;
+	  	padding-left: 25px;
+  		padding-top: 10px;
+
+  		img{
+  			float: right;
+  			margin-right: 25px;
+  			margin-top: 12px;
+  		}
+	  }
+
+	  .social-mobile{
+	  	// height: 40px;
+	  	padding: 20px;
+	  	padding-left: 25px;
+	  	a{
+	  		display: inline-block;
+	  		margin: 0 4px;
+
+	  	}
+	  }
+
+	  #searchblock{
+	  	display: block;
+	  	width: 100%;
+	  	position: relative;
+	  	top: 0px;
+
+	  	input[type='text']{
+	  		width: 366px;
+	  		height: 60px;
+	  	}
+	  	.search_button{
+	  		height: 60px;
+	  	}
+	  }
+
+	  .back-btn{
+	  	background-color: $ui-red;
+	  	color: white;
+	  	height: 46px;
+	  	font-size: 18px;
+	  	margin-bottom: 3px;
+	  	cursor: pointer;
+
+	  	img{
+	  		float: left;
+	  		margin-top: 7px;
+	  	}
+	  }
+
+ 	}
+ }

@@ -17,13 +17,13 @@
 
 			<div class="header">
 				<div class="head-image">
-					<img src="img/alumni-header.jpg"/>
+					<img src="img/headers/alumni-overview.jpg"/>
 				</div>
 			</div>
 
-			<div class="seperator-aqua"></div>
+			<div class="seperator-aqua seperatormini"></div>
 			<div class="inner-container">
-				<div class="biz-block">
+				<div class="biz-block alumniblock">
 					<h2>For Alumni</h2>
 					<p>
 						Our alumni networking has strong connections in diverse sectors – every population has access to an active community. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.
@@ -78,62 +78,71 @@
 
 			<div class="inner-container">
 				<div class="page-body-block">
-					<h3>FEATURED ALUMNI</h3>
-
-					<div>
-						<div class="alum-pic left"><img src="img/alumni1.jpg" alt="Juan Torres"/></div>
-						<div class="alum-info left push-left">
-							<h2>Juan Torres</h2>
-							<span>Etiam Inceptos, Ultricies<br/> C-Suite Alumni</span>
-							<p>&ldquo;I’ve never made so many important connections
-								in my life. Donec id elit non mi porta gravida
-								at eget metus. Integer posuere erat a ante
-								venenatis dapibus posuere velit aliquet.
-								Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
-						</div>
-						<div class="clear-fix"></div>
-
-
-						<div class="alum-info left">
-							<h2>Kelly Porter</h2>
-							<span>Dolor Bibendum, Parturient Vestibulum<br/> Next Generation Executive</span>
-							<p>&ldquo;I learned new strategies to be more effective. Donec id elit non mi
-								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
-								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
-						</div>
-						<div class="alum-pic left push-left"><img src="img/alumni2.jpg" alt="Kelly Porter"/></div>
-						<div class="clear-fix"></div>
-
-
-						<div class="alum-pic left"><img src="img/alumni3.jpg" alt="Juan Torres"/></div>
-						<div class="alum-info left push-left">
-							<h2>Avni Kurapathy</h2>
-							<span>Quam, Adipiscing Egestas<br/> Fellows Program</span>
-							<p>&ldquo;I encountered a lot of diverse opinions and smart
-								people that I can rely on. Donec id elit non mi porta gravida
-								at eget metus. Integer posuere erat a ante venenatis dapibus
-								posuere velit aliquet. Donec ullamcorper nulla non metus auctor
-								 fringilla.&ldquo;
-							</p>
-						</div>
-						<div class="clear-fix"></div>
-
-
-						<div class="alum-info left">
-							<h2>Brian Warner</h2>
-							<span>Ornare Elit, Commodo<br/> Associates Program</span>
-							<p>&ldquo;I met so many people I can reach out to at any
-								point in my career. Donec id elit non mi porta gravida
-								at eget metus. Integer posuere erat a ante venenatis
-								dapibus posuere velit aliquet. Donec ullamcorper nulla
-								non metus auctor fringilla.&ldquo;
-							</p>
-						</div>
-						<div class="alum-pic left push-left"><img src="img/alumni4.jpg" alt="Kelly Porter"/></div>
-						<div class="clear-fix"></div>
-					</div>
-				</div>
-			</div>
+      <h3>FEATURED ALUMNI</h3>
+      <div>
+        <span class="divider"></span>
+        <div class="alumni-row">
+          <div class="alum-pic left"><img src="img/alumni1.jpg" alt="Juan Torres"/></div>
+          <div class="alum-info left push-left">
+            <a href="#" class="gotolink"><img src="img/linkdin_icon.png" alt=""/></a>
+            <h2>Juan Torres</h2>
+            <span>Etiam Inceptos, Ultricies<br/>
+            C-Suite Alumni</span>
+            <p>&ldquo;I’ve never made so many important connections
+              in my life. Donec id elit non mi porta gravida
+              at eget metus. Integer posuere erat a ante
+              venenatis dapibus posuere velit aliquet.
+              Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
+          </div>
+        </div>
+        <span class="divider"></span>
+        <div class="alumni-row right">
+          <div class="alum-info left">
+            <a href="#" class="gotolink"><img src="img/linkdin_icon.png" alt=""/></a>
+            <h2>Kelly Porter</h2>
+            <span>Dolor Bibendum, Parturient Vestibulum<br/>
+            Next Generation Executive</span>
+            <p>&ldquo;I learned new strategies to be more effective. Donec id elit non mi
+              porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
+              posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
+          </div>
+          <div class="alum-pic left push-left"><img src="img/alumni2.jpg" alt="Kelly Porter"/></div>
+        </div>
+         <span class="divider"></span>
+        <div class="alumni-row">
+          <div class="alum-pic left"><img src="img/alumni3.jpg" alt="Juan Torres"/></div>
+          <div class="alum-info left push-left">
+            <a href="#" class="gotolink"><img src="img/linkdin_icon.png" alt=""/></a>
+            <h2>Avni Kurapathy</h2>
+            <span>Quam, Adipiscing Egestas<br/>
+            Fellows Program</span>
+            <p>&ldquo;I encountered a lot of diverse opinions and smart
+              people that I can rely on. Donec id elit non mi porta gravida
+              at eget metus. Integer posuere erat a ante venenatis dapibus
+              posuere velit aliquet. Donec ullamcorper nulla non metus auctor
+              fringilla.&ldquo; </p>
+          </div>
+        </div>
+        <span class="divider"></span>
+        <div class="alumni-row right">
+          <div class="alum-info left">
+            <a href="#" class="gotolink"><img src="img/linkdin_icon.png" alt=""/></a>
+            <h2>Brian Warner</h2>
+            <span>Ornare Elit, Commodo<br/>
+            Associates Program</span>
+            <p>&ldquo;I met so many people I can reach out to at any
+              point in my career. Donec id elit non mi porta gravida
+              at eget metus. Integer posuere erat a ante venenatis
+              dapibus posuere velit aliquet. Donec ullamcorper nulla
+              non metus auctor fringilla.&ldquo; </p>
+          </div>
+          <div class="alum-pic left push-left"><img src="img/alumni4.jpg" alt="Kelly Porter"/></div>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+	</div>
+		</div>
 			<div class="footer">
 				<div class="inner-container">
 					<span class="copyright">
@@ -147,12 +156,12 @@
 					</span>
 				</div>
 			</div>
-		</div>
+
 
 		<!-- Load Scripts -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<!--script src="js/vendors.js"></script-->
 		<!--script src="js/scripts.js"></script-->
-
+<script src="js/app.js"></script>
 	</body>
 </html>
