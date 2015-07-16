@@ -17,7 +17,7 @@
 
 			<div class="header">
 				<div class="head-image">
-					<img src="img/alumni-header.jpg"/>
+					<img src="img/headers/alumni-overview.jpg"/>
 				</div>
 			</div>
 

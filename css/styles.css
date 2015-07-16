@@ -2431,6 +2431,9 @@ td {
  * $MISC PAGES
 
 /*Corporations Elements */
+.misc-block {
+  text-align: left;
+}
 .misc-block h3 {
   color: #658bea;
 }
@@ -2441,8 +2444,12 @@ td {
   color: #948d85;
   padding-top: 22px;
 }
+.misc-block li {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
 .misc-block .main-copy {
-  font-size: 20px;
+  font-size: 18px;
   color: #5f5952;
 }
 .misc-block .main-copy p h4 {

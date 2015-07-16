@@ -34,10 +34,10 @@
 				</div>
 			</li>
 			<li>
-				<span><a href="#">Services</a></span>
+				<span><a href="services.php">Services</a></span>
 			</li>
 			<li>
-				<span><a href="#">About</a></span>
+				<span><a href="about.php">About</a></span>
 		  </li>
 		</ul>
 	</div>
@@ -68,13 +68,13 @@
 						<img src="img/mobile/nav-arrow.png"/>
 					</li>
 				</a>
-				<a href="#">
+				<a href="services.php">
 					<li>
 						<span>Services</span>
 						<img src="img/mobile/nav-arrow.png"/>
 					</li>
 				</a>
-				<a href="#">
+				<a href="about.php">
 				<li>
 					<span>About</span>
 					<img src="img/mobile/nav-arrow.png"/>
