@@ -97,6 +97,8 @@
 					<div class="alumni-row right">
 
 
+						
+						<div class="alum-pic right push-left"><img src="img/corp-bio2.jpg" alt="Kelly Porter"/></div>
 						<div class="alum-info left">
 							<h2>Kelly Porter</h2>
 							<span>Consectetur, Mollis Pellentesque<br>Next Generation Executive</span>
@@ -104,10 +106,15 @@
 								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
 								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
+<<<<<<< HEAD
 						<div class="alum-pic left push-left"><img src="img/alumni2.jpg" alt=""/></div>
 					</div>
 <span class="divider"></span>
 					<div class="alumni-row">
+=======
+						<div class="clear-fix"></div>
+
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 
 						<div class="alum-pic left"><img src="img/alumni.jpg" alt="Juan Torres"/></div>
 						<div class="alum-info left push-left">
@@ -124,6 +131,8 @@
 <span class="divider"></span>
 					<div class="alumni-row right">
 
+						
+						<div class="alum-pic right push-left"><img src="img/corp-bio4.jpg" alt="Kelly Porter"/></div>
 						<div class="alum-info left">
 							<h2>Brian Warner</h2>
 							<span>Amet Ridiculus, Tellus Porta</span>
@@ -134,8 +143,12 @@
 								non metus auctor fringilla.&ldquo;
 							</p>
 						</div>
+<<<<<<< HEAD
 						<div class="alum-pic left push-left"><img src="img/alumni_photo.jpg" alt="Kelly Porter"/></div>
 					</div>
+=======
+						<div class="clear-fix"></div>
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 					</div>
 				</div>
 			</div>

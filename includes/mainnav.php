@@ -41,7 +41,11 @@
 		  </li>
 		</ul>
 	</div>
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 
 
 	<div class="mobile-nav mobile">
@@ -85,7 +89,11 @@
 
 			<ul class="alumni-nav">
 				<li class="back-btn">
+<<<<<<< HEAD
 					<img src="img/mobile/nav-arrow-white.png"/>ALUMNI
+=======
+					<img src="img/mobile/nav-arrow-white.png"/>ALUMNI	
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 				</li>
 				<a href="alumni-overview.php">
 					<li>
@@ -94,7 +102,11 @@
 				</a>
 				<a href="alumni.php">
 					<li>
+<<<<<<< HEAD
 						<span>Alumni Page</span>
+=======
+						<span>Alumni Page</span>						
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 					</li>
 				</a>
 				<a href="#" id="m-involved">
@@ -107,10 +119,17 @@
 
 			<ul class="involved-nav">
 				<li class="back-btn back-primary">
+<<<<<<< HEAD
 					<img src="img/mobile/nav-arrow-white.png"/>ALUMNI
 				</li>
 				<li class="back-btn back-alumni">
 					<img src="img/mobile/nav-arrow-white.png"/>GET INVOLVED
+=======
+					<img src="img/mobile/nav-arrow-white.png"/>ALUMNI	
+				</li>
+				<li class="back-btn back-alumni">
+					<img src="img/mobile/nav-arrow-white.png"/>GET INVOLVED	
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 				</li>
 				<a href="alumni-overview.php">
 					<li>
@@ -119,7 +138,11 @@
 				</a>
 				<a href="alumni.php">
 					<li>
+<<<<<<< HEAD
 						<span>Alumni Page</span>
+=======
+						<span>Alumni Page</span>						
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 					</li>
 				</a>
 				<a href="alumni-involved.php">
@@ -153,6 +176,7 @@
 				<input type="text" placeholder="Enter search">
 				<input type="submit" value="" class="search_button">
 		  </form>
+<<<<<<< HEAD
 	</div>
 
 
@@ -160,6 +184,15 @@
 	</div>
 
 
+=======
+	</div>
+
+
+		</div>
+	</div>
+
+
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 
 	<!-- search button -->
 	<div id="searchbtn" class="desktop"></div>

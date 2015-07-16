@@ -46,6 +46,28 @@ $(document).ready(function () {
     $('.expanded-nav').slideToggle();
   });
 
+<<<<<<< HEAD
+
+  $('.primary-nav #m-alumni').click(function (e) {
+    e.preventDefault();
+    $('.primary-nav').slideUp();
+    $('.alumni-nav').slideDown();
+  });
+
+  //return to main from alumni nav
+  $('.alumni-nav .back-btn').click(function (e) {
+    e.preventDefault();
+    $('.alumni-nav').slideUp();
+    $('.primary-nav').slideDown();
+  });
+
+  $('.alumni-nav #m-involved').click(function (e) {
+    e.preventDefault();
+    $('.alumni-nav').slideUp();
+    $('.involved-nav').slideDown();
+  });
+=======
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 
   $('.primary-nav #m-alumni').click(function (e) {
     e.preventDefault();
@@ -81,4 +103,21 @@ $(document).ready(function () {
     $('.alumni-nav').slideDown();
   });
 
+  //return to alumni nav from get involved
+  $('.involved-nav .back-primary').click(function (e) {
+    e.preventDefault();
+    $('.involved-nav').slideUp();
+    $('.primary-nav').slideDown();
+  });
+
+  //return to alumni nav from get involved
+  $('.involved-nav .back-alumni').click(function (e) {
+    e.preventDefault();
+    $('.involved-nav').slideUp();
+    $('.alumni-nav').slideDown();
+  });
+
 });
+
+
+

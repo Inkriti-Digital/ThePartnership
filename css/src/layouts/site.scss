@@ -1,4 +1,5 @@
 /* nav css*/
+<<<<<<< HEAD
  .main-nav {
     span {
       height: 76px;
@@ -195,6 +196,10 @@
      left: 20.5%;
    }
  }
+=======
+ 
+
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
  .inner-container {
    max-width: 1196px;
    clear: both;
@@ -242,7 +247,15 @@
        font-size: 42px;
        line-height: 52px;
        letter-spacing: normal;
+<<<<<<< HEAD
        color: $ui-lightred;
+=======
+
+       @include media-query(palm){
+        font-size: 36px;
+        line-height: 40px;
+       }
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
      }
 
      .quote-block {
@@ -252,17 +265,42 @@
        clear: both;
 
        .headshot {
+<<<<<<< HEAD
          float: left;
          margin-top: -12px;
+=======
+        float: left;
+        margin-top: -10px;
+
+        @include media-query(palm){
+          float: none;
+          margin-top: -10px;
+          display: block;
+          text-align: center;
+        }
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
        }
        .quote {
          width: 71%;
          float: left;
 
+         @include media-query(palm){
+          text-align: center;
+          float: none;
+          display: block;
+          width: 80%;
+          margin: auto;
+         }
+
          p {
            font-size: 16px;
            text-align: left;
            line-height: 26px;
+           
+           @include media-query(palm){
+            text-align: center;
+           }
+
            em {
              display: block;
              padding: 10px 0 0 0;
@@ -291,6 +329,11 @@
       font-size: 42px;
       line-height: 52px;
       margin-bottom: 12px;
+
+      @include media-query(palm){
+        font-size: 36px;
+        line-height: 40px;
+       }
     }
     .alumni-cta {
       color: $ui-blue !important;
@@ -311,6 +354,11 @@
        font-size: 40px;
        letter-spacing: normal;
        line-height: 50px;
+
+       @include media-query(palm){
+        font-size: 36px;
+        line-height: 40px;
+       }
      }
   }
   .personal-cta {
@@ -328,15 +376,27 @@
 // service_list
 .service_list {
   clear: both;
+<<<<<<< HEAD
   margin: 0 auto 30px auto;
   max-width: 595px;
 
+=======
+  margin: 0 auto 10px auto;
+  max-width: 560px;
+  cursor: pointer;
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 
   li {
     display: inline-block;
     position: relative;
     margin-right: 23px;
 
+<<<<<<< HEAD
+=======
+    @include media-query(palm){
+      margin-right: 10px;
+    }
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 
     .tooltip{
    		position: absolute;

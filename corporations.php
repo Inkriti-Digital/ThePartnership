@@ -89,11 +89,17 @@
 								venenatis dapibus posuere velit aliquet.
 								Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
+<<<<<<< HEAD
 					</div>
 					<span class="divider"></span>
 					<div class="alumni-row right">
+=======
+						<div class="clear-fix desktop"></div>
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 
 
+						
+						<div class="alum-pic right push-left"><img src="img/corp-bio2.jpg" alt="Kelly Porter"/></div>
 						<div class="alum-info left">
 							<h2>Maria Calderon</h2>
 							<span>Commodo, Aenean Magna</span>
@@ -101,10 +107,15 @@
 								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
 								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
 						</div>
+<<<<<<< HEAD
 						<div class="alum-pic left push-left"><img src="img/corp-bio2.jpg" alt="Kelly Porter"/></div>
 					</div>
 <span class="divider"></span>
 					<div class="alumni-row">
+=======
+						<div class="clear-fix desktop"></div>
+
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 
 						<div class="alum-pic left"><img src="img/corp-bio3.jpg" alt="Juan Torres"/></div>
 						<div class="alum-info left push-left">
@@ -117,10 +128,16 @@
 								 fringilla.&ldquo;
 							</p>
 						</div>
+<<<<<<< HEAD
 					</div>
 <span class="divider"></span>
 					<div class="alumni-row right">
+=======
+						<div class="clear-fix desktop"></div>
 
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
+
+						<div class="alum-pic right push-left"><img src="img/corp-bio4.jpg" alt="Kelly Porter"/></div>
 						<div class="alum-info left">
 							<h2>Linda McCarthy</h2>
 							<span>Mattis. Tellus Tortor</span>
@@ -131,8 +148,12 @@
 								non metus auctor fringilla.&ldquo;
 							</p>
 						</div>
+<<<<<<< HEAD
 						<div class="alum-pic left push-left"><img src="img/corp-bio4.jpg" alt="Kelly Porter"/></div>
 					</div>
+=======
+						<div class="clear-fix desktop"></div>
+>>>>>>> 4d7769f9844c4689f5b5df5220011e8d89f5d7c0
 					</div>
 				</div>
 			</div>

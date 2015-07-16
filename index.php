@@ -140,6 +140,41 @@
         </div>
       </li>
     </ul>
+
+    <ul class="service_list">
+      <li><img src="img/ico-academia.png"/>
+        <div class="tooltip">
+          <div class="tip-copy">
+            <h4>Academia</h4>
+            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+          </div>
+        </div>
+      </li>
+      <li><img src="img/ico-shopping.png"/>
+        <div class="tooltip">
+          <div class="tip-copy">
+            <h4>Lipsum</h4>
+            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+          </div>
+        </div>
+      </li>
+      <li><img src="img/ico-ideabulb.png"/>
+        <div class="tooltip">
+          <div class="tip-copy">
+            <h4>Loremipsum</h4>
+            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+          </div>
+        </div>
+      </li>
+      <li><img src="img/ico-dna.png"/>
+        <div class="tooltip">
+          <div class="tip-copy">
+            <h4>Lipsum</h4>
+            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
 		<!--// service_list -->
     <a href="#" class="section-cta biz-cta"> How we benefit business </a> </div>
   <div class="seperator-blue"></div>
