@@ -41,57 +41,6 @@
  	float: left;
  }
 
-.main-nav{
-	  display: inline-block;
-	  height: 80px;
-	  margin-top: 0;
-	  vertical-align: top;
-
-
- 	a{
- 		height: 80px;
- 		display: inline-block;
- 		padding: 25px 20px;
- 		text-transform: uppercase;
- 	}
-
- 	a, a:link, a:visited{
- 		color: $nav-gray;
- 	}
-
- 	a:hover{
- 		color: $white;
- 	}
-
- 	span{
- 		display: inline-block;
- 	// 	border-right: 1px #dfdddb solid;
- 		height: 80px;
- 		margin-left: -5px;
- 	}
-
- 	span:first-child{
- 	// 	border-left: 1px #dfdddb solid;
- 	}
-
- 	span:hover{
- 		background: $ui-red;
- 		color: $black;
- 	}
- }
-
- .mobile-nav{
- 	background-color: $white;
-
- 	.colapsed{
- 		background-color: #f96758;
- 		float: right;
-		width: 80px;
-		height: 80px;
-		padding-top: 20px;
- 	}
- }
-
  .social{
  	float: right;
  	margin-top: 28px;

@@ -165,18 +165,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/Chart.min.js"></script>
 <script src="js/chart-control.js"></script>
-<!--script src="js/vendors.js"></script-->
-<!--script src="js/scripts.js"></script-->
-
-<script>
-		 		$(document).ready(function () {
-		        $(document).on('mouseenter', '.service_list li', function () {
-		            $(this).find(".tooltip").fadeIn();
-		        }).on('mouseleave', '.service_list li', function () {
-		            $(this).find(".tooltip").fadeOut();
-		        });
-		    });
- </script>
 <script src="js/app.js"></script>
+
 </body>
 </html>
