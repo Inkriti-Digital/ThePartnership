@@ -31,8 +31,8 @@
 					 	<ul>						 	
 							<li><a href="serv-leadership.php">Leadership Development</a>
 								<ul class="large-sub">
-									<li><a href="lead-csuit.php">C-Suit</a></li>
-									<li><a href="lead-exec.php">Executive</a></li>
+									<li><a href="lead-csuite.php">C-Suit</a></li>
+									<li><a href="lead-executive.php">Executive</a></li>
 									<li><a href="lead-midcareer.php">Mid-Career</a>
 									<li><a href="lead-earlycareer.php">Early-Career</a>
 								</ul>
