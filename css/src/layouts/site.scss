@@ -1,0 +1,214 @@
+/* nav css*/
+ 
+
+ .inner-container {
+   max-width: 1196px;
+ }
+ .biz-block {
+   max-width: 795px;
+   margin: 0 auto;
+ }
+
+ .nav-container {
+   &.scrolling {
+     position: fixed;
+     top: 0;
+     z-index: 999;
+     transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    border-bottom: 1px solid $light-gray;
+   }
+ }
+ .inner-seperator {
+   max-width: 1196px;
+ }
+// main content
+.inner-container {
+   .biz-block {
+    p{
+       font-size: 21px;
+     }
+  }
+// personal-block
+  .personal-block {
+    max-width: 740px;
+    margin: 0 auto;
+    padding-top: 55px;
+
+    p {
+      font-size: 21px;
+      text-align: center;
+    }
+
+     h2 {
+       font-size: 42px;
+       line-height: 52px;
+       letter-spacing: normal;
+
+       @include media-query(palm){
+        font-size: 36px;
+        line-height: 40px;
+       }
+     }
+
+     .quote-block {
+       max-width: 576px;
+       margin: 0 auto;
+       padding: 20px 0 0 0;
+       clear: both;
+
+       .headshot {
+        float: left;
+        margin-top: -10px;
+
+        @include media-query(palm){
+          float: none;
+          margin-top: -10px;
+          display: block;
+          text-align: center;
+        }
+       }
+       .quote {
+         width: 71%;
+         float: left;
+
+         @include media-query(palm){
+          text-align: center;
+          float: none;
+          display: block;
+          width: 80%;
+          margin: auto;
+         }
+
+         p {
+           font-size: 16px;
+           text-align: left;
+           line-height: 26px;
+           
+           @include media-query(palm){
+            text-align: center;
+           }
+
+           em {
+             display: block;
+             padding: 10px 0 0 0;
+           }
+         }
+
+         b {
+           font-size: 16px;
+           font-family: 'roboto-bold';
+         }
+       }
+     }
+
+  }
+  // alumni-block
+  .alumni-block {
+    max-width: 730px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+
+    p {
+      font-size: 21px;
+    }
+
+    h2 {
+      font-size: 42px;
+      line-height: 52px;
+      margin-bottom: 12px;
+
+      @include media-query(palm){
+        font-size: 36px;
+        line-height: 40px;
+       }
+    }
+    .alumni-cta {
+      color: $ui-blue !important;
+
+      background: url(#{$basepath}/arrow-blue.png) no-repeat right 10px $white;
+      &:hover {
+          color: $white !important;
+          background: url(#{$basepath}/arrow-blue.png) no-repeat right -29px $ui-blue;
+      }
+    }
+  }
+
+
+  .biz-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+     h2 {
+       font-size: 40px;
+       letter-spacing: normal;
+       line-height: 50px;
+
+       @include media-query(palm){
+        font-size: 36px;
+        line-height: 40px;
+       }
+     }
+  }
+  .personal-cta {
+     background: url(#{$basepath}/arrow-red.png) no-repeat right 11px $white;
+     color: $ui-lightred !important;
+     &:hover {
+       color: $white !important;
+       background: url(#{$basepath}/arrow-red.png) no-repeat right -22px $ui-lightred;
+     }
+  }
+}
+// service_list
+.service_list {
+  clear: both;
+  margin: 0 auto 10px auto;
+  max-width: 560px;
+  cursor: pointer;
+
+  li {
+    display: inline;
+    position: relative;
+    margin-right: 23px;
+
+    @include media-query(palm){
+      margin-right: 10px;
+    }
+
+    .tooltip{
+   		position: absolute;
+   		width: 200px;
+   		height: 160px;
+   		background: url('../img/home-tooltip-bg.png') no-repeat 100%;
+   		z-index: 10;
+   		cursor: pointer;
+      left: -50%;
+      margin-left: -10px;
+      margin-top: -32px;
+      display: none;
+
+      h4{
+        color: $ui-aqua;
+        margin: 0;
+        font-size: 16px;
+      }
+      .tip-copy{
+        text-align: center;
+        padding: 20px;
+          padding-top: 48px;
+      }
+   	}
+  }
+}
+// footer scss
+.footer {
+  font-family: 'roboto-light';
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+  .address {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .copyright {
+    padding-top: 5px;
+  }
+}
