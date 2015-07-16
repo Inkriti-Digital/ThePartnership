@@ -47,9 +47,12 @@
 					<div class="three-col">
 						<div class="address-view">
 						<h4>Social Media</h4>
-						 <p><a href="#"><img src="img/social-media-linkdin.png" alt=""></a>
-						 <a href="#"><img src="img/social-media-linkdin.png" alt=""></a>
-						 <a href="#"><img src="img/social-media-linkdin.png" alt=""></a>
+						 <p class="social-media">
+							  <a href="#"><img src="img/social-media-linkdin.png" alt=""></a>
+								 <a href="#"><img src="img/social-media-fb.png" alt=""></a>
+								 <a href="#"><img src="img/social-media-twitter.png" alt=""></a>
+								 <a href="#"><img src="img/social-media-youtube.png" alt="">
+								 <a href="#"><img src="img/social-media-google.png" alt="">
 						 </p>
 						 </div>
 					</div>
