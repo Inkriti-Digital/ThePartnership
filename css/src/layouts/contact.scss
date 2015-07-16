@@ -31,3 +31,76 @@
     margin-right: 18px;
   }
 }
+.contact-form-wrap {
+			clear: both;
+			overflow: hidden;
+			padding: 20px 0 0 0;
+
+		}
+		.contact-form-wrap h3 {
+			 color: #658bea;
+
+		}
+			.contact-form {
+			   clear: both;
+			   margin: 0 auto;
+			   max-width: 729px;
+			}
+			.form-col {
+				float: left;
+				width: 330px;
+				  margin-right: 67px;
+ 			}
+			.form-col.right-col {
+				margin-right: 0;
+
+			}
+			.form-elements {
+				clear: both;
+				padding: 20px 0 0 0;
+			}
+			.form-elements input[type="text"] {
+			  border: 1px solid #d0d0d0;
+			  height: 43px;
+			  line-height: 43px;
+			  padding: 0 10px;
+			  display: block;
+			  width: 100%;
+			  border-radius: 10px;
+			  outline: none;
+			}
+
+		 .form-elements label {
+			 display: block;
+			 font-size: 16px;
+			 color: #5f5952;
+			 font-family:'roboto-bold';
+			 padding-bottom: 7px;
+		 }
+		 .textareatab {
+			height: 360px;
+			   padding: 0 10px;
+			  display: block;
+			  width: 100%;
+			  border-radius: 10px;
+			  border: 1px solid #d0d0d0;
+			  outline: none;
+		 }
+		.contact-form .submit-button {
+			 float: left;
+			 padding: 0 35px 0 20px;
+			 height: 35px;
+			 line-height: 32px;
+			 background: url(img/submitbg.png) no-repeat right center #a7192a;
+			 border: 2px solid #f2a9a3 !important;
+			 border-radius: 15px;
+			 color: #fff;
+			 text-transform: uppercase;
+			 margin: 10px 0 0 0;
+		 }
+		 .form-elements input[type="checkbox"] {
+			 width: 18px;
+			 height: 18px;
+			 vertical-align: middle;
+			 margin:0 2px 0 0;
+		 }

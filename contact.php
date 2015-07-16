@@ -51,8 +51,8 @@
 							  <a href="#"><img src="img/social-media-linkdin.png" alt=""></a>
 								 <a href="#"><img src="img/social-media-fb.png" alt=""></a>
 								 <a href="#"><img src="img/social-media-twitter.png" alt=""></a>
-								 <a href="#"><img src="img/social-media-youtube.png" alt="">
-								 <a href="#"><img src="img/social-media-google.png" alt="">
+								 <a href="#"><img src="img/social-media-youtube.png" alt=""></a>
+								 <a href="#"><img src="img/social-media-google.png" alt=""></a>
 						 </p>
 						 </div>
 					</div>
@@ -61,69 +61,58 @@
 
 			<div class="inner-container">
 				<div class="page-body-block corp-block">
+                <!--contact form-->
+                <div class="contact-form-wrap">
 					<h3>Featured Clients</h3>
+                    <div class="divider"> </div>
 
-					<div>
-						<span class="divider"></span>
-						<div class="alumni-row">
+                    <div class="contact-form">
+                    	<div class="form-elements">
+                        	<div class="form-col">
+                            	<label>First Name:*</label>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="form-col right-col">
+                            	<label>Last Name:*</label>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+                        <!--form row-->
+                        <div class="form-elements">
+                        	<div class="form-col">
+                            	<label>Job Title:</label>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="form-col right-col">
+                            	<label>Company:*</label>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+                        <!--form row-->
+                        <div class="form-elements">
+                        	<div class="form-col">
+                            	<label>Phone Number:</label>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="form-col right-col">
+                            	<label>Reason for Contacting:</label>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+                         <!--form row-->
+                        <div class="form-elements">
+                        	<label>Message:*</label>
+                            <textarea class="textareatab"></textarea>
+                        </div>
+                        <div class="form-elements">
+                        	<label><input type="checkbox"> Join Our Mailing List</label>
 
-
-						<div class="alum-pic left"><img src="img/corp-bio1.jpg" alt="Juan Torres"/></div>
-						<div class="alum-info left push-left">
-							<h2>Paul Randall</h2>
-							<span>Commodo, Aenean Magna</span>
-							<p>&ldquo;I’ve never made so many important connections
-								in my life. Donec id elit non mi porta gravida
-								at eget metus. Integer posuere erat a ante
-								venenatis dapibus posuere velit aliquet.
-								Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
-						</div>
-					</div>
-					<span class="divider"></span>
-					<div class="alumni-row right">
-
-
-						<div class="alum-info left">
-							<h2>Maria Calderon</h2>
-							<span>Commodo, Aenean Magna</span>
-							<p>&ldquo;I learned new strategies to be more effective. Donec id elit non mi
-								porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus
-								posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.&ldquo;</p>
-						</div>
-						<div class="alum-pic left push-left"><img src="img/corp-bio2.jpg" alt="Kelly Porter"/></div>
-					</div>
-<span class="divider"></span>
-					<div class="alumni-row">
-
-						<div class="alum-pic left"><img src="img/corp-bio3.jpg" alt="Juan Torres"/></div>
-						<div class="alum-info left push-left">
-							<h2>Maria Calderon</h2>
-							<span>Consectetur, Tortor Nibh</span>
-							<p>&ldquo;I encountered a lot of diverse opinions and smart
-								people that I can rely on. Donec id elit non mi porta gravida
-								at eget metus. Integer posuere erat a ante venenatis dapibus
-								posuere velit aliquet. Donec ullamcorper nulla non metus auctor
-								 fringilla.&ldquo;
-							</p>
-						</div>
-					</div>
-<span class="divider"></span>
-					<div class="alumni-row right">
-
-						<div class="alum-info left">
-							<h2>Linda McCarthy</h2>
-							<span>Mattis. Tellus Tortor</span>
-							<p>&ldquo;I met so many people I can reach out to at any
-								point in my career. Donec id elit non mi porta gravida
-								at eget metus. Integer posuere erat a ante venenatis
-								dapibus posuere velit aliquet. Donec ullamcorper nulla
-								non metus auctor fringilla.&ldquo;
-							</p>
-						</div>
-						<div class="alum-pic left push-left"><img src="img/corp-bio4.jpg" alt="Kelly Porter"/></div>
-					</div>
-					</div>
-				</div>
+                            <input type="submit" value="Submit" class="submit-button">
+                        </div>
+                    </div>
+                </div>
+                <!--contact form-->
+  				</div>
 			</div>
 		 </div>
 			<div class="footer">
