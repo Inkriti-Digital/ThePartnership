@@ -2662,7 +2662,7 @@ td {
 .service_list {
   clear: both;
   margin: 0 auto 10px auto;
-  max-width: 560px;
+  max-width: 600px;
   cursor: pointer;
 }
 .service_list li {

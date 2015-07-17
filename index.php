@@ -18,9 +18,7 @@
 	<!-- header banner -->
   <div class="header">
     <div class="head-title">
-      <h1> Diverse leadership<br/>
-        is a competitive<br/>
-        imperative. </h1>
+      <h1> Diverse Leadership is Imperative for Innovation and Growth. </h1>
       <div class="head-cta"> are you ready? <img src="img/header-arrow-red.png"/> </div>
     </div>
     <div class="head-image"> <img src="img/home-header.jpg"/> </div>
@@ -29,8 +27,8 @@
   <div class="seperator-red"></div>
   <div class="inner-container">
     <div class="biz-block">
-      <h2>We Work with Businesses to Develop a Diverse Pool of Professional Leaders at All Levels of Experience.</h2>
-      <p> In industries that range from finance, high tech, legal, and medical, we lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <h2>We Work with Organizations in all Sectors to Build Racially and Culturally Diverse Leadership Pipelines.</h2>
+      <p> For nearly 30 years, we have partnered with successful enterprises to meet their unique talent needs. We offer leadership development programs for your top multicultural talent, as well as customized consulting services to improve performance in a global marketplace. </p>
     </div>
 		<!-- service_list -->
     <ul class="service_list">
@@ -45,7 +43,7 @@
       <li><img src="img/ico-tech.png"/>
         <div class="tooltip">
           <div class="tip-copy">
-            <h4>Finance</h4>
+            <h4>Communications</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
           </div>
         </div>
@@ -53,7 +51,7 @@
       <li><img src="img/ico-health.png"/>
         <div class="tooltip">
           <div class="tip-copy">
-            <h4>Finance</h4>
+            <h4>Healthcare</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
           </div>
         </div>
@@ -61,7 +59,7 @@
       <li><img src="img/ico-science.png"/>
         <div class="tooltip">
           <div class="tip-copy">
-            <h4>Finance</h4>
+            <h4>High Tec</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
           </div>
         </div>
@@ -69,72 +67,7 @@
       <li><img src="img/ico-legal.png"/>
         <div class="tooltip">
           <div class="tip-copy">
-            <h4>Finance</h4>
-            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
-          </div>
-        </div>
-      </li>
-      <li><img src="img/ico-legal.png"/>
-        <div class="tooltip">
-          <div class="tip-copy">
-            <h4>Finance</h4>
-            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
-          </div>
-        </div>
-      </li>  <li><img src="img/ico-legal.png"/>
-          <div class="tooltip">
-            <div class="tip-copy">
-              <h4>Finance</h4>
-              <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
-            </div>
-          </div>
-        </li>  <li><img src="img/ico-legal.png"/>
-            <div class="tooltip">
-              <div class="tip-copy">
-                <h4>Finance</h4>
-                <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
-              </div>
-            </div>
-          </li>  <li><img src="img/ico-legal.png"/>
-              <div class="tooltip">
-                <div class="tip-copy">
-                  <h4>Finance</h4>
-                  <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
-                  
-                </div>
-              </div>
-            </li>
-    </ul>
-
-    <ul class="service_list">
-      <li><img src="img/ico-academia.png"/>
-        <div class="tooltip">
-          <div class="tip-copy">
-            <h4>Academia</h4>
-            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
-          </div>
-        </div>
-      </li>
-      <li><img src="img/ico-shopping.png"/>
-        <div class="tooltip">
-          <div class="tip-copy">
-            <h4>Lipsum</h4>
-            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
-          </div>
-        </div>
-      </li>
-      <li><img src="img/ico-ideabulb.png"/>
-        <div class="tooltip">
-          <div class="tip-copy">
-            <h4>Loremipsum</h4>
-            <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
-          </div>
-        </div>
-      </li>
-      <li><img src="img/ico-dna.png"/>
-        <div class="tooltip">
-          <div class="tip-copy">
-            <h4>Lipsum</h4>
+            <h4>Legal</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
           </div>
         </div>
@@ -153,7 +86,7 @@
       <li><img src="img/ico-shopping.png"/>
         <div class="tooltip">
           <div class="tip-copy">
-            <h4>Lipsum</h4>
+            <h4>Retail</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
           </div>
         </div>
@@ -161,7 +94,7 @@
       <li><img src="img/ico-ideabulb.png"/>
         <div class="tooltip">
           <div class="tip-copy">
-            <h4>Loremipsum</h4>
+            <h4>Utilites</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
           </div>
         </div>
@@ -169,20 +102,21 @@
       <li><img src="img/ico-dna.png"/>
         <div class="tooltip">
           <div class="tip-copy">
-            <h4>Lipsum</h4>
+            <h4>Life Sciences</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
           </div>
         </div>
       </li>
     </ul>
+
+    
 		<!--// service_list -->
-    <a href="#" class="section-cta biz-cta"> How we benefit business </a> </div>
+    <a href="#" class="section-cta biz-cta"> See what we can do for your business </a> </div>
   <div class="seperator-blue"></div>
   <div class="inner-container">
     <div class="personal-block">
-      <h2>Professionals Become Even Higher <br>
-        Performers After Our Leadership Programs.</h2>
-      <p> From recent graduates to experienced executives, our participants are proven high performers that are even stronger. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut commodo. </p>
+      <h2>Whether You’re Starting an Executive Career or Ready to Step into the C-Suite, We Offer a Leadership Program for You.</h2>
+      <p> Our leadership development programs provide you with the tools, resources, and networking opportunities you need to succeed. With a focus on strategy, innovation, leadership, and change management, we can prepare you to take that next important step in your professional career. </p>
       <div class="graphic-row">
         <div class="quote-block"> <span class="headshot"> <img src="img/home-headshot1.png"/> </span>
           <div class="quote">
@@ -204,8 +138,8 @@
   <div class="seperator-aqua"></div>
   <div class="inner-container">
     <div class="alumni-block">
-      <h2>Our Alumni Network Is a Connected Community That Stays in Touch.</h2>
-      <p> Having a network matters. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo tempor consequat. </p>
+      <h2>Our National Alumni Network Is a Diverse and Highly Accomplished Community That Builds Strong Working Relationships.</h2>
+      <p> Share best practices, thought leadership, and career advancement opportunities with peers across the nation. Our Alumni Network gives you access to convenings through the year, business contacts in a wide range of industries, as well as BoardLink, our board placement service. </p>
       <div class="graphic-row">
         <div> <span class="graph-ico">
           <canvas id="chart-area1" width="180" height="180"/>
@@ -216,7 +150,7 @@
           </span> </div>
         <div class="graph-labels"> <span class="graph-ico">Geography</span> <span class="graph-ico">Career Level</span> <span class="graph-ico">Industries</span> </div>
       </div>
-      <a href="#"><span class="section-cta alumni-cta"> How our network stays connected</span></a> </div>
+      <a href="#"><span class="section-cta alumni-cta"> See how our alumni make a difference.</span></a> </div>
   </div>
   </div>
 
