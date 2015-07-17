@@ -27,6 +27,9 @@ $(document).ready(function () {
   $('.main-nav ul li:has(ul)').addClass('hassub');
   var windowWidth = $(window).width();
  $(".main-nav ul li.hassub").removeClass('current');
+
+
+
 function mobilenav() {
   if (windowWidth < 1024) {
  
@@ -46,9 +49,9 @@ function mobilenav() {
 }
 
 $( window ).resize(function() {
-  mobilenav();
+   mobilenav();
 });
-mobilenav();
+    mobilenav();
 
   // $('.main-nav ul li .dropdown ul li.hassub').hover(function(){
   //   //alert('g');

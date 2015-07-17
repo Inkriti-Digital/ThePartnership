@@ -34,6 +34,7 @@
           <ul>
             <li><a href="news-leadership.php">Our Leadership</a>
               <ul>
+                <li><a href="about-leadership.php">Overview</a></li>
                 <li><a href="about-staff.php">Staff</a></li>
                 <li><a href="about-faculty.php">Faculty</a></li>
                 <li><a href="about-board.php">Board</a></li>
