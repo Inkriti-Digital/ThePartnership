@@ -1,11 +1,11 @@
-.container,.inner-container {
+.container,.inner-container,.inner-seperator {
   min-width: 320px;
 }
-.logo {
-  a {
-    display: block;
-  }
-}
+
+ #mobilelogo {
+   display: none;
+   margin: 10px 0 0 0;
+ }
  .inner-container {
    max-width: 1196px;
    clear: both;
@@ -181,19 +181,14 @@
 // service_list
 .service_list {
   clear: both;
-
-
-
   margin: 0 auto 10px auto;
   max-width: 600px;
   cursor: pointer;
-
 
   li {
     display: inline-block;
     position: relative;
     margin-right: 23px;
-
 
     @include media-query(palm){
       margin-right: 10px;
@@ -295,6 +290,7 @@
 
 .corp-block ,.page-body-block {
   clear: both;
+
   h3 {
     font-family: 'anaheim-reg';
     font-size: 20px;
@@ -310,6 +306,7 @@
 }
 .page-body-block {
   overflow: hidden;
+
   .alum-info {
 
     h2 {
@@ -343,7 +340,7 @@
     font-size: 82px;
   }
   p {
-    margin-top: 0;
+
 margin-bottom: 15px;
 line-height: 28px;
 font-size: 18px;
@@ -397,14 +394,11 @@ font-size: 12px;
 .three-col:nth-child(3){border:none}
 
 .page-body-block {
-  margin-top: 10px;
-}
-.page-body-block {
   text-align: left;
   margin-top: 60px;
   max-width: 895px;
   margin: 0 auto;
-  padding: 0px 0 0 0;
+  padding: 30px 0 0 0;
 }
 .blue-block {
   .three-col:nth-child(3){border:none}
@@ -436,6 +430,9 @@ font-size: 12px;
 }
 .biz-block.alumniblock {
   max-width: 780px;
+}
+.page-body-block.corp-block {
+  padding-top: 30px;
 }
 // footer scss
 .footer {

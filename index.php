@@ -6,7 +6,6 @@
 <title>The Partnership</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=640, initial-scale=0.5, user-scalable=no">
-<!-- <meta name="viewport" content="width=device-width, initial-scale=0.5"> -->
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="stylesheet" href="css/styles.css">
 </head>

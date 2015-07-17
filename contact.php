@@ -110,8 +110,6 @@
 
 <!-- Load Scripts -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<!--script src="js/vendors.js"></script-->
-<!--script src="js/scripts.js"></script-->
 <script src="js/app.js"></script>
 </body>
 </html>

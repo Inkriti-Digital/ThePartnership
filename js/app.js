@@ -26,9 +26,10 @@ $(document).ready(function () {
   // dropdown
   $('.main-nav ul li:has(ul)').addClass('hassub');
   var windowWidth = $(window).width();
-
+ $(".main-nav ul li.hassub").removeClass('current');
 function mobilenav() {
   if (windowWidth < 1024) {
+ 
     $(".main-nav ul li.hassub > a").attr('href','');
 
     $(".main-nav ul li.hassub > a").click(function(e){
