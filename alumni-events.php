@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>The Partnership - Alumni</title>
 		<meta name="description" content="">
-		<!-- <meta name="viewport" content="width=640, initial-scale=1"> -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=640, initial-scale=0.5, user-scalable=no">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
@@ -29,7 +29,7 @@
 					Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id sagittis elit non mi porta gravida at eget metus.
 					</p>
 				</div>
-		
+
 				<div class="page-body-block">
       <h3>Subheadline here Lorem Ipsum</h3>
 			<div class="divider"></div>

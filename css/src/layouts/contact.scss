@@ -91,7 +91,7 @@
 			 padding: 0 35px 0 20px;
 			 height: 35px;
 			 line-height: 32px;
-			 background: url(img/submitbg.png) no-repeat right center #a7192a;
+       background: url(#{$basepath}/submitbg.png) no-repeat right center $ui-darkred;
 			 border: 2px solid #f2a9a3 !important;
 			 border-radius: 15px;
 			 color: #fff;

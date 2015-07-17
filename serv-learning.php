@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>The Partnership - Consulting</title>
 		<meta name="description" content="">
-		<!-- <meta name="viewport" content="width=640, initial-scale=1"> -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=640, initial-scale=0.5, user-scalable=no">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
@@ -24,15 +24,15 @@
 			<div class="inner-container">
 				<div class="biz-block misc-block">
 					<h2>Learning Center</h2>
-					
+
 						<p>Page intro text lorem ipsum. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.
 					  </p>
-					
-						
+
+
 
 					<p>To learn more please contact maureen@thepartnershipinc.org <a class="bluelink" href="mailto:maureen@thepartnershipinc.org">maureen@thepartnershipinc.org</a></p>
-					
-				</div>		
+
+				</div>
 			</div>
 
 			<div class="footer">

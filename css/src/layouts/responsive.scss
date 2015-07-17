@@ -11,6 +11,7 @@
 
 @include media-query(portable){
     // width: $palm-start;
+
 }
 
 @include media-query(palm){
@@ -35,15 +36,160 @@
 
 /*for tablet*/
 @media (min-width:768px) and (max-width:1023px){
-	.social, #searchbtn, #searchblock{
-		display:none !important;
-	}
+
 }
 /*for desktop*/
-@media (min-width:768px) and (max-width:1023px){
-	.social, #searchbtn, #searchblock{
-		display:none !important;
-	}
+@media (min-width:320px) and (max-width:1023px){
+ .logo {
+	 background: url(#{$basepath}/partnership-logo-mobile.png) no-repeat left top $white;
+	 margin: 30px 0 0 40px;
+	 width: 41%;
+	 position: relative;
+	 a {
+		 display: block;
+		 height: 100%;
+		 position: absolute;
+		 width: 100%;
+
+			top: 0;
+			left: 0;
+	 }
+	 img {
+		 display: none;
+	 }
+ }
+ #mobil-navico {
+	 display: block;
+	 cursor: pointer;
+	 img {
+		 float: left;
+	 }
+ }
+ .main-nav {
+	 ul {
+
+	 bbackground: $white-lightdark;
+	 }
+ }
+ #navwrap {
+	 display: none;
+	 width: 68%;
+	 float: none;
+	 right: 0;
+	 background: #fffefe;
+	position: fixed;
+	 z-index: 9999999;
+	 	top: 85px;
+		height: 100%;
+ }
+
+ // mobile nav
+ #searchbtn {
+   float: none;
+	 display: none;
+ }
+ #searchblock {
+	 float: left;
+	 clear: left;
+	 position: relative;
+	 display: block;
+	 top: auto;
+	 width: 100%;
+	 input[type='text'] {
+		 width: 85%;
+		 max-height: 70px;
+	 }
+	 .search_button {
+		 width: 15%;
+		  max-height: 70px;
+	 }
+ }
+ .social {
+	 float: left;
+	 margin: 18px 0;
+	 clear: left;
+	 padding-left: 35px;
+ }
+
+ .main-nav#topnav {
+
+		height: auto !important;
+
+	 ul {
+		 clear: both;
+		 position: relative;
+		 z-index: 999;
+		 width: 100%;
+		 min-width: 100%;
+		 border-top: 10px solid $gray-lightdark;
+
+			margin: 0;
+			padding: 0;
+
+		 li {
+			 float:  none;
+			 border: 0;
+			 width: 100%;
+			 display: block;
+			  border: 0;
+			 border-bottom: 1px solid $gray-lightdark;
+			 position: relative;
+
+			 &:hover {
+				 a {
+					 color: $nav-gray;
+				 }
+			 }
+			 &.current > {
+
+				 a {
+ 					 background: url(#{$basepath}/activenav.png) no-repeat 2% center $btnred;
+					 color: $white;
+					 &:hover {
+						 color: $white;
+					 }
+				 }
+
+			 }
+			 &:hover {
+				 ul {
+					 display: none;
+				 }
+			 }
+			 ul {
+
+				 position: relative;
+				 top: 0;
+				 left: auto;
+				 width: 100%;
+				 float: left;
+				 padding-bottom: 10px;
+				 margin-bottom: 10px;
+				 li {
+					 ul {
+						 display: none;
+						 li {
+							 a {
+								 padding: 0;
+							 }
+						 }
+					 }
+				 }
+
+			 }
+
+			 a {
+				 padding: 15px 40px 15px 35px;
+				 text-align: left;
+				 background: url(#{$basepath}/mobile-nav-arrow.png) no-repeat 92% center $white-lightdark;
+				 &:hover {
+					 color: $nav-gray;
+				 }
+
+			 }
+		 }
+	 }
+ }
 }
 /*for desktop*/
 @media (min-width:1024px) and (max-width:1249px){
@@ -52,11 +198,43 @@
 			width: 25%;
 			padding-right: 5px;
 			// .desktop{ display: none; }
-			.mobile{ 
-				// display: block; 
+			.mobile{
+				// display: block;
 				padding-top: 12px;
 				width: 100%;
 			}
+		}
+
+		.main-nav {
+			 ul {
+				  li {
+						a {
+							padding: 28px 18px;
+							font-size: 14px;
+						}
+						ul {
+							max-width: 135px;
+							min-width: 135px;
+							li {
+								a {
+									padding: 20px 10px;
+									font-size: 13px;
+								}
+
+								ul {
+									left: 110px;
+									li {
+										padding: 10px;
+										a {
+											padding: 0;
+										}
+									}
+
+								}
+							}
+						}
+					}
+			 }
 		}
 	}
 

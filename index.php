@@ -15,7 +15,7 @@
 <!-- Content -->
 <div class="container">
   <?php include ("includes/mainnav.php"); ?>
-	<!-- header banner -->
+  <!-- header banner -->
   <div class="header">
     <div class="head-title">
       <h1> Diverse Leadership is Imperative for Innovation and Growth. </h1>
@@ -23,14 +23,14 @@
     </div>
     <div class="head-image"> <img src="img/home-header.jpg"/> </div>
   </div>
-	<!--// header banner -->
+  <!--// header banner -->
   <div class="seperator-red"></div>
   <div class="inner-container">
     <div class="biz-block">
       <h2>We Work with Organizations in all Sectors to Build Racially and Culturally Diverse Leadership Pipelines.</h2>
       <p> For nearly 30 years, we have partnered with successful enterprises to meet their unique talent needs. We offer leadership development programs for your top multicultural talent, as well as customized consulting services to improve performance in a global marketplace. </p>
     </div>
-		<!-- service_list -->
+    <!-- service_list -->
     <ul class="service_list">
       <li><img src="img/ico-financial.png"/>
         <div class="tooltip">
@@ -73,7 +73,6 @@
         </div>
       </li>
     </ul>
-
     <ul class="service_list">
       <li><img src="img/ico-academia.png"/>
         <div class="tooltip">
@@ -109,8 +108,7 @@
       </li>
     </ul>
 
-    
-		<!--// service_list -->
+    <!--// service_list -->
     <a href="#" class="section-cta biz-cta"> See what we can do for your business </a> </div>
   <div class="seperator-blue"></div>
   <div class="inner-container">
@@ -152,20 +150,18 @@
       </div>
       <a href="#"><span class="section-cta alumni-cta"> See how our alumni make a difference.</span></a> </div>
   </div>
-  </div>
-
-  <div class="footer">
-    <div class="inner-container"> <span class="copyright"> ©2015 The Partnership, Inc. All Rights Reserved </span> <span class="address"> 155 Seaport Blvd., 13th Floor,<br/>
-      Boston, MA 02210<br/>
-      Tel. 617.262.2828<br/>
-      Fax 617.988.6157 </span> </div>
-  </div>
+</div>
+<div class="footer">
+  <div class="inner-container"> <span class="copyright"> ©2015 The Partnership, Inc. All Rights Reserved </span> <span class="address"> 155 Seaport Blvd., 13th Floor,<br/>
+    Boston, MA 02210<br/>
+    Tel. 617.262.2828<br/>
+    Fax 617.988.6157 </span> </div>
+</div>
 
 <!-- Load Scripts -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/Chart.min.js"></script>
 <script src="js/chart-control.js"></script>
 <script src="js/app.js"></script>
-
 </body>
 </html>

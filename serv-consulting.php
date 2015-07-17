@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>The Partnership - Consulting</title>
 		<meta name="description" content="">
-		<!-- <meta name="viewport" content="width=640, initial-scale=1"> -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=640, initial-scale=0.5, user-scalable=no">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
@@ -24,9 +24,9 @@
 			<div class="inner-container">
 				<div class="biz-block misc-block">
 					<h2>Consulting</h2>
-					
+
 						<p>With a depth of experience in multicultural leadership development and consulting, The Partnership is your ideal strategic partner for today’s global marketplace and rapidly changing workforce. Our proven expertise can help you develop a diverse talent pipeline, design effective retention and recruitment programs, and manage diversity as a competitive advantage. Leveraging your own internal resources, we create action plans that are customizable, objective, measureable, and designed to improve the way you do business. </p>
-					
+
 						<h4>Features</h4>
 						<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis.<br/><br/>
@@ -38,8 +38,8 @@
 					</p>
 
 					<p>To learn more please contact Carol Fulp, President &amp; CEO at <a class="bluelink" href="mailto:cfulp@thepartnershipinc.org">cfulp@thepartnershipinc.org</a></p>
-					
-				</div>		
+
+				</div>
 			</div>
 
 

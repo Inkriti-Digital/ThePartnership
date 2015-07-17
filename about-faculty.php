@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>The Partnership - Alumni</title>
 		<meta name="description" content="">
-		<!-- <meta name="viewport" content="width=640, initial-scale=1"> -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=640, initial-scale=0.5, user-scalable=no">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
@@ -38,7 +38,7 @@
 			<div class="divider"></div>
        <!-- Posts -->
 			 <div class="posts-wrap">
-				 
+
 					<div class="post-row">
  					 	<div class="post-img">
  								<img src="img/post-img2.jpg"/>

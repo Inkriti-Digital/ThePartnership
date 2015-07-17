@@ -6,7 +6,7 @@
 		<title>The Partnership - Consulting</title>
 		<meta name="description" content="">
 		<!-- <meta name="viewport" content="width=640, initial-scale=1"> -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=640, initial-scale=0.5, user-scalable=no">
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
@@ -24,14 +24,14 @@
 			<div class="inner-container">
 				<div class="biz-block misc-block">
 					<h2>Boardlink</h2>
-					
+
 						<p>The Partnership’s BoardLink initiative, an extension of our executive leadership program, connects multicultural professionals with nonprofit boards seeking new members. Boardlink helps our Next Generation Executive program graduates take the next logical step in their leadership development and have an opportunity to impact our community, while providing nonprofit organizations with an effective pipeline to further develop and diversify their governance boards.  </p>
-					
-						
+
+
 
 					<p>To learn more please contact maureen@thepartnershipinc.org <a class="bluelink" href="mailto:maureen@thepartnershipinc.org">maureen@thepartnershipinc.org</a></p>
-					
-				</div>		
+
+				</div>
 			</div>
 
 			<div class="footer">

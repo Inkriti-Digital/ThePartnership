@@ -1,4 +1,11 @@
-
+.container,.inner-container {
+  min-width: 320px;
+}
+.logo {
+  a {
+    display: block;
+  }
+}
  .inner-container {
    max-width: 1196px;
    clear: both;
@@ -10,6 +17,7 @@
  }
 
  .nav-container {
+   height: auto;
    &.scrolling {
      position: fixed;
      top: 0;
@@ -93,7 +101,7 @@
            font-size: 16px;
            text-align: left;
            line-height: 26px;
-           
+
            @include media-query(palm){
             text-align: center;
            }
@@ -303,7 +311,7 @@
 .page-body-block {
   overflow: hidden;
   .alum-info {
-    
+
     h2 {
       font-family: 'Conv_KeplerStd-Disp';
       font-size: 28px;

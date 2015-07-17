@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>The Partnership - C-Suite</title>
 		<meta name="description" content="">
-		<!-- <meta name="viewport" content="width=640, initial-scale=1"> -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=640, initial-scale=0.5, user-scalable=no">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
@@ -27,7 +27,7 @@
 					<p>
 						The C-Suite program is your link you to the Commonwealth’s top multicultural leaders. Designed for individuals at the highest levels of their organizations, it brings together corporate CEO’s, Presidents, and C-Suite executives, as well as leaders from government, academia, and the civic sector.<br/><br/>
 						The program is centered around quarterly convenings that foster personal and professional relationships, and encourage dialogue on the critical issues impacting the region. It’s a unique opportunity to learn from your peers, make a difference in your community, and engage with the next generation of multicultural leaders.
-						
+
 					</p>
 					<p class=" text-left">
 						Program features:
