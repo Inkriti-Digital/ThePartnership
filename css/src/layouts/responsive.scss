@@ -26,7 +26,7 @@
 /*for mobiles*/
 @media (min-width:320px) and (max-width:480px){
 	#navwrap {
-		width: 80% !important;
+		width: 75% !important;
 	}
 }
 
@@ -67,6 +67,16 @@
 	 z-index: 9999999;
 		top: 85px;
 		height: 100%;
+	}
+
+
+	.subnav{
+		li{
+			a{
+				background-color: #dfdddb !important;
+  				padding-left: 55px !important;
+			}
+		}
 	}
 
 	// mobile nav
@@ -124,6 +134,7 @@
 			 &:hover {
 				 a {
 					 color: $nav-gray;
+					 ;
 				 }
 			 }
 			 &.current > {
@@ -166,6 +177,7 @@
 			 a {
 				 padding: 15px 40px 15px 35px;
 				 text-align: left;
+				 font-size: 20px;
 				 background: url(#{$basepath}/mobile-nav-arrow.png) no-repeat 92% center $white-lightdark;
 				 &:hover {
 					 color: $nav-gray;

@@ -7,16 +7,19 @@
         <li> <a href="professionals.php">For Professionals</a> </li>
         <li> <a href="alumni.php">For Alumni</a>
           <!-- dropdown here -->
-          <ul>
+          <ul class="subnav">
+            <li class="mobile"><a href="alumni.php">Overview</a>
             <li><a href="alumni-events.php">Alumni Events</a></li>
             <li><a href="alumni-contribute.php">Contribute</a></li>
           </ul>
         </li>
         <li> <a href="services.php">Services</a>
           <!-- dropdown here -->
-          <ul>
+          <ul class="subnav">
+            <li class="mobile"><a href="services.php">Overview</a>
             <li><a href="leadership.php">Leadership Development</a>
-              <ul>
+              <ul class="sub-subnav">
+                <li class="mobile"><a href="leadership.php">Overview</a></li>
                 <li><a href="lead-csuite.php">C-Suit</a></li>
                 <li><a href="lead-executive.php">Executive</a></li>
                 <li><a href="lead-midcareer.php">Mid-Career</a></li>
@@ -31,10 +34,11 @@
         </li>
         <li> <a href="about.php">About</a>
           <!-- dropdown here -->
-          <ul>
+          <ul class="subnav">
+            <li><a href="about.php">Overview</a>
             <li><a href="news-leadership.php">Our Leadership</a>
-              <ul>
-                <li><a href="about-leadership.php">Overview</a></li>
+              <ul class="sub-subnav">
+                <li class="mobile"><a href="about-leadership.php">Overview</a></li>
                 <li><a href="about-staff.php">Staff</a></li>
                 <li><a href="about-faculty.php">Faculty</a></li>
                 <li><a href="about-board.php">Board</a></li>
