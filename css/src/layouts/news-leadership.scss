@@ -37,6 +37,27 @@
     }
   }
 }
+
+//posts 
+.redlink{
+  color: $ui-red !important;
+  text-decoration: underline;
+}
+
+.red-link:hover{
+  color: $ui-red;
+}
+
+#postMore{
+  margin-top: -15px;
+  display: none;
+}
+
+.readLess{
+  display: none;
+}
+
+
 .pagenation {
   display: inline-block;
   text-align: center;

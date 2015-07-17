@@ -3165,6 +3165,24 @@ td {
   padding: 15px 0 0 0;
 }
 
+.redlink {
+  color: #f5675c !important;
+  text-decoration: underline;
+}
+
+.red-link:hover {
+  color: #f5675c;
+}
+
+#postMore {
+  margin-top: -15px;
+  display: none;
+}
+
+.readLess {
+  display: none;
+}
+
 .pagenation {
   display: inline-block;
   text-align: center;

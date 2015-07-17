@@ -40,9 +40,17 @@
  								<img src="img/post-img3.jpg"/>
  						</div>
  						<div class="post-content">
- 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
- 							 <p>This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
- 							 <a href="#">Read more</a>
+ 						   <h3>Post Title Here<span>Event date here, event time here <br>Event venue here</span></h3>
+ 							 <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
+ 							 <p id="postMore">
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Fullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorpe nulla non metus auctor fringilla.
+ 							 </p>
+ 							 <a class="readMore redlink" href="#">Read more</a>
+ 							 <br/>
+ 							 <a class="readLess redlink" href="#">Read less</a>
  						</div>
  					</div>
 					<div class="divider"></div>
@@ -51,9 +59,17 @@
  								<img src="img/post-img3.jpg"/>
  						</div>
  						<div class="post-content">
- 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
- 							 <p>This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
- 							 <a href="#">Read more</a>
+ 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
+ 							 <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
+ 							 <p id="postMore">
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Fullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorpe nulla non metus auctor fringilla.
+ 							 </p>
+ 							 <a class="readMore redlink" href="#">Read more</a>
+ 							 <br/>
+ 							 <a class="readLess redlink" href="#">Read less</a>
  						</div>
  					</div>
 					<div class="divider"></div>
@@ -62,9 +78,17 @@
  								<img src="img/post-img3.jpg"/>
  						</div>
  						<div class="post-content">
- 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
- 							 <p>This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
- 							 <a href="#">Read more</a>
+ 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
+ 							 <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
+ 							 <p id="postMore">
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Fullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorpe nulla non metus auctor fringilla.
+ 							 </p>
+ 							 <a class="readMore redlink" href="#">Read more</a>
+ 							 <br/>
+ 							 <a class="readLess redlink" href="#">Read less</a>
  						</div>
  					</div>
 					<div class="divider"></div>
@@ -73,9 +97,17 @@
  								<img src="img/post-img3.jpg"/>
  						</div>
  						<div class="post-content">
- 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
- 							 <p>This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
- 							 <a href="#">Read more</a>
+ 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
+ 							 <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
+ 							 <p id="postMore">
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Fullamcorper nulla non metus auctor fringilla.
+ 							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorpe nulla non metus auctor fringilla.
+ 							 </p>
+ 							 <a class="readMore redlink" href="#">Read more</a>
+ 							 <br/>
+ 							 <a class="readLess redlink" href="#">Read less</a>
  						</div>
  					</div>
 					<div class="divider"></div>
@@ -113,6 +145,6 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<!--script src="js/vendors.js"></script-->
 		<!--script src="js/scripts.js"></script-->
-<script src="js/app.js"></script>
+		<script src="js/app.js"></script>
 	</body>
 </html>

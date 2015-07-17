@@ -24,7 +24,7 @@
 			<div class="seperator-red seperatormini"></div>
 			<div class="inner-container">
 				<div class="biz-block alumniblock">
-					<h2>News &amp; Leadership</h2>
+					<h2>Events</h2>
 					<p>
 					Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id sagittis elit non mi porta gravida at eget metus.
 					</p>
@@ -55,9 +55,8 @@
  								<img src="img/post-img2.jpg"/>
  						</div>
  						<div class="post-content">
- 						   <h3>Post Title Here<span>First name last name<br>
-Job title, company name</span></h3>
- 							<p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
+ 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
+ 							 <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
  							 <p id="postMore">
  							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
  							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
@@ -95,7 +94,7 @@ Job title, company name</span></h3>
  								<img src="img/post-img4.jpg"/>
  						</div>
  						<div class="post-content">
- 						   <h3>Post Title Here</h3>
+ 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
  							 <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
  							 <p id="postMore">
  							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.

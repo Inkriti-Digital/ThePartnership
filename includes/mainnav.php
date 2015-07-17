@@ -29,7 +29,7 @@
 				<span><a href="services.php">Services</a></span>
 					<div class="dropdown serv-dropdown">
 					 	<ul>						 	
-							<li><a href="serv-leadership.php">Leadership Development</a>
+							<li><a href="leadership.php">Leadership Development</a>
 								<ul class="large-sub">
 									<li><a href="lead-csuite.php">C-Suit</a></li>
 									<li><a href="lead-executive.php">Executive</a></li>
@@ -48,16 +48,16 @@
 				<span><a href="about.php">About</a></span>
 					<div class="dropdown">
 					 	<ul>						 	
-							<li><a href="about-leadership.php">Our Leadership</a>
+							<li><a href="news-leadership.php">Our Leadership</a>
 								<ul>
-									<li><a href="lead-csuit.php">Staff</a></li>
-									<li><a href="lead-exec.php">Faculty</a></li>
-									<li><a href="lead-midcareer.php">Board</a>
+									<li><a href="about-staff.php">Staff</a></li>
+									<li><a href="about-faculty.php">Faculty</a></li>
+									<li><a href="about-board.php">Board</a>
 								</ul>
 							</li>
 							<li><a href="about-events.php">Events</a></li>
 							<li><a href="about-news.php">In the News</a></li>
-							<li><a href="about-contact.php">Learning Center</a></li>
+							<li><a href="contact.php">Contact Us</a></li>
 						</ul>
 					</div>
 		  </li>

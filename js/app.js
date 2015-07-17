@@ -116,6 +116,24 @@ $(document).ready(function () {
     $('.alumni-nav').slideDown();
   });
 
+
+  //  POST CONTROL, READ MORE, READ LESS
+   $(".readMore").click(function(e) {
+      e.preventDefault();
+      console.log('clicky clicks');
+      $(this).closest(".post-content").find("#postMore").slideDown();
+      $(this).closest(".post-content").find(".readMore").toggle();
+      $(this).closest(".post-content").find(".readLess").toggle();
+   });
+
+   $(".readLess").click(function(e) {
+      e.preventDefault();
+      console.log('clicky clicks');
+      $(this).closest(".post-content").find("#postMore").slideUp();
+      $(this).closest(".post-content").find(".readMore").toggle();
+      $(this).closest(".post-content").find(".readLess").toggle();
+   });
+
 });
 
 

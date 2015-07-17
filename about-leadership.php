@@ -17,7 +17,7 @@
 
 			<div class="header">
 				<div class="head-image">
-					<img src="img/misc-header.jpg"/>
+					<img src="img/headers/about_our-leadership.jpg"/>
 				</div>
 			</div>
 

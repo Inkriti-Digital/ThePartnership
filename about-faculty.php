@@ -17,14 +17,14 @@
 
 			<div class="header">
 				<div class="head-image">
-					<img src="img/headers/about_news.jpg"/>
+					<img src="img/misc-header.jpg"/>
 				</div>
 			</div>
 
 			<div class="seperator-red seperatormini"></div>
 			<div class="inner-container">
 				<div class="biz-block alumniblock">
-					<h2>News &amp; Leadership</h2>
+					<h2>Faculty</h2>
 					<p>
 					Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id sagittis elit non mi porta gravida at eget metus.
 					</p>
@@ -38,25 +38,13 @@
 			<div class="divider"></div>
        <!-- Posts -->
 			 <div class="posts-wrap">
-				 <div class="post-row">
-					 	<div class="post-img">
-								<img src="img/post-img.jpg"/>
-						</div>
-						<div class="post-content">
-						   <h3>Post Title Here</h3>
-							 <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
-							 <p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						
-						</div>
-					</div>
-					<div class="divider"></div>
+				 
 					<div class="post-row">
  					 	<div class="post-img">
  								<img src="img/post-img2.jpg"/>
  						</div>
  						<div class="post-content">
- 						   <h3>Post Title Here<span>First name last name<br>
-Job title, company name</span></h3>
+ 						   <h3>Post Title Here<span>First name last name<br>Job title, company name</span></h3>
  							<p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
  							 <p id="postMore">
  							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
@@ -76,8 +64,8 @@ Job title, company name</span></h3>
  								<img src="img/post-img3.jpg"/>
  						</div>
  						<div class="post-content">
- 						   <h3>Post Title Here<span>Event date here, event time here<br>Event venue here</span></h3>
- 							 <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
+ 						   <h3>Post Title Here<span>First name last name<br>Job title, company name</span></h3>
+ 							<p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
  							 <p id="postMore">
  							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
  							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
@@ -95,8 +83,8 @@ Job title, company name</span></h3>
  								<img src="img/post-img4.jpg"/>
  						</div>
  						<div class="post-content">
- 						   <h3>Post Title Here</h3>
- 							 <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
+ 						   <h3>Post Title Here<span>First name last name<br>Job title, company name</span></h3>
+ 							<p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
  							 <p id="postMore">
  							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
  							 	Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.

@@ -24,7 +24,7 @@
 			<div class="seperator-red seperatormini"></div>
 			<div class="inner-container">
 				<div class="biz-block alumniblock">
-					<h2>News &amp; Leadership</h2>
+					<h2>In the News</h2>
 					<p>
 					Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id sagittis elit non mi porta gravida at eget metus.
 					</p>
