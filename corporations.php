@@ -20,28 +20,28 @@
   <div class="inner-container">
     <div class="biz-block">
       <h2>For Corporations</h2>
-      <p> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere vestibulum at eros velit aliquet. </p>
+      <p> In today’s global marketplace, multicultural leadership has become a business imperative. Since 1987, The Partnership has helped organizations build racially and culturally diverse leadership pipelines. We work with successful enterprises to meet their unique management needs, providing customized programs for their top multicultural talent, as well as consulting services that improve organizational performance. Our client portfolio includes nearly 300 organizations and 4000 multicultural professionals at every stage – from Early Career to C-Suite Executives. </p>
     </div>
   </div>
   <div class="inner-seperator">
     <div class="red-block">
       <div class="three-col">
-        <div class="percentage">81%</div>
-        <p> Praesent commodo<br/>
-          cursus magna, vel nisl<br/>
-          consectetur et. </p>
+        <div class="percentage">80%</div>
+        <p>of alumni say TP has <br/>
+          strengthened their <br/>
+          professional networks
+          </p>
         <a href="#"> <span class="share-cta"> share <img src="img/share-arrow.png"/> </span> </a> </div>
       <div class="three-col">
-        <div class="percentage">88%</div>
-        <p> Lorem ipsum dolor sit<br/>
-          amet, consectetur<br/>
-          adipiscing elit. </p>
+        <div class="percentage">83%</div>
+        <p> of alumni could better<br/>
+         navigate organizational<br/>
+         cultures after The Partnership. </p>
         <a href="#"> <span class="share-cta"> share <img src="img/share-arrow.png"/> </span> </a> </div>
       <div class="three-col">
         <div class="percentage">93%</div>
-        <p> Aenean eu leo ornare<br/>
-          sem lacinia quam<br/>
-          venenatis vestibulum. </p>
+        <p> of alumni now have<br/>
+         an expanded managerial<br/> skill set. </p>
         <a href="#"> <span class="share-cta"> share <img src="img/share-arrow.png"/> </span> </a> </div>
     </div>
   </div>

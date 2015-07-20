@@ -1,54 +1,60 @@
 var pieData1 = [
 	{
-		value: 170,
+		value: 57,
 		color:"#f33043",
 		highlight: "#FF5A5E",
-		label: "option"
+		label: "Early Career"
 	},
 	{
-		value: 10,
+		value: 38,
 		color: "#fcb3ac",
 		highlight: "#FF5A5E",
-		label: "option"
+		label: "Mid-Career"
 	},
 	{
-		value: 20,
+		value: 4,
 		color: "#3fbfae",
 		highlight: "#5AD3D1",
-		label: "option"
+		label: "Next Generation"
 	},
 	{
-		value: 100,
+		value: 1,
 		color: "#69ccca",
 		highlight: "#3da9a9",
-		label: "option"
-	},
-	{
-		value: 40,
-		color: "#9ddada",
-		highlight: "#3da9a9",
-		label: "option"
+		label: "Executive"
 	}
 ];
 
 var pieData2 = [
 	{
-		value: 170,
+		value: 57,
 		color:"#f33043",
 		highlight: "#FF5A5E",
-		label: "option"
+		label: "Early Career"
 	},
 	{
-		value: 100,
+		value: 38,
+		color: "#fcb3ac",
+		highlight: "#FF5A5E",
+		label: "Mid-Career"
+	},
+	{
+		value: 4,
+		color: "#3fbfae",
+		highlight: "#5AD3D1",
+		label: "Next Generation"
+	},
+	{
+		value: 1,
 		color: "#69ccca",
 		highlight: "#3da9a9",
-		label: "option"
+		label: "Executive"
 	},
 	{
-		value: 40,
-		color: "#9ddada",
+		value: 1,
+		color: "#69ccca",
 		highlight: "#3da9a9",
-		label: "option"
+		label: "C-Suite"
 	}
 
 ];

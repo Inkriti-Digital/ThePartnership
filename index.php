@@ -58,7 +58,7 @@
       <li><img src="img/ico-science.png"/>
         <div class="tooltip">
           <div class="tip-copy">
-            <h4>High Tec</h4>
+            <h4>High Tech</h4>
             <p>Natoque penatibus et magnis dis parturient montes nascetur.</p>
           </div>
         </div>

@@ -27,7 +27,7 @@
 <div class="inner-seperator">
   <div class="blue-block">
     <div class="three-col">
-      <div class="percentage">85%</div>
+      <div class="percentage">81%</div>
       <p> Participants get promoted 85% more after our programs. </p>
       <a href="#"> <span class="share-cta"> share <img src="img/share-arrow-blue.png"/> </span> </a> </div>
     <div class="three-col">

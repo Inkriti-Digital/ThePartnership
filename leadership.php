@@ -26,10 +26,11 @@
         <label> Select your years of experience to find the right program for you. </label>
         <div class="experience-select">
           <select id="selectbox1">
-            <option> 20 years + </option>
-            <option> 10 – 20 years </option>
-            <option> 5 – 10 years </option>
-            <option> 0 – 5 years </option>
+            <option> Early Career </option>
+            <option> Mid-Career </option>
+            <option> Next Generation</option>
+            <option> Executive </option>
+            <option>C-Suite</option>
           </select>
         </div>
       </div>

@@ -20,9 +20,9 @@
             <li><a href="leadership.php">Leadership Development</a>
               <ul class="sub-subnav">
                 <li class="mobile"><a href="leadership.php">Overview</a></li>
-                <li><a href="lead-csuite.php">C-Suit</a></li>
+                <li><a href="lead-csuite.php">C-Suite</a></li>
                 <li><a href="lead-executive.php">Executive</a></li>
-                <li><a href="lead-midcareer.php">Mid-Career</a></li>
+                <li><a href="lead-midcareer.php">Mid Career</a></li>
                 <li><a href="lead-earlycareer.php">Early-Career</a></li>
               </ul>
             </li>
