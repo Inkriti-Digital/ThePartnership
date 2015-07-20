@@ -191,7 +191,9 @@
     margin-right: 23px;
 
     @include media-query(palm){
-      margin-right: 10px;
+      //margin-right: 10px;
+      margin-right: 5px;
+      max-width: 82px;
     }
 
     .tooltip{

@@ -30,7 +30,7 @@
             <option> Mid-Career </option>
             <option> Next Generation</option>
             <option> Executive </option>
-            <option>C-Suite</option>
+            <option> C-Suite</option>
           </select>
         </div>
       </div>

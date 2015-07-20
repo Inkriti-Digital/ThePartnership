@@ -30,16 +30,21 @@
       <!-- Posts -->
       <div class="posts-wrap">
         <div class="post-row">
-          <div class="post-img"> <img src="img/post-img.jpg"/> </div>
+          <div class="post-img"> <img src="img/post-img3.jpg"/> </div>
           <div class="post-content">
-            <h3>Post Title Here</h3>
-            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+            <h3>Post Title Here<span>Event date here, event time here <br>
+              Event venue here</span></h3>
+            <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            <p id="postMore"> Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+              Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+              Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Fullamcorper nulla non metus auctor fringilla.
+              Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorpe nulla non metus auctor fringilla. </p>
+            <a class="readMore redlink" href="#">Read more</a> <br/>
+            <a class="readLess redlink" href="#">Read less</a> </div>
         </div>
         <div class="divider"></div>
         <div class="post-row">
-          <div class="post-img"> <img src="img/post-img2.jpg"/> </div>
+          <div class="post-img"> <img src="img/post-img3.jpg"/> </div>
           <div class="post-content">
             <h3>Post Title Here<span>Event date here, event time here<br>
               Event venue here</span></h3>
@@ -67,7 +72,7 @@
         </div>
         <div class="divider"></div>
         <div class="post-row">
-          <div class="post-img"> <img src="img/post-img4.jpg"/> </div>
+          <div class="post-img"> <img src="img/post-img3.jpg"/> </div>
           <div class="post-content">
             <h3>Post Title Here<span>Event date here, event time here<br>
               Event venue here</span></h3>

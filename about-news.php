@@ -41,8 +41,7 @@
         <div class="post-row">
           <div class="post-img"> <img src="img/post-img2.jpg"/> </div>
           <div class="post-content">
-            <h3>Post Title Here<span>First name last name<br>
-              Job title, company name</span></h3>
+            <h3>Post Title Here</h3>
             <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
             <p id="postMore"> Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
               Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
@@ -55,8 +54,7 @@
         <div class="post-row">
           <div class="post-img"> <img src="img/post-img3.jpg"/> </div>
           <div class="post-content">
-            <h3>Post Title Here<span>Event date here, event time here<br>
-              Event venue here</span></h3>
+            <h3>Post Title Here</h3>
             <p id="postDescript">This program is for professionals at the highest level of their career. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
             <p id="postMore"> Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
               Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.

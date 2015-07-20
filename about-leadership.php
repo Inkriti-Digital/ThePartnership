@@ -50,7 +50,7 @@
         </div>
         
         <!-- pagenation -->
-        <ul class="pagenation">
+        <!--ul class="pagenation">
           <li id="goto-prev"><a href="#">&lt;</a></li>
           <li><a href="#">1</a>,</li>
           <li><a href="#"> 2</a>,</li>
@@ -58,7 +58,7 @@
           <li><a href="#">4</a>,</li>
           <li><a href="#">5</a></li>
           <li id="goto-next"><a href="#">&gt;</li>
-        </ul>
+        </ul-->
       </div>
       <!--// Posts -->
     </div>

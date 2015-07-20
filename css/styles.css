@@ -2550,7 +2550,8 @@ td {
 }
 @media only screen and (max-width: 768px) {
   .service_list li {
-    margin-right: 10px;
+    margin-right: 5px;
+    max-width: 82px;
   }
 }
 .service_list li .tooltip {
@@ -3345,15 +3346,66 @@ td {
     max-width: 445px;
   }
   .posts-wrap .post-row .post-content h3 {
-    text-align: left;
+    text-align: center;
   }
 
-  .red-block {
+  .pagenation {
+    margin: auto;
+  }
+
+  .page-body-block .classview, .page-body-block .classview a {
+    float: none;
+    text-align: center;
+  }
+
+  .alumni-network {
+    float: none;
+    max-width: 290px;
+    padding: 75px 0 0 0;
+    margin: auto;
+    width: auto;
+    max-width: none;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .alumni-network .networkconnect {
+    max-width: 150px;
+    float: none;
+    padding-left: 60px;
+    text-align: center;
+    padding-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .alumni-network .network-num {
+    max-width: 95px;
+    float: none;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .curriculum-wrap .classdetails .classview {
+    float: none;
+  }
+
+  .curriculum-wrap .classdetails .classinfo {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    marign: auto;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .curriculum-wrap .classdetails .classinfo a {
+    float: none;
+  }
+
+  .red-block, .blue-block {
     clear: both;
     overflow: hidden;
     height: auto;
   }
-  .red-block .three-col {
+  .red-block .three-col, .blue-block .three-col {
     border: 0;
     width: 40%;
   }
@@ -3361,6 +3413,21 @@ td {
   .curriculum-wrap .classdetails .classinfo {
     width: 100%;
     max-width: 100%;
+  }
+
+  .posts-wrap .post-row {
+    text-align: center;
+  }
+  .posts-wrap .post-row .post-img {
+    width: 75%;
+    max-width: none;
+    padding: 0;
+    float: none;
+    margin: auto;
+  }
+  .posts-wrap .post-row .post-img img {
+    width: 100%;
+    max-width: none;
   }
 }
 /*for desktop*/
