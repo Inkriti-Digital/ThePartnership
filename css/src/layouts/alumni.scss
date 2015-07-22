@@ -5,11 +5,11 @@
 
  .aqua-block{
  	background-color: $aqualight;
- 	height: 250px;
+ 	height: auto;
  	text-align: center;
  	color: white;
  	padding-top: 20px;
-  	padding-bottom: 20px;
+  	padding: 20px;
 
   @include media-query(palm){
   	height: auto;
@@ -78,6 +78,7 @@
 
  		img{
  			width: 100%;
+ 			height: auto !important;
  		}
  	}
 
@@ -85,7 +86,7 @@
  		width: 58%;
  		max-width: 455px;
 	    width: auto;
-	    padding-top: 70px;
+	    padding-top: 0px;
 
  		@include media-query(palm){
  		  width: 75%;

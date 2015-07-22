@@ -1894,7 +1894,7 @@ td {
 }
 
 .graph-ico {
-  margin: 10px 6px;
+  margin: 10px 20px;
   min-width: 180px;
   text-align: center;
   display: inline-block;
@@ -1940,12 +1940,12 @@ td {
 
 .personal-cta {
   color: #e2273d;
-  border: 2px solid #e2273d;
+  border: 2px solid #f2a9a3;
 }
 
 .alumni-cta {
   color: #658bea;
-  border: 2px solid #658bea;
+  border: 2px solid #a0b5eb;
 }
 
 .footer {
@@ -2111,11 +2111,11 @@ td {
 /*Alumni Elements */
 .aqua-block {
   background-color: #74d3cf;
-  height: 250px;
+  height: auto;
   text-align: center;
   color: white;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 @media only screen and (max-width: 768px) {
   .aqua-block {
@@ -2182,12 +2182,13 @@ td {
 }
 .page-body-block .alum-pic img {
   width: 100%;
+  height: auto !important;
 }
 .page-body-block .alum-info {
   width: 58%;
   max-width: 455px;
   width: auto;
-  padding-top: 70px;
+  padding-top: 0px;
 }
 @media only screen and (max-width: 768px) {
   .page-body-block .alum-info {
@@ -2228,10 +2229,10 @@ td {
 /*Corporations Elements */
 .red-block {
   background-color: #f5675c;
-  height: 260px;
+  height: auto;
   text-align: center;
   color: white;
-  padding-top: 20px;
+  padding: 20px;
 }
 @media only screen and (max-width: 768px) {
   .red-block {
@@ -2270,10 +2271,10 @@ td {
 /*Corporations Elements */
 .blue-block {
   background-color: #658bea;
-  height: 260px;
+  height: auto;
   text-align: center;
   color: white;
-  padding-top: 20px;
+  padding: 20px;
 }
 @media only screen and (max-width: 768px) {
   .blue-block {
@@ -2314,6 +2315,7 @@ td {
   padding-top: 0;
   text-align: left;
   font-size: 21px;
+  font-family: 'roboto-light' !important;
 }
 .misc-block h3 {
   color: #658bea;
@@ -2586,8 +2588,8 @@ td {
 .alumni-row {
   clear: both;
   overflow: hidden;
-  padding: 15px 0 5px 0;
-  max-width: 835px;
+  padding: 50px 20px;
+  max-width: none;
 }
 
 .gotolink {
@@ -2739,7 +2741,7 @@ td {
   margin-top: 60px;
   max-width: 895px;
   margin: 0 auto;
-  padding: 30px 0 0 0;
+  padding: 75px 0 0 0;
 }
 
 .blue-block .three-col:nth-child(3) {
@@ -2762,7 +2764,7 @@ td {
 }
 
 .page-body-block.pro-block {
-  padding-top: 65px;
+  padding-top: 75px;
 }
 
 .classdetails {
@@ -2775,7 +2777,7 @@ td {
 }
 
 .page-body-block.corp-block {
-  padding-top: 30px;
+  padding-top: 75px;
 }
 
 .footer {
@@ -3012,13 +3014,13 @@ td {
 .posts-wrap .post-row {
   clear: both;
   overflow: hidden;
-  max-width: 610px;
+  max-width: none;
   margin: 0 auto;
-  padding: 70px 0 0 0;
+  padding: 70px 35px;
 }
 .posts-wrap .post-row .post-img {
   float: left;
-  max-width: 122px;
+  max-width: none;
   padding-right: 24px;
 }
 .posts-wrap .post-row .post-content {
@@ -3045,7 +3047,7 @@ td {
 
 .redlink {
   color: #f5675c !important;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .red-link:hover {
@@ -3239,7 +3241,7 @@ td {
 
   #navwrap {
     display: none;
-    width: 80%;
+    width: 58%;
     float: none;
     right: 0;
     background: #fffefe;
@@ -3247,6 +3249,10 @@ td {
     z-index: 9999999;
     top: 85px;
     height: 100%;
+    overflow: hidden;
+  }
+  #navwrap ul .hassub .subnav .current a {
+    color: #000 !important;
   }
 
   .subnav li a {
@@ -3296,6 +3302,9 @@ td {
     margin: 0;
     padding: 0;
   }
+  .main-nav#topnav ul .hassub .subnav .current a {
+    color: #000 !important;
+  }
   .main-nav#topnav ul li {
     float: none;
     border: 0;
@@ -3333,13 +3342,16 @@ td {
     padding: 0;
   }
   .main-nav#topnav ul li a {
-    padding: 15px 40px 15px 35px;
+    padding: 12px 30px;
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     background: url(../img/mobile-nav-arrow.png) no-repeat 92% center #fffefe;
   }
   .main-nav#topnav ul li a:hover {
     color: #5f5952;
+  }
+  .main-nav#topnav ul li .hassub .subnav .current a {
+    color: #000 !important;
   }
 
   .posts-wrap .post-row .post-content {
@@ -3467,6 +3479,8 @@ td {
     z-index: 9999999;
     top: 85px;
     height: 100%;
+    overflow: scroll;
+    padding-right: 25px;
   }
 
   #searchbtn {

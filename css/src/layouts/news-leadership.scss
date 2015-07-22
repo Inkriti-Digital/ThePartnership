@@ -4,18 +4,20 @@
   .post-row {
     clear: both;
     overflow: hidden;
-    max-width: 610px;
+    max-width: none;
     margin: 0 auto;
-    padding: 70px 0 0 0;
+    padding: 70px 35px;
     .post-img {
       float: left;
-      max-width: 122px;
+      max-width: none;
       padding-right: 24px;
 
     }
     .post-content {
       float: left;
       max-width: 465px;
+
+      //something blank
 
       h3 {
           font-family: 'Conv_KeplerStd-Disp';
@@ -41,7 +43,7 @@
 //posts 
 .redlink{
   color: $ui-red !important;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .red-link:hover{

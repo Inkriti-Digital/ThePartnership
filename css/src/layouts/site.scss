@@ -234,8 +234,12 @@
 .alumni-row {
   clear: both;
   overflow: hidden;
-  padding: 15px 0 5px 0;
- max-width: 835px;
+  padding: 50px 20px;
+  max-width: none;
+
+ .left{
+  // margin-left: 75px;
+ }
 
 }
 .gotolink {
@@ -400,7 +404,7 @@ font-size: 12px;
   margin-top: 60px;
   max-width: 895px;
   margin: 0 auto;
-  padding: 30px 0 0 0;
+  padding: 75px 0 0 0;
 }
 .blue-block {
   .three-col:nth-child(3){border:none}
@@ -424,7 +428,7 @@ font-size: 12px;
   }
 }
 .page-body-block.pro-block {
-  padding-top: 65px;
+  padding-top: 75px;
 }
 .classdetails {
   max-width: 800px;
@@ -434,7 +438,7 @@ font-size: 12px;
   max-width: 780px;
 }
 .page-body-block.corp-block {
-  padding-top: 30px;
+  padding-top: 75px;
 }
 // footer scss
 .footer {

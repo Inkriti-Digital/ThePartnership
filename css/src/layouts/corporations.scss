@@ -5,10 +5,10 @@
 
 .red-block{
  	background-color: $ui-red;
- 	height: 260px;
+ 	height: auto;
  	text-align: center;
  	color: white;
- 	padding-top: 20px;
+ 	padding: 20px;
 
  	@include media-query(palm){
   		height: auto;
