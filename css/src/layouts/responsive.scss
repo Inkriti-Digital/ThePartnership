@@ -72,6 +72,9 @@
 		ul .hassub .subnav .current a{
 				color: #000 !important; 
 			}
+		ul .hassub .subnav .current a{
+				color: $ui-red; 
+			}
 	}
 
 
@@ -123,24 +126,15 @@
 		 width: 100%;
 		 min-width: 100%;
 		 border-top: 10px solid $gray-lightdark;
-
-			margin: 0;
-			padding: 0;
-
-			.hassub .subnav .current a{
-				color: #000 !important; 
-			}
+		 margin: 0;
+		 padding: 0;
 
 
 
 		 li {
-			 float:  none;
-			 border: 0;
-			 width: 100%;
-			 display: block;
-			 border: 0;
-			 border-bottom: 1px solid $gray-lightdark;
-			 position: relative;
+			 
+
+  			
 
 			 &:hover {
 				 a {
@@ -195,10 +189,6 @@
 				 }
 
 			 }
-
-			 .hassub .subnav .current a{
-				color: #000 !important; 
-			}
 		 }
 	 }
 	}
@@ -274,7 +264,11 @@
 	height: auto;
  .three-col {
 	 border: 0;
-	 width: 40%;
+	 width: 80%;
+
+	 p{
+	 	max-width: 300px;
+	 }
  }
 }
 .curriculum-wrap {
@@ -286,24 +280,31 @@
 	}
 }
 
-
-
-
 .posts-wrap .post-row{
 	text-align: center;
+	padding: 30px;
 
 	.post-img{
 		width: 75%;
-		max-width: none;
-		padding: 0; 
+		max-width: 200px;
+		padding: 0;
 		float: none;
 		margin: auto;
+		margin-bottom: 50px;
+
 		img{
 			width: 100%;
 			max-width: none;
 		}
 	}
+
+	.post-content{
+		margin: 0 auto;
+  		float: none;
+	}
 }
+
+
 
 }
 /*for desktop*/
@@ -391,13 +392,13 @@
 			
 
 		 li {
-			 float:  none;
-			 border: 0;
-			 width: 100%;
-			 display: block;
-			  border: 0;
-			 border-bottom: 1px solid $gray-lightdark;
-			 position: relative;
+			float:  none;
+			border: 0;
+			width: 100%;
+			display: block;
+			border: 0;
+			border-bottom: 1px solid $gray-lightdark;
+			position: relative;
 
 			 &:hover {
 				 a {
@@ -460,6 +461,72 @@
 
 }
 /*for desktop*/
+@media (min-width:1250px) and (max-width:1345px){
+	.nav-container{
+		// border: 5px red solid;
+
+		.desktop-nav{
+			left: 35%;
+		}
+
+ 		.main-nav {
+			 ul {
+				  li {
+				  	// border: 5px red solid;
+						a {
+							padding: 28px 10px;
+							font-size: 14px;
+						}
+						ul {
+							max-width: 135px;
+							min-width: 135px;
+							left: 0;
+							li {
+								a {
+									padding: 20px 10px;
+									font-size: 13px;
+								}
+
+								ul {
+									left: 134px;
+									li {
+										padding: 10px;
+										a {
+											padding: 0;
+										}
+									}
+
+								}
+							}
+						}
+					}
+			 }
+		}
+	}
+
+	.main-nav{
+
+		ul {
+			margin: 0;
+			// float: left;
+		}
+	}
+ .logo {
+	 width: 28%;
+ }
+ #searchbtn {
+	 margin-left: 0;
+	 width: 60px;
+height: 77px;
+ }
+
+#searchblock {
+	.search_button {
+		  width: 60px;
+	 }
+}
+}
+
 @media (min-width:1024px) and (max-width:1249px){
 	.nav-container{
  		.main-nav {
@@ -496,11 +563,16 @@
 		}
 	}
 
+	.header .head-title h1 {
+		font-size: 52px;
+		line-height: 52px;
+	}
+
 	.main-nav{
 
 		ul {
 			margin: 0;
-			float: left;
+			float: none;
 		}
 	}
  .logo {

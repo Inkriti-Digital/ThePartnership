@@ -82,12 +82,13 @@ Template Name: alumni
                            <?php }elseif($even){ ?>
 						   <span class="divider"></span>
 						   <div class="alumni-row">
+						   <div class="alum-pic right push-left"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/corp-bio2.jpg" alt="Kelly Porter"/></div>
+						   
 	                           <div class="alum-info left">
 								<h2><?php the_title();?></h2>
 								<span><?php the_field('custompost_title');?></span>
 								<p><?php the_content();?></p>
 							</div>
-							<div class="alum-pic left push-left"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/corp-bio2.jpg" alt="Kelly Porter"/></div>
 							<div class="clear-fix"></div>
 						</div>
 						

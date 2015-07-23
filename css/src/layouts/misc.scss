@@ -17,6 +17,7 @@
  	}
  	h2{
  		color: $ui-blue !important;
+ 		line-height: 1.1em;
  	}
 
  	h4{
@@ -33,6 +34,8 @@
  	li{
 		font-size: 21px;
 		margin-bottom: 20px;
+		list-style-type: disc;
+		list-style-position: outside;
 		
 	}
 

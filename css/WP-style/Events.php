@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Alumni Events
+Template Name: Events
 */
 get_header();
 ?>
@@ -29,16 +29,15 @@ get_header();
        <!-- Posts -->
 			 <div class="posts-wrap">
               <!-- event loop comes here -->
-              <?php $term = get_term_by('slug', 'alumni-events', 'tribe_events_cat'); $name = $term->term_id; //echo $name; ?>
               <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
               <?php $args = array( 'post_type' => 'tribe_events', 'posts_per_page' => '6' , 'paged' => $paged, 'orderby' => 'ID' , 'order' => 'DESC' ,'tax_query' => array(
 											array(
 												'taxonomy' => 'tribe_events_cat',
 												'field'    => 'slug',
-												'terms'    => 'alumni-events',
+												'terms'    => 'events',
 											),
-										), ); ?>
-               <?php print_r($pagenation_loop) ?>
+										),); ?>
+               <?php $pagenation_loop = new WP_Query( $args ); ?>
 			  <?php $eventsQuery = get_posts( $args ); ?>
               <?php //print_r($eventsQuery) ?>
 			<?php	foreach ( $eventsQuery as $eventsQuerys ) { ?>
@@ -65,7 +64,7 @@ get_header();
 						   ?>
  						   <h3><?php echo get_the_title($eventsQuerys->ID); ?><span><?php echo  $new_start_date; ?><br>
 						   <?php echo $venuePlace[0]; ?></span></h3>
- 							<p id="postDescript">
+ 							
 							 <?php
 								 for($i=0 ;$i<= 3 ; $i++){
 									 if(!empty($content[$i])){
@@ -73,7 +72,7 @@ get_header();
 									 }
 								 }
 							  ?>
-                             </p>
+                             
  							 <p id="postMore">
  							 	<?php
 									 for($i=3 ;$i<= count($content) ; $i++){

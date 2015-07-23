@@ -1,9 +1,21 @@
+.contact-block{
+	@include media-query(palm){
+		padding-top: 15px;
+	}
+}
+
 .address-view {
   float: right;
   max-width: 270px;
   padding: 30px 50px 0 0;
-      text-align: left;
-      min-height: 225px;
+  text-align: left;
+  min-height: 225px;
+
+  @include media-query(palm){
+  	text-align: center;
+  	min-height: 180px;
+  }
+
   p {
     font-size: 18px;
     margin: 25px 0 0 0;
@@ -24,6 +36,10 @@
     border-radius: 15px;
     color: $white !important;
     margin: 25px 0 0 0;
+
+    @include media-query(palm){
+  		float: none;
+  	}
   }
 }
 .social-media {

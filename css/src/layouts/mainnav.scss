@@ -3,7 +3,6 @@
   float: left;
 }
 .main-nav {
-
   height: 76px;
   margin-top: 0;
   vertical-align: top;
@@ -116,9 +115,9 @@
       height: 76px;
       margin-left: 25px;
       cursor: pointer;
-      background: url(#{$basepath}/search_icon.png) no-repeat center center $ui-red;
+      background: url(#{$basepath}/search_icon.png) no-repeat center center $btnred;
       &.active {
-           background: url(#{$basepath}/search_close.png) no-repeat center center $ui-red;
+           background: url(#{$basepath}/search_close.png) no-repeat center center $btnred;
       }
  }
  #searchblock {
@@ -145,10 +144,84 @@
        background: url(#{$basepath}/search_arrow.png) no-repeat center center $ui-lightred;
      }
  }
+
 // mobile nav
 #mobil-navico {
   float: right;
   display: none;
    vertical-align: middle;
    text-align: center;
+}
+
+.mobile-nav{
+    border-top: 1px #ccc solid;
+
+    li{
+      float:  none;
+      border: 0;
+      width: 100%;
+      display: block;
+      border: 0;
+      border-bottom: 1px solid $gray-lightdark;
+      position: relative;
+      padding: 12px 20px;
+      font-size: 20px;
+      text-align: left;
+
+       img{
+          float: right;
+          padding-right: 0px;
+          padding-top: 6px;
+         }
+    }
+
+  .alumni-nav, .involved-nav{
+    display: none;
+  }
+
+   .secondary-nav{
+    li{
+      padding-left: 45px;
+
+      img{
+        padding-top: 8px;
+      }
+    } 
+  }
+
+  .back-btn{
+    background-color: $btnred;
+    color: white;
+    height: 45px;
+    padding: 8px !important;
+    padding-left: 20px !important;
+    cursor: pointer;
+
+
+    img{
+      float: left;
+      padding: 8px 10px 0 0;
+    }
+  }
+
+
+
+
+
+  ul{
+    li{
+
+    }
+    }
+}
+
+
+//DESKTOP TOUCH UP NAV
+.desktop-nav{
+  display: inline-block;
+  /* border: thin red solid; */
+  position: absolute;
+  height: 76px;
+  /* z-index: 500; */
+  left: 28%;
 }

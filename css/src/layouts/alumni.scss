@@ -62,6 +62,7 @@
 
  		@include media-query(palm){
  			text-align: center;
+ 			margin-top: 15px;
  		}
  	}
 
@@ -74,6 +75,7 @@
  			float: none;
  			margin: auto;
  			text-align: center;
+ 			margin-bottom: 30px;
  		}
 
  		img{
@@ -96,6 +98,7 @@
 		  display: block;
 
 		  padding-bottom: 25px;
+		  padding-top: 25px;
 		}
 
  		h2{

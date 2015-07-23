@@ -38,8 +38,13 @@
  	display: inline-block;
  	padding-right: 15px;
  	float: left;
-  position: relative;
-  z-index: 9999;
+  	position: relative;
+  	z-index: 9999;
+
+  	@include media-query(palm){
+  		padding-top: 32px;
+  		width: 73%;
+  	}
  }
 
  .social{
@@ -62,7 +67,19 @@
   clear: both;
 
  	.head-image{
- 		img{ width: 100%; }
+
+ 		@include media-query(palm){
+ 			max-height: 225px;
+ 		}
+
+ 		img{ 
+ 			width: 100%; 
+
+ 		@include media-query(palm){
+ 			width: 152%;
+  			max-width: none;
+  		}
+ 		}
  	}
 
  	.head-title{
@@ -91,6 +108,8 @@
   			@include media-query(palm){
   				font-size: 30px;
   				line-height: 34px;
+  				margin-bottom: 10px;
+  				margin-top: -10px;
   			}
  		}
 
@@ -131,18 +150,30 @@
  	background: url('../img/hrbg-red.jpg') repeat-y;
  	background-size: 100%;
  	height: 140px;
+
+ 	@include media-query(palm){
+ 		height: 70px;
+ 	}
  }
 
  .seperator-blue{
  	background: url('../img/hrbg-blue.jpg') repeat-y;
  	background-size: 100%;
  	height: 140px;
+
+ 	@include media-query(palm){
+ 		height: 70px;
+ 	}
  }
 
  .seperator-aqua{
  	background: url('../img/hrbg-aqua.jpg') repeat-y;
  	background-size: 100%;
  	height: 140px;
+
+ 	@include media-query(palm){
+ 		height: 70px;
+ 	}
  }
 
  .inner-container{
@@ -219,10 +250,11 @@
   	letter-spacing: 0.5px;
 
   	@include media-query(palm){
-  		min-width: 80px;
+  		min-width: 180px;
+  		display: block;
 	  	canvas{
-	  		width: 120px;
-	  		height: 120px;
+	  		width: 180px;
+	  		height: 180px;
 	  	}
 	}
  }
@@ -239,9 +271,15 @@
 	-webkit-border-radius: 27px 27px 27px 27px;
 	text-transform: uppercase;
 	padding: 5px 32px 5px 12px;
-  color: $ui-aquadark !important;
-  background: url(#{$basepath}/btnsprite.png) no-repeat right 11px $white;
-  margin-bottom: 45px;
+  	color: $ui-aquadark !important;
+  	background: url(#{$basepath}/btnsprite.png) no-repeat right 11px $white;
+  	margin-bottom: 45px;
+
+  	@include media-query(palm){
+  		  background: none;
+  		  padding: 5px 15px 5px 15px;
+  	}
+
  &:hover {
    color: $white !important;
    background: url(#{$basepath}/btnsprite.png) no-repeat right -39px $ui-aqualight;
@@ -280,7 +318,12 @@
  	}
 
  	.copyright{
- 		float:right;
+ 		float: right;
  		vertical-align:top;
+
+ 		@include media-query(palm){
+ 			padding-left: 28px;
+  			float: left;
+  		}
  	}
  }

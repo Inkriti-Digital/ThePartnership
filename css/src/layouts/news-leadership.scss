@@ -4,12 +4,14 @@
   .post-row {
     clear: both;
     overflow: hidden;
-    max-width: none;
+    max-width: 690px;
     margin: 0 auto;
     padding: 70px 35px;
+    
+    
     .post-img {
       float: left;
-      max-width: none;
+      max-width: 150px;
       padding-right: 24px;
 
     }
