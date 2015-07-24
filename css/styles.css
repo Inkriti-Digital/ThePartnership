@@ -2172,7 +2172,7 @@ td {
   padding-right: 0px;
   padding-top: 6px;
 }
-.mobile-nav .alumni-nav, .mobile-nav .involved-nav {
+.mobile-nav .secondary-nav {
   display: none;
 }
 .mobile-nav .secondary-nav li {

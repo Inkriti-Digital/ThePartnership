@@ -30,28 +30,28 @@ $(document).ready(function () {
 
 
 
-function mobilenav() {
-  if (windowWidth < 1024) {
+// function mobilenav() {
+//   if (windowWidth < 1024) {
  
-    $(".main-nav ul li.hassub > a").attr('href','');
+//     $(".main-nav ul li.hassub > a").attr('href','');
 
-    $(".main-nav ul li.hassub > a").click(function(e){
+//     $(".main-nav ul li.hassub > a").click(function(e){
 
-          // code here
+//           // code here
 
-        e.preventDefault();
-       $(".main-nav ul li.hassub").removeClass('current');
-       $(this).next("ul").slideToggle();
-        $(this).parent('li').toggleClass('current');
+//         e.preventDefault();
+//        $(".main-nav ul li.hassub").removeClass('current');
+//        $(this).next("ul").slideToggle();
+//         $(this).parent('li').toggleClass('current');
 
-    });
-  }
-}
+//     });
+//   }
+// }
 
-$( window ).resize(function() {
-   mobilenav();
-});
-    mobilenav();
+// $( window ).resize(function() {
+//    mobilenav();
+// });
+//     mobilenav();
 
   // $('.main-nav ul li .dropdown ul li.hassub').hover(function(){
   //   //alert('g');
@@ -74,74 +74,107 @@ $( window ).resize(function() {
   });
 
 
-
+  //OPEN SECONDARY NAV PANELS
   $('.primary-nav #m-alumni').click(function (e) {
     e.preventDefault();
     $('.primary-nav').slideUp();
     $('.alumni-nav').slideDown();
   });
 
-  //return to main from alumni nav
-  $('.alumni-nav .back-btn').click(function (e) {
-    e.preventDefault();
-    $('.alumni-nav').slideUp();
-    $('.primary-nav').slideDown();
-  });
-
-  $('.alumni-nav #m-involved').click(function (e) {
-    e.preventDefault();
-    $('.alumni-nav').slideUp();
-    $('.involved-nav').slideDown();
-  });
-
-
-  $('.primary-nav #m-alumni').click(function (e) {
+  $('.primary-nav #m-services').click(function (e) {
     e.preventDefault();
     $('.primary-nav').slideUp();
-    $('.alumni-nav').slideDown();
+    $('.services-nav').slideDown();
   });
 
-  //return to main from alumni nav
-  $('.alumni-nav .back-btn').click(function (e) {
+  $('.primary-nav #m-about').click(function (e) {
+    e.preventDefault();
+    $('.primary-nav').slideUp();
+    $('.about-nav').slideDown();
+  });
+
+
+  //CLOSE SECONDARY NAV PANELS
+  $('.alumni-nav .back-primary').click(function (e) {
     e.preventDefault();
     $('.alumni-nav').slideUp();
     $('.primary-nav').slideDown();
   });
 
-  $('.alumni-nav #m-involved').click(function (e) {
+  $('.services-nav .back-primary').click(function (e) {
     e.preventDefault();
-    $('.alumni-nav').slideUp();
-    $('.involved-nav').slideDown();
-  });
-
-
-  //return to alumni nav from get involved
-  $('.involved-nav .back-primary').click(function (e) {
-    e.preventDefault();
-    $('.involved-nav').slideUp();
+    $('.services-nav').slideUp();
     $('.primary-nav').slideDown();
   });
 
-  //return to alumni nav from get involved
-  $('.involved-nav .back-alumni').click(function (e) {
+  $('.about-nav .back-primary').click(function (e) {
     e.preventDefault();
-    $('.involved-nav').slideUp();
-    $('.alumni-nav').slideDown();
-  });
-
-  //return to alumni nav from get involved
-  $('.involved-nav .back-primary').click(function (e) {
-    e.preventDefault();
-    $('.involved-nav').slideUp();
+    $('.about-nav').slideUp();
     $('.primary-nav').slideDown();
   });
 
-  //return to alumni nav from get involved
-  $('.involved-nav .back-alumni').click(function (e) {
+
+  //OPEN TERTIARY NAV PANELS
+  // $('.alumni-nav #m-involved').click(function (e) {
+  //   e.preventDefault();
+  //   $('.alumni-nav').slideUp();
+  //   $('.involved-nav').slideDown();
+  // });
+
+  $('.services-nav #m-development').click(function (e) {
     e.preventDefault();
-    $('.involved-nav').slideUp();
-    $('.alumni-nav').slideDown();
+    $('.services-nav').slideUp();
+    $('.development-nav').slideDown();
   });
+
+  $('.about-nav #m-leadership').click(function (e) {
+    e.preventDefault();
+    $('.about-nav').slideUp();
+    $('.leadership-nav').slideDown();
+  });
+
+
+
+  //CLOSE TERTIARY NAV PANELS
+  // $('.involved-nav .back-primary').click(function (e) {
+  //   e.preventDefault();
+  //   $('.involved-nav').slideUp();
+  //   $('.primary-nav').slideDown();
+  // });
+
+  // $('.involved-nav .back-secondary').click(function (e) {
+  //   e.preventDefault();
+  //   $('.involved-nav').slideUp();
+  //   $('.alumni-nav').slideDown();
+  // });
+
+  $('.development-nav .back-primary').click(function (e) {
+    e.preventDefault();
+    $('.development-nav').slideUp();
+    $('.primary-nav').slideDown();
+  });
+
+  $('.development-nav .back-secondary').click(function (e) {
+    e.preventDefault();
+    $('.development-nav').slideUp();
+    $('.services-nav').slideDown();
+  });
+
+  $('.leadership-nav .back-primary').click(function (e) {
+    e.preventDefault();
+    $('.leadership-nav').slideUp();
+    $('.primary-nav').slideDown();
+  });
+
+  $('.leadership-nav .back-secondary').click(function (e) {
+    e.preventDefault();
+    $('.leadership-nav').slideUp();
+    $('.about-nav').slideDown();
+  });
+
+
+
+ 
 
 
   //  POST CONTROL, READ MORE, READ LESS
