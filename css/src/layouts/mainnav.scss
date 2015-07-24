@@ -25,6 +25,12 @@
           color: $white;
         }
       }
+
+      .active-nav{
+          background: $ui-red;
+          color: $white;
+      }
+
       &:hover > {
         a {
           background: $ui-red;
@@ -36,6 +42,13 @@
           display: block;
         }
       }
+
+
+
+
+
+
+
     // drpdown here
       ul {
         background: $gray-lightdark;
@@ -165,7 +178,7 @@
       border-bottom: 1px solid $gray-lightdark;
       position: relative;
       padding: 15px 25px;
-      font-size: 24px;
+      font-size: 28px;
       text-align: left;
 
        img{

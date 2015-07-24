@@ -183,8 +183,8 @@
        line-height: 50px;
 
        @include media-query(palm){
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 42px;
+        line-height: 48px;
         text-align: center;
        }
      }
@@ -347,7 +347,14 @@
       font-family: 'Conv_KeplerStd-Disp';
       font-size: 28px;
       line-height: normal;
+      text-align: left;
+
+      @include media-query(palm){
+        font-size: 34px;
+       }
     }
+
+
     span {
       font-family: 'Conv_KeplerStd-Disp';
       line-height: 20px;
@@ -378,19 +385,22 @@
   padding-bottom: 20px;
   height: auto;
   .percentage {
-    font-size: 82px;
+    // font-size: 82px;
   }
   p {
 
     margin-bottom: 15px;
     line-height: 28px;
     font-size: 18px;
-    max-width: 250px;
+    // max-width: 250px;
     margin: 0 auto 12px auto;
   }
 .share-cta  {
-    padding: 3px 8px;
-font-size: 12px;
+  padding: 3px 8px;
+  font-size: 12px;
+    @include media-query(palm){
+      font-size: 18px;
+    }
   }
   .three-col {
     border-color: $lightblue;
@@ -422,13 +432,20 @@ font-size: 12px;
   .share-cta {
     font-size: 12px;
     border-color: $lightred;
+     @include media-query(palm){
+      font-size: 18px;
+     }
   }
    .percentage {
-     font-size: 82px;
+     // font-size: 82px;
    }
    p {
      margin-top: 0;
      font-size: 18px;
+
+      @include media-query(palm){
+        font-size: 24px;
+      }
    }
 
 }
@@ -489,16 +506,29 @@ font-size: 12px;
   letter-spacing: 0.5px;
   word-spacing: 0.5px;
   clear: both;
+
   .inner-container {
     overflow: hidden;
   }
+
   .address {
     font-size: 13px;
     line-height: 22px;
     padding-left: 28px;
+    font-family: 'roboto-light';
     float: left;
+
+    @include media-query(palm){
+      font-size: 22px;
+    }
   }
+
   .copyright {
+    font-family: 'roboto-light';
+    @include media-query(palm){
+      font-size: 22px;
+    }
+
     padding-top: 5px;
     padding-right: 32px;
   }

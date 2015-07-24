@@ -56,6 +56,11 @@
 	 background: $white-lightdark;
 	 border: none !important;
 	 }
+
+	 .active-nav{
+          background: white;
+          color: black;
+        }
 	}
 	#navwrap {
 	 	display: none;
@@ -267,7 +272,7 @@
 	 width: 80%;
 
 	 p{
-	 	max-width: 300px;
+	 	// max-width: 300px;
 	 }
  }
 }
@@ -308,8 +313,6 @@
 	font-size:24px;
 }
 
-
-
 }
 /*for desktop*/
 @media (min-width:768px) and (max-width:1023px){
@@ -317,10 +320,10 @@
 		display: block;
 	}
 	#mobilelogo {
-    display: block;
+    // display: block;
   }
 	.desktop {
-		display: none;
+		// display: none;
 	}
  #mobil-navico {
 	 display: block;

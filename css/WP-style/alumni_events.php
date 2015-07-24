@@ -104,3 +104,9 @@ get_header();
 <?php
 get_footer();
 ?>
+
+				<script>
+				    $(document).ready(function () {
+				    $('.main-nav ul:first-child li:nth-child(3) a').addClass('active-nav');
+					});
+			    </script>

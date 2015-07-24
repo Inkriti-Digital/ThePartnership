@@ -1,22 +1,41 @@
 $(document).ready(function () {
   // nav scroll
   
-  scrollWindow();
+  // scrollWindow();
+  // $(window).scroll(function() {
+  //   scrollWindow();
+  // });
 
+  // function scrollWindow(){
+  //    var scroll = $(window).scrollTop();
 
-  $(window).scroll(function() {
-    scrollWindow();
+  //   if (scroll >= 1) {
+  //       $(".nav-container").addClass("scrolling");
+  //   } else {
+  //       $(".nav-container").removeClass("scrolling");
+  //   }
+  // }
+
+  var mousewheelevt = (/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel" //FF doesn't recognize mousewheel as of FF3.x
+  $(window).bind(mousewheelevt, function(e){
+
+    var evt = window.event || e //equalize event object     
+    evt = evt.originalEvent ? evt.originalEvent : evt; //convert to originalEvent if possible               
+    var delta = evt.detail ? evt.detail*(-40) : evt.wheelDelta //check for detail first, because it is used by Opera and FF
+
+    if(delta > 0) {
+      $(".nav-container").addClass("scrolling");
+    }
+    else{
+      $(".nav-container").removeClass("scrolling");
+    }   
   });
 
-  function scrollWindow(){
-     var scroll = $(window).scrollTop();
 
-    if (scroll >= 1) {
-        $(".nav-container").addClass("scrolling");
-    } else {
-        $(".nav-container").removeClass("scrolling");
-    }
-  }
+
+
+
+
 
   //hover controls
   $(document).on('mouseenter', '.service_list li', function () {
@@ -38,41 +57,40 @@ $(document).ready(function () {
 
 
 
-// function mobilenav() {
-//   if (windowWidth < 1024) {
+ function mobilenav() {
+   if (windowWidth < 1024) {
  
-//     $(".main-nav ul li.hassub > a").attr('href','');
-
-//     $(".main-nav ul li.hassub > a").click(function(e){
+     $(".main-nav ul li.hassub > a").attr('href','');
+     $(".main-nav ul li.hassub > a").click(function(e){
 
 //           // code here
 
-//         e.preventDefault();
-//        $(".main-nav ul li.hassub").removeClass('current');
-//        $(this).next("ul").slideToggle();
-//         $(this).parent('li').toggleClass('current');
+         e.preventDefault();
+        $(".main-nav ul li.hassub").removeClass('current');
+        $(this).next("ul").slideToggle();
+         $(this).parent('li').toggleClass('current');
 
-//     });
-//   }
-// }
+     });
+   }
+ }
 
-// $( window ).resize(function() {
-//    mobilenav();
-// });
-//     mobilenav();
+ $( window ).resize(function() {
+    mobilenav();
+ });
+     mobilenav();
 
-  // $('.main-nav ul li .dropdown ul li.hassub').hover(function(){
-  //   //alert('g');
-  //   var current=$(this).find('ul');
-  //   if($(current).css('display') == 'block')
-  //   {
-  // //alert("Ok");
-  // $(this).parent().parent().addClass('multi');
-  //   }
-  //   else {
-  //     $('.main-nav ul li .dropdown ul li:has(ul)').parent().parent().removeClass('multi');
-  //   }
-  // });
+  //  $('.main-nav ul li .dropdown ul li.hassub').hover(function(){
+  // //   //alert('g');
+  //    var current=$(this).find('ul');
+  //  if($(current).css('display') == 'block')
+  //    {
+  //  //alert("Ok");
+  //  $(this).parent().parent().addClass('multi');
+  //    }
+  //    else {
+  //      $('.main-nav ul li .dropdown ul li:has(ul)').parent().parent().removeClass('multi');
+  //    }
+  //  });
 
 
   //MOBILE NAVIGATION FUNCTIONALITY

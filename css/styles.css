@@ -1936,6 +1936,7 @@ td {
   font-family: 'roboto-bold';
   color: #5f5952;
   letter-spacing: 0.5px;
+  vertical-align: top;
 }
 @media only screen and (max-width: 768px) {
   .graph-ico {
@@ -1963,6 +1964,37 @@ td {
   color: #14b3ab !important;
   background: url(../img/btnsprite.png) no-repeat right 11px white;
   margin-bottom: 45px;
+  border-radius-topleft: 25px;
+  /* top left corner */
+  border-radius-topright: 25px;
+  /* top right corner */
+  border-radius-bottomleft: 25px;
+  /* bottom left corner */
+  border-radius-bottomright: 25px;
+  /* bottom right corner */
+  border-radius: 25px 25px 25px 25px;
+  /* shorthand topleft topright bottomright bottomleft */
+  /* firefox's individual border radius properties */
+  -moz-border-radius-topleft: 25px;
+  /* top left corner */
+  -moz-border-radius-topright: 25px;
+  /* top right corner */
+  -moz-border-radius-bottomleft: 25px;
+  /* bottom left corner */
+  -moz-border-radius-bottomright: 25px;
+  /* bottom right corner */
+  -moz-border-radius: 25px 25px 25px 25px;
+  /* shorthand topleft topright bottomright bottomleft */
+  behavior: url(border-radius.htc);
+  /* webkit's individual border radius properties */
+  -webkit-border-top-left-radius: 25px;
+  /* top left corner */
+  -webkit-border-top-right-radius: 25px;
+  /* top right corner */
+  -webkit-border-bottom-left-radius: 25px;
+  /* bottom left corner */
+  -webkit-border-bottom-right-radius: 25px;
+  /* bottom right corner */
 }
 @media only screen and (max-width: 768px) {
   .section-cta {
@@ -2041,6 +2073,10 @@ td {
   text-transform: uppercase;
 }
 .main-nav ul li a:hover {
+  background: #f5675c;
+  color: white;
+}
+.main-nav ul li .active-nav {
   background: #f5675c;
   color: white;
 }
@@ -2166,7 +2202,7 @@ td {
   border-bottom: 1px solid #dfdddb;
   position: relative;
   padding: 15px 25px;
-  font-size: 24px;
+  font-size: 28px;
   text-align: left;
 }
 .mobile-nav li img {
@@ -2287,9 +2323,8 @@ td {
   height: auto !important;
 }
 .page-body-block .alum-info {
-  width: 58%;
+  width: 53%;
   max-width: 455px;
-  width: auto;
   padding-top: 0px;
 }
 @media only screen and (max-width: 768px) {
@@ -2299,6 +2334,7 @@ td {
     margin: auto;
     float: none;
     display: block;
+    text-align: left;
     padding-bottom: 25px;
     padding-top: 25px;
   }
@@ -2656,8 +2692,8 @@ td {
 }
 @media only screen and (max-width: 768px) {
   .inner-container .biz-block h2, .inner-container .pro-block h2 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 42px;
+    line-height: 48px;
     text-align: center;
   }
 }
@@ -2806,6 +2842,12 @@ td {
   font-family: 'Conv_KeplerStd-Disp';
   font-size: 28px;
   line-height: normal;
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  .page-body-block .alum-info h2 {
+    font-size: 34px;
+  }
 }
 .page-body-block .alum-info span {
   font-family: 'Conv_KeplerStd-Disp';
@@ -2837,19 +2879,20 @@ td {
   padding-bottom: 20px;
   height: auto;
 }
-.blue-block .percentage {
-  font-size: 82px;
-}
 .blue-block p {
   margin-bottom: 15px;
   line-height: 28px;
   font-size: 18px;
-  max-width: 250px;
   margin: 0 auto 12px auto;
 }
 .blue-block .share-cta {
   padding: 3px 8px;
   font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .blue-block .share-cta {
+    font-size: 18px;
+  }
 }
 .blue-block .three-col {
   border-color: #c3d2f8;
@@ -2874,12 +2917,19 @@ td {
   font-size: 12px;
   border-color: #e45651;
 }
-.red-block .percentage {
-  font-size: 82px;
+@media only screen and (max-width: 768px) {
+  .red-block .share-cta {
+    font-size: 18px;
+  }
 }
 .red-block p {
   margin-top: 0;
   font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .red-block p {
+    font-size: 24px;
+  }
 }
 
 .three-col:nth-child(3) {
@@ -2948,11 +2998,23 @@ td {
   font-size: 13px;
   line-height: 22px;
   padding-left: 28px;
+  font-family: 'roboto-light';
   float: left;
 }
+@media only screen and (max-width: 768px) {
+  .footer .address {
+    font-size: 22px;
+  }
+}
 .footer .copyright {
+  font-family: 'roboto-light';
   padding-top: 5px;
   padding-right: 32px;
+}
+@media only screen and (max-width: 768px) {
+  .footer .copyright {
+    font-size: 22px;
+  }
 }
 
 .classview {
@@ -3148,10 +3210,10 @@ td {
 
 .options li {
   margin: 0;
-  padding: 0 0 0 12px;
   text-align: left;
   color: white;
-  line-height: 24px;
+  line-height: 15px;
+  padding: 5px 10px;
 }
 
 .options li:hover {
@@ -3410,6 +3472,10 @@ td {
     background: #fffefe;
     border: none !important;
   }
+  .main-nav .active-nav {
+    background: white;
+    color: black;
+  }
 
   #navwrap {
     display: none;
@@ -3581,9 +3647,6 @@ td {
     border: 0;
     width: 80%;
   }
-  .red-block .three-col p, .blue-block .three-col p {
-    max-width: 300px;
-  }
 
   .curriculum-wrap .classdetails .classinfo {
     width: 100%;
@@ -3619,14 +3682,6 @@ td {
 @media (min-width: 768px) and (max-width: 1023px) {
   #logo {
     display: block;
-  }
-
-  #mobilelogo {
-    display: block;
-  }
-
-  .desktop {
-    display: none;
   }
 
   #mobil-navico {

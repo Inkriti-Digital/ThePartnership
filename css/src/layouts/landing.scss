@@ -249,6 +249,7 @@
   	font-family: 'roboto-bold';
   	color: $nav-gray;
   	letter-spacing: 0.5px;
+  	vertical-align: top;
 
   	@include media-query(palm){
   		min-width: 180px;
@@ -275,6 +276,26 @@
   	color: $ui-aquadark !important;
   	background: url(#{$basepath}/btnsprite.png) no-repeat right 11px $white;
   	margin-bottom: 45px;
+  	border-radius-topleft:25px; /* top left corner */
+border-radius-topright:25px; /* top right corner */
+border-radius-bottomleft:25px; /* bottom left corner */
+border-radius-bottomright:25px; /* bottom right corner */
+border-radius:25px 25px 25px 25px; /* shorthand topleft topright bottomright bottomleft */
+
+/* firefox's individual border radius properties */
+-moz-border-radius-topleft:25px; /* top left corner */
+-moz-border-radius-topright:25px; /* top right corner */
+-moz-border-radius-bottomleft:25px; /* bottom left corner */
+-moz-border-radius-bottomright:25px; /* bottom right corner */
+-moz-border-radius:25px 25px 25px 25px; /* shorthand topleft topright bottomright bottomleft */
+
+behavior:url(border-radius.htc);
+
+/* webkit's individual border radius properties */
+-webkit-border-top-left-radius:25px; /* top left corner */
+-webkit-border-top-right-radius:25px; /* top right corner */
+-webkit-border-bottom-left-radius:25px; /* bottom left corner */
+-webkit-border-bottom-right-radius:25px; /* bottom right corner */
 
   	@include media-query(palm){
   		  background: none !important;

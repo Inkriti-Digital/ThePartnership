@@ -70,7 +70,9 @@ Template Name: alumni
                            <?php if($odd){ ?>
 						   <span class="divider"></span>
 						   <div class="alumni-row">
-                           		<div class="alum-pic left"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/corp-bio1.jpg" alt="Juan Torres"/></div>
+                           		<div class="alum-pic left">
+								
+								<?php the_post_thumbnail(); ?></div>
 								<div class="alum-info left push-left">
 									<h2><?php the_title();?></h2>
 									<span><?php the_field('custompost_title');?></span>
@@ -82,7 +84,7 @@ Template Name: alumni
                            <?php }elseif($even){ ?>
 						   <span class="divider"></span>
 						   <div class="alumni-row">
-						   <div class="alum-pic right push-left"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/corp-bio2.jpg" alt="Kelly Porter"/></div>
+						   <div class="alum-pic right push-left"><?php the_post_thumbnail(); ?></div>
 						   
 	                           <div class="alum-info left">
 								<h2><?php the_title();?></h2>
@@ -113,3 +115,11 @@ Template Name: alumni
                        
 
 <?php get_footer(); ?>
+
+
+
+				<script>
+				    $(document).ready(function () {
+				    $('.main-nav ul:first-child li:nth-child(3) a').addClass('active-nav');
+					});
+			    </script>

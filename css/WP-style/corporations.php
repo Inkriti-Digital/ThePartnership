@@ -99,8 +99,21 @@ Template Name: Corporations
 						
 					</div>
 				</div>
+
+
 			</div>
     <?php endwhile; else : ?>
     <?php endif; ?>
     <?php get_footer(); ?>
+
+    			<script>
+				    $(document).ready(function () {
+				    $('.main-nav ul:first-child li:first-child a').addClass('active-nav');
+					});
+			    </script>
+
+
+
+
+
  
