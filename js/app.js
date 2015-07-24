@@ -1,14 +1,22 @@
 $(document).ready(function () {
   // nav scroll
+  
+  scrollWindow();
+
+
   $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+    scrollWindow();
+  });
+
+  function scrollWindow(){
+     var scroll = $(window).scrollTop();
 
     if (scroll >= 1) {
         $(".nav-container").addClass("scrolling");
     } else {
         $(".nav-container").removeClass("scrolling");
     }
-  });
+  }
 
   //hover controls
   $(document).on('mouseenter', '.service_list li', function () {

@@ -47,6 +47,9 @@
    .biz-block,.pro-block {
     p{
        font-size: 21px;
+       @include media-query(palm){
+        font-size: 24px;
+       }
      }
   }
 // personal-block
@@ -60,6 +63,10 @@
     p {
       font-size: 21px;
       text-align: center;
+
+       @include media-query(palm){
+        font-size: 24px;
+       }
     }
 
      h2 {
@@ -70,8 +77,8 @@
        color: $ui-lightred;
 
        @include media-query(palm){
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 34px;
+        line-height: 42px;
        }
      }
 
@@ -112,6 +119,7 @@
 
            @include media-query(palm){
             text-align: center;
+            font-size: 24px;
            }
 
            em {
@@ -123,6 +131,9 @@
          b {
            font-size: 16px;
            font-family: 'roboto-bold';
+            @include media-query(palm){
+              font-size: 24px;
+            }
          }
        }
      }
@@ -136,6 +147,9 @@
 
     p {
       font-size: 21px;
+       @include media-query(palm){
+        font-size: 24px;
+       }
     }
 
     h2 {
@@ -340,6 +354,9 @@
     }
     p {
       font-size: 16px;
+       @include media-query(palm){
+        font-size: 20px;
+       }
     }
   }
 }

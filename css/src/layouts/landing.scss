@@ -179,6 +179,7 @@
  .inner-container{
  	margin-top:  -20px;
  	position: relative;
+ 	font-family: 'roboto-light';
  	z-index: 5;
  	padding: 2% 8%;
  	text-align: center;
@@ -276,8 +277,9 @@
   	margin-bottom: 45px;
 
   	@include media-query(palm){
-  		  background: none;
+  		  background: none !important;
   		  padding: 5px 15px 5px 15px;
+  		  font-size: 20px;
   	}
 
  &:hover {

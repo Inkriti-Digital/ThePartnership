@@ -1882,6 +1882,7 @@ td {
 .inner-container {
   margin-top: -20px;
   position: relative;
+  font-family: 'roboto-light';
   z-index: 5;
   padding: 2% 8%;
   text-align: center;
@@ -1965,8 +1966,9 @@ td {
 }
 @media only screen and (max-width: 768px) {
   .section-cta {
-    background: none;
+    background: none !important;
     padding: 5px 15px 5px 15px;
+    font-size: 20px;
   }
 }
 .section-cta:hover {
@@ -2522,6 +2524,11 @@ td {
 .inner-container .biz-block p, .inner-container .pro-block p {
   font-size: 21px;
 }
+@media only screen and (max-width: 768px) {
+  .inner-container .biz-block p, .inner-container .pro-block p {
+    font-size: 24px;
+  }
+}
 .inner-container .personal-block {
   max-width: 740px;
   margin: 0 auto;
@@ -2534,6 +2541,11 @@ td {
   font-size: 21px;
   text-align: center;
 }
+@media only screen and (max-width: 768px) {
+  .inner-container .personal-block p {
+    font-size: 24px;
+  }
+}
 .inner-container .personal-block h2 {
   font-size: 42px;
   line-height: 52px;
@@ -2542,8 +2554,8 @@ td {
 }
 @media only screen and (max-width: 768px) {
   .inner-container .personal-block h2 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 34px;
+    line-height: 42px;
   }
 }
 .inner-container .personal-block .quote-block {
@@ -2585,6 +2597,7 @@ td {
 @media only screen and (max-width: 768px) {
   .inner-container .personal-block .quote-block .quote p {
     text-align: center;
+    font-size: 24px;
   }
 }
 .inner-container .personal-block .quote-block .quote p em {
@@ -2595,6 +2608,11 @@ td {
   font-size: 16px;
   font-family: 'roboto-bold';
 }
+@media only screen and (max-width: 768px) {
+  .inner-container .personal-block .quote-block .quote b {
+    font-size: 24px;
+  }
+}
 .inner-container .alumni-block {
   max-width: 730px;
   margin: 0 auto;
@@ -2602,6 +2620,11 @@ td {
 }
 .inner-container .alumni-block p {
   font-size: 21px;
+}
+@media only screen and (max-width: 768px) {
+  .inner-container .alumni-block p {
+    font-size: 24px;
+  }
 }
 .inner-container .alumni-block h2 {
   font-size: 42px;
@@ -2790,6 +2813,11 @@ td {
 }
 .page-body-block .alum-info p {
   font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+  .page-body-block .alum-info p {
+    font-size: 20px;
+  }
 }
 
 .page-body-block .push-left {
@@ -3581,6 +3609,10 @@ td {
   .posts-wrap .post-row .post-content {
     margin: 0 auto;
     float: none;
+  }
+
+  .inner-container {
+    font-size: 24px;
   }
 }
 /*for desktop*/
