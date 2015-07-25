@@ -39,6 +39,8 @@
             <li class="current backto"> <a href="#">About</a> </li>
             <li><a href="news-leadership.php">Our Leadership</a>
               <ul>
+              	 <li class="current backto"> <a href="#">About</a> </li>
+                  <li class="current backto"> <a href="#">Leadership</a> </li>
                 <li><a href="about-staff.php">Staff</a></li>
                 <li><a href="about-faculty.php">Faculty</a></li>
                 <li><a href="about-board.php">Board</a></li>
