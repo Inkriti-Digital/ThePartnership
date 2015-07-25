@@ -37,85 +37,7 @@
 
 /*for tablet*/
 @media (min-width:240px) and (max-width:767px){
-// new styles
 
-.backto {
-	display: block;
-}
-  .main-nav ul li {
-	width: 100%;
-  }
-  .nav-container {
-	  z-index: 99999;
-  }
-  .main-nav ul li {
-    width: 100%;
-    position: static;
-	border-bottom: 1px solid #dfdddb;
-}
-.main-nav#topnav ul li ul {
-  /*position: absolute;*/
-
-  height: 100%;
-  background: #fff;
-    top:100%;
-       clear: both;
-    position: absolute;
-    z-index: 999;
-    width: 100%;
-    min-width: 100%;
-    border-top: 10px solid #dfdddb;
-    margin: 0;
-    padding: 0;
- display: block;
-  height: auto;
-
-}
-#navwrap {
-  top: 85px;
-  overflow:visible;
-}
-.main-nav#topnav ul li ul.show_dropdown {
- display: block;
- z-index: 99999;
- height: 100%;
-
-}
-.main-nav#topnav ul li ul.hide_dropdown {
-/* display: none;	*/
-height:0;
-
-}
-
-.main-nav#topnav ul li ul li ul li {
-    padding: 0;
-    float: none;
-    border-bottom: 1px solid #dfdddb;
-    position: static;
-}
-
-.main-nav#topnav ul li ul li ul li a {
-    padding: 12px 30px;
-    text-align: left;
-    font-size: 16px;
-    background: url(img/mobile-nav-arrow.png) no-repeat 92% center #fffefe;
-}
-.main-nav#topnav ul li ul li ul {
-  height: 100%;
-  max-height: 320px;
-       overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-.main-nav#topnav ul li ul li ul li.current>a {
-    background: url(img/activenav.png) no-repeat 2% center #f96758 !important;
-    color: #fff !important;
-}
-.main-nav#topnav ul:first-child {
-  overflow: hidden;
- height: 320px;
- }
- // ends new styles
 	#logo {
 		display: block;
 	}
@@ -391,6 +313,91 @@ height:0;
 	font-size:24px;
 }
 
+
+// new styles
+
+.backto {
+	display: block;
+}
+  .main-nav ul li {
+	width: 100%;
+  }
+  .nav-container {
+	  z-index: 99999;
+  }
+  .main-nav ul li {
+    width: 100%;
+    position: static;
+	border-bottom: 1px solid #dfdddb;
+}
+.main-nav#topnav ul li ul {
+  /*position: absolute;*/
+
+  height: 100%;
+  background: #fff;
+    top:100%;
+       clear: both;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    min-width: 100%;
+    border-top: 10px solid #dfdddb;
+    margin: 0;
+    padding: 0;
+ display: block;
+  height: auto;
+
+}
+#navwrap {
+  top: 85px;
+  overflow:visible;
+}
+.main-nav#topnav ul li ul.show_dropdown {
+ display: block;
+ z-index: 99999;
+ height: 100%;
+
+}
+.main-nav#topnav ul li ul.hide_dropdown {
+/* display: none;	*/
+height:0;
+
+}
+
+.main-nav#topnav ul li ul li ul li {
+    padding: 0;
+    float: none;
+    border-bottom: 1px solid #dfdddb;
+    position: static;
+}
+
+.main-nav#topnav ul li ul li ul li a {
+    padding: 12px 30px;
+    text-align: left;
+    font-size: 16px;
+    background: url(img/mobile-nav-arrow.png) no-repeat 92% center #fffefe;
+}
+.main-nav#topnav ul li ul li ul {
+  height: 100%;
+  max-height: 320px;
+       overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.main-nav#topnav ul li ul li ul li.current>a {
+    background: url(img/activenav.png) no-repeat 2% center #f96758 !important;
+    color: #fff !important;
+}
+.main-nav#topnav ul:first-child {
+  overflow: hidden;
+ height: 320px;
+ }
+ .header {
+	 top: 85px;
+	 min-height: 380px;
+
+ }
+ // ends new styles
 }
 /*for desktop*/
 @media (min-width:768px) and (max-width:1023px){
