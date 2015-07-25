@@ -1,7 +1,13 @@
 .container,.inner-container,.inner-seperator {
   min-width: 320px;
 }
-
+.backto {
+	display: none;
+}
+.nav-container {
+  position: fixed;
+  z-index: 999999;
+ }
  #mobilelogo {
    display: none;
    margin: 10px 0 0 0;

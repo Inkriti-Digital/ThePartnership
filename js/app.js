@@ -1,26 +1,9 @@
 $(document).ready(function () {
-  // nav scroll
-  
-  // scrollWindow();
-  // $(window).scroll(function() {
-  //   scrollWindow();
-  // });
-
-  // function scrollWindow(){
-  //    var scroll = $(window).scrollTop();
-
-  //   if (scroll >= 1) {
-  //       $(".nav-container").addClass("scrolling");
-  //   } else {
-  //       $(".nav-container").removeClass("scrolling");
-  //   }
-  // }
-
   var mousewheelevt = (/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel" //FF doesn't recognize mousewheel as of FF3.x
   $(window).bind(mousewheelevt, function(e){
 
-    var evt = window.event || e //equalize event object     
-    evt = evt.originalEvent ? evt.originalEvent : evt; //convert to originalEvent if possible               
+    var evt = window.event || e //equalize event object
+    evt = evt.originalEvent ? evt.originalEvent : evt; //convert to originalEvent if possible
     var delta = evt.detail ? evt.detail*(-40) : evt.wheelDelta //check for detail first, because it is used by Opera and FF
 
     if(delta > 0) {
@@ -28,13 +11,8 @@ $(document).ready(function () {
     }
     else{
       $(".nav-container").removeClass("scrolling");
-    }   
+    }
   });
-
-
-
-
-
 
 
   //hover controls
@@ -55,155 +33,39 @@ $(document).ready(function () {
   var windowWidth = $(window).width();
  $(".main-nav ul li.hassub").removeClass('current');
 
-
-
  function mobilenav() {
    if (windowWidth < 1024) {
- 
+
      $(".main-nav ul li.hassub > a").attr('href','');
      $(".main-nav ul li.hassub > a").click(function(e){
-
-//           // code here
-
-         e.preventDefault();
+ // // code here
+          e.preventDefault();
         $(".main-nav ul li.hassub").removeClass('current');
-        $(this).next("ul").slideToggle();
-         $(this).parent('li').toggleClass('current');
-
-     });
+        //$(this).next("ul").slideToggle();
+ 		 /*here the code*/
+		 $(this).next("ul").removeClass('hide_dropdown');
+		 $(this).next("ul").addClass('show_dropdown');
+		   $(this).next("ul").stop().animate({top: '0'});
+         });
    }
  }
+
+$(document).delegate('.main-nav ul li ul li.current.backto', 'click', function(e){
+   e.preventDefault();
+     $(this).parent("ul").animate({top: '100%'});
+   });
 
  $( window ).resize(function() {
     mobilenav();
  });
      mobilenav();
-
-  //  $('.main-nav ul li .dropdown ul li.hassub').hover(function(){
-  // //   //alert('g');
-  //    var current=$(this).find('ul');
-  //  if($(current).css('display') == 'block')
-  //    {
-  //  //alert("Ok");
-  //  $(this).parent().parent().addClass('multi');
-  //    }
-  //    else {
-  //      $('.main-nav ul li .dropdown ul li:has(ul)').parent().parent().removeClass('multi');
-  //    }
-  //  });
-
-
-  //MOBILE NAVIGATION FUNCTIONALITY
+   //MOBILE NAVIGATION FUNCTIONALITY
   $('#mobil-navico').click(function (e) {
 
     $('#topnav #navwrap').slideToggle();
-  });
+     });
 
-
-  //OPEN SECONDARY NAV PANELS
-  $('.primary-nav #m-alumni').click(function (e) {
-    e.preventDefault();
-    $('.primary-nav').slideUp();
-    $('.alumni-nav').slideDown();
-  });
-
-  $('.primary-nav #m-services').click(function (e) {
-    e.preventDefault();
-    $('.primary-nav').slideUp();
-    $('.services-nav').slideDown();
-  });
-
-  $('.primary-nav #m-about').click(function (e) {
-    e.preventDefault();
-    $('.primary-nav').slideUp();
-    $('.about-nav').slideDown();
-  });
-
-
-  //CLOSE SECONDARY NAV PANELS
-  $('.alumni-nav .back-primary').click(function (e) {
-    e.preventDefault();
-    $('.alumni-nav').slideUp();
-    $('.primary-nav').slideDown();
-  });
-
-  $('.services-nav .back-primary').click(function (e) {
-    e.preventDefault();
-    $('.services-nav').slideUp();
-    $('.primary-nav').slideDown();
-  });
-
-  $('.about-nav .back-primary').click(function (e) {
-    e.preventDefault();
-    $('.about-nav').slideUp();
-    $('.primary-nav').slideDown();
-  });
-
-
-  //OPEN TERTIARY NAV PANELS
-  // $('.alumni-nav #m-involved').click(function (e) {
-  //   e.preventDefault();
-  //   $('.alumni-nav').slideUp();
-  //   $('.involved-nav').slideDown();
-  // });
-
-  $('.services-nav #m-development').click(function (e) {
-    e.preventDefault();
-    $('.services-nav').slideUp();
-    $('.development-nav').slideDown();
-  });
-
-  $('.about-nav #m-leadership').click(function (e) {
-    e.preventDefault();
-    $('.about-nav').slideUp();
-    $('.leadership-nav').slideDown();
-  });
-
-
-
-  //CLOSE TERTIARY NAV PANELS
-  // $('.involved-nav .back-primary').click(function (e) {
-  //   e.preventDefault();
-  //   $('.involved-nav').slideUp();
-  //   $('.primary-nav').slideDown();
-  // });
-
-  // $('.involved-nav .back-secondary').click(function (e) {
-  //   e.preventDefault();
-  //   $('.involved-nav').slideUp();
-  //   $('.alumni-nav').slideDown();
-  // });
-
-  $('.development-nav .back-primary').click(function (e) {
-    e.preventDefault();
-    $('.development-nav').slideUp();
-    $('.primary-nav').slideDown();
-  });
-
-  $('.development-nav .back-secondary').click(function (e) {
-    e.preventDefault();
-    $('.development-nav').slideUp();
-    $('.services-nav').slideDown();
-  });
-
-  $('.leadership-nav .back-primary').click(function (e) {
-    e.preventDefault();
-    $('.leadership-nav').slideUp();
-    $('.primary-nav').slideDown();
-  });
-
-  $('.leadership-nav .back-secondary').click(function (e) {
-    e.preventDefault();
-    $('.leadership-nav').slideUp();
-    $('.about-nav').slideDown();
-  });
-
-
-
- 
-
-
-  //  POST CONTROL, READ MORE, READ LESS
+   //  POST CONTROL, READ MORE, READ LESS
    $(".readMore").click(function(e) {
       e.preventDefault();
       console.log('clicky clicks');
