@@ -7,10 +7,11 @@
 <meta name="description" content="">
 <!-- <meta name="viewport" content="width=640, initial-scale=1"> -->
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-<meta name="viewport" content="width=640, initial-scale=0.5, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.png">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.min.css">
+<!--link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css"-->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css.map">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/sweetalert.min.js"></script>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/lib/sweetalert.css">
@@ -26,15 +27,15 @@ function popthisUp(str){
 	var Pt_url           =    "http://pinterest.com/pin/create/bookmarklet/?media="+encodeURIComponent(share_image)+"&url="+encodeURIComponent(share_url)+"& is_video=false&description="+description+"";
 	var TB_url           =    "http://www.tumblr.com/share/photo?source="+encodeURIComponent(share_image)+"&caption="+(description)+"&clickthru="+encodeURIComponent(share_url);
 	var LK_url           =    "http://www.linkedin.com/shareArticle?mini=true&url="+encodeURIComponent(share_url)+"&title="+(title)+"&source="+encodeURIComponent(share_url);
-	
+	var YT_url           =    "https://www.youtube.com/user/PartnershipInc";
 	
 	var socialtext = '<a style="color:#F8BB86;cursor:pointer;margin-right:10px;" target="_blank" href="'+LK_url+'"><img src="http://qa-thepartnership.inkriti.net/wp-content/themes/partnership/assets/img/social-linkedin.png" /><a>';
 	var socialtext2 = '<a style="color:#F8BB86;cursor:pointer;margin-right:10px;" target="_blank" href="'+FB_url+'"><img src="http://qa-thepartnership.inkriti.net/wp-content/themes/partnership/assets/img/social-fb.png" /><a>';
 	var socialtext3 = '<a style="color:#F8BB86;cursor:pointer;margin-right:10px;" target="_blank" href="'+TW_url+'"><img src="http://qa-thepartnership.inkriti.net/wp-content/themes/partnership/assets/img/social-twitter.png" /><a>';
-	var socialtext4 = '<a style="color:#F8BB86;cursor:pointer;margin-right:10px;" target="_blank" href=""><img src="http://qa-thepartnership.inkriti.net/wp-content/themes/partnership/assets/img/social-youtube_active.png" /><a>';
+	var socialtext4 = '<a style="color:#F8BB86;cursor:pointer;margin-right:10px;" target="_blank" href="'+YT_url+'"><img src="http://qa-thepartnership.inkriti.net/wp-content/themes/partnership/assets/img/social-youtube_active.png" /><a>';
 	var socialtext5 = '<a style="color:#F8BB86;cursor:pointer;margin-right:10px;" target="_blank" href="'+GP_url+'"><img src="http://qa-thepartnership.inkriti.net/wp-content/themes/partnership/assets/img/social-google.png" /><a>';
 
-	swal({   title: "Social Share!",   text: socialtext+socialtext2+socialtext3+socialtext4+socialtext5,   html: true , showConfirmButton: true });
+	swal({   title: "<?php echo get_field('contact_social_media_title', 448); ?>",   text: socialtext+socialtext2+socialtext3+socialtext4+socialtext5,   html: true , showConfirmButton: true });
 }
 function redirectme(){
 	window.location = "www.google.com";

@@ -1,5 +1,5 @@
 .container,.inner-container,.inner-seperator {
-  min-width: 320px;
+  min-width: 308px;
 }
 .backto {
 	display: none;
@@ -15,13 +15,25 @@
  .inner-container {
    max-width: 1196px;
    clear: both;
-   width: 96%;
+   width: 95%;
+
+   p{
+    b, strong{
+      font-family: 'roboto-bold' !important;
+    }
+    a, a:link, a:visited{ color: #658bea; }
+   }
 
    @include media-query(palm){
-    width: 95%;
+    width: 96%;
     padding: 4%;
    }
 
+
+   .readLess{
+    margin-top: -30px;
+    // display: block !important;
+   }
 
 
  }
@@ -71,7 +83,7 @@
       text-align: center;
 
        @include media-query(palm){
-        font-size: 24px;
+        font-size: 20px;
        }
     }
 
@@ -83,8 +95,8 @@
        color: $ui-lightred;
 
        @include media-query(palm){
-        font-size: 34px;
-        line-height: 42px;
+        font-size: 36px;
+        line-height: 40px;
        }
      }
 
@@ -125,7 +137,7 @@
 
            @include media-query(palm){
             text-align: center;
-            font-size: 24px;
+            font-size: 20px;
            }
 
            em {
@@ -138,7 +150,7 @@
            font-size: 16px;
            font-family: 'roboto-bold';
             @include media-query(palm){
-              font-size: 24px;
+              font-size: 22px;
             }
          }
        }
@@ -164,8 +176,8 @@
       margin-bottom: 12px;
 
       @include media-query(palm){
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 36px;
+        line-height: 40px;
        }
     }
     .alumni-cta {
@@ -307,7 +319,7 @@
   display: block;
   height: 1px;
   float: left;
-  width: 100%;
+  width: 99%;
 }
 .header {
   .head-title {
@@ -356,11 +368,9 @@
       text-align: left;
 
       @include media-query(palm){
-        font-size: 34px;
+        font-size: 28px;
        }
     }
-
-
     span {
       font-family: 'Conv_KeplerStd-Disp';
       line-height: 20px;
@@ -368,7 +378,7 @@
     p {
       font-size: 16px;
        @include media-query(palm){
-        font-size: 20px;
+        font-size: 16px;
        }
     }
   }
@@ -491,6 +501,10 @@
 .inner-container {
   .biz-block, .pro-block {
     padding-top: 40px;
+
+    @include media-query(palm){
+      padding-top: 25px;
+    }
   }
 }
 .page-body-block.pro-block {
@@ -513,6 +527,10 @@
   word-spacing: 0.5px;
   clear: both;
 
+  @include media-query(palm){
+    font-size: 14px;
+  }
+
   .inner-container {
     overflow: hidden;
   }
@@ -525,17 +543,19 @@
     float: left;
 
     @include media-query(palm){
-      font-size: 22px;
+      // font-size: 22px;
     }
   }
 
   .copyright {
     font-family: 'roboto-light';
     @include media-query(palm){
-      font-size: 22px;
+      // font-size: 22px;
     }
 
     padding-top: 5px;
     padding-right: 32px;
   }
 }
+
+

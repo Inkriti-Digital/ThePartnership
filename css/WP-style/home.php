@@ -2,11 +2,11 @@
 <!-- header banner -->
 <?php $pageQuery = new WP_Query("pagename=home-page"); ?>
 <?php if ( $pageQuery->have_posts() ) : while ( $pageQuery->have_posts() ) : $pageQuery->the_post(); ?>
-  <div class="header">
+  <div class="header home-header">
     	<div class="head-title">
       		<h1> <?php the_field("banner_title") ?></h1>
       		<div class="head-cta"> <?php the_field("banner_link_title") ?> 
-       			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/header-arrow-red.png"/> 
+       			<!--<img src="<?php //echo get_template_directory_uri(); ?>/assets/img/header-arrow-red.png"/> -->
        		</div>
     	</div>
     		<div class="head-image"> 
@@ -39,10 +39,10 @@
                             <?php endwhile; ?>
                     </ul>
                     <?php endif; ?>
-		
-    
+                   
+
     <!--// service_list -->
-    <a href="<?php  the_field("business_link") ?>" class="section-cta biz-cta">  See what we can do for your business  </a> </div>
+    <a href="<?php  the_field("business_link") ?>" class="section-cta biz-cta">  See what we can do for your business  <img class="cta-arrow mobile" src="/wp-content/themes/partnership/assets/img/arrow-aqua-full.png"/></a> </div>
   <div class="seperator-blue"></div>
   <div class="inner-container">
     <div class="personal-block">
@@ -67,7 +67,7 @@
 					<?php endif; ?>
       			</div>
       
-      <a href="<?php  the_field("professional_link") ?>" class="section-cta personal-cta"> How we work with professionals </a> </div>
+      <a href="<?php  the_field("professional_link") ?>" class="section-cta personal-cta"> How we work with professionals <img class="cta-arrow mobile" src="/wp-content/themes/partnership/assets/img/arrow-red-full.png"/></a> </div>
   </div>
   <div class="seperator-aqua"></div>
   <div class="inner-container">
@@ -96,7 +96,7 @@
           
         </div>
       </div>
-      <a href="<?php  the_field("network_link") ?>"><span class="section-cta alumni-cta">  See how our alumni make a difference</span></a> </div>
+      <a href="<?php  the_field("network_link") ?>"><span class="section-cta alumni-cta">  See how our alumni make a difference <img class="cta-arrow mobile" src="/wp-content/themes/partnership/assets/img/arrow-blue-full.png"/></span></a> </div>
   </div>
 <?php endwhile; else : ?>
  <?php endif; ?>

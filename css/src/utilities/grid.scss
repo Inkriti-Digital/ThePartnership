@@ -16,7 +16,7 @@
     }
     @include media-query(palm){
         width: 100%;
-        min-width: 640px;
+        min-width: 320px !important;
     }
 }
 
@@ -47,7 +47,7 @@
 .nav-container{
     width: 100%;
     background-color: white;
-    height: 80px;
+    height: 76px;
     text-align: center;
     // min-width: 1180px;
 }

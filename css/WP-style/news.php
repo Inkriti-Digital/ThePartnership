@@ -13,11 +13,11 @@ get_header()
   <div class="inner-container">
     <div class="biz-block alumniblock">
       <h2><?php the_title(); ?></h2>
-      <p><?php the_content(); ?></p>
+      <?php the_content(); ?>
     </div>
  
-    <div class="page-body-block">
-      <h3><?php the_field("alumni_events_subheadline"); ?></h3>
+    <div class="page-body-block news-block">
+      <!--h3--><!--?php the_field("alumni_events_subheadline"); ?></h3-->
       <div class="divider"></div>
       <!-- Posts -->
       <div class="posts-wrap">
@@ -35,28 +35,21 @@ get_header()
               <div class="post-img"> <img src="<?php echo $url; ?>"/> </div>
               <div class="post-content">
                 <h3><?php the_title(); ?></h3>
-                <?php $content = explode(".",get_the_content());  ?>
-                <p id="postDescript">
-							 <?php
-								 for($i=0 ;$i<= 3 ; $i++){
-									 if(!empty($content[$i])){
-									 echo $content[$i].".";
-									 }
-								 }
-							  ?>
-                             </p>
- 							 <p id="postMore">
- 							 	<?php
-									 for($i=3 ;$i<= count($content) ; $i++){
-										 if(!empty($content[$i])){
-										 echo $content[$i].".";
-										 }
-									 }
-							    ?>
- 							 </p>
+               <div id="postDescript">
+                            <?php if( strlen($content) > 276 ) { ?>
+							 <?php the_excerpt(); ?>
+                             <?php }else{ the_content(); } ?>
+                             </div>
+ 							 <div id="postMore">
+ 							 	<?php the_content(); ?>
+ 							 </div>
+ 							<?php $content = get_the_content(); //echo strlen($content) ; ?>
+                            
+                             <?php if(!empty($content) && strlen($content) > 276){ ?>
  							 <a class="readMore redlink" href="#">Read more ></a>
  							 <br/>
  							 <a class="readLess redlink" href="#">Read less</a>
+                             <?php } ?>
               </div>
             </div>
             <div class="divider"></div>

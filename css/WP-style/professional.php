@@ -69,10 +69,11 @@ get_header();
                            $odd = ($y % 2 != 0);
 						   ?>
                            <?php if($odd){ ?>
-                            <span class="divider"></span>
-                            <div class="alumni-row">
-                                <?php $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID));  ?>
-                           		<div class="alum-pic left"><?php the_post_thumbnail(); ?></div>
+                              <span class="divider"></span>
+						   <div class="alumni-row">
+                           		<div class="alum-pic left">
+								
+								<?php the_post_thumbnail(); ?></div>
 								<div class="alum-info left push-left">
 									<h2><?php the_title();?></h2>
 									<span><?php the_field('custompost_title');?></span>
@@ -80,17 +81,18 @@ get_header();
 								</div>
 								<div class="clear-fix"></div>
 							</div>
-							
+						
                            <?php }elseif($even){ ?>
-                            <span class="divider"></span>
-                            <div class="alumni-row">
-                           		<div class="alum-info left">
-									<h2><?php the_title();?></h2>
-									<span><?php the_field('custompost_title');?></span>
-									<p><?php the_content();?></p>
-								</div>
-								<div class="alum-pic left push-left"><?php the_post_thumbnail(); ?></div>
-								<div class="clear-fix"></div>
+						   <span class="divider"></span>
+						   <div class="alumni-row">
+						   <div class="alum-pic right push-left"><?php the_post_thumbnail(); ?></div>
+						   
+	                           <div class="alum-info left">
+								<h2><?php the_title();?></h2>
+								<span><?php the_field('custompost_title');?></span>
+								<p><?php the_content();?></p>
+							</div>
+							<div class="clear-fix"></div>
 							</div>
                            
                            <?php }?>
