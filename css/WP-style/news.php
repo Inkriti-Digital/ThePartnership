@@ -17,7 +17,7 @@ get_header()
     </div>
  
     <div class="page-body-block news-block">
-      <!--h3--><!--?php the_field("alumni_events_subheadline"); ?></h3-->
+      <h3><?php the_field("alumni_events_subheadline"); ?></h3>
       <div class="divider"></div>
       <!-- Posts -->
       <div class="posts-wrap">

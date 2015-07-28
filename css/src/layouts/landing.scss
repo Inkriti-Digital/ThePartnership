@@ -74,14 +74,15 @@
  		padding-top: 75px;
 
  		@include media-query(palm){
- 			max-height: 225px;
+ 			max-height: none;
+ 			padding-top: 0;
  		}
 
  		img{ 
  			width: 100%; 
 
  		@include media-query(palm){
- 			width: 150%;
+ 			width: 120%;
   			max-width: none;
   		}
  		}
@@ -92,12 +93,12 @@
  		position: absolute;
 	  	color: $white;
 	  	z-index: 10;
-	  	left: 12%;
-	  	top: 18%;
+	  	left: 9%;
+	  	top: 24%;
 
 	  	@include media-query(palm){
 	  		left: 8%;
-	  		top: 12%;
+	  		top: 30%;
 	  	}
 
  		h1{
@@ -112,8 +113,8 @@
   			}
 
   			@include media-query(palm){
-  				font-size: 24px;
-  				line-height: 30px;
+  				font-size: 31px;
+  				line-height: 32px;
   				margin-bottom: 10px;
   				margin-top: -10px;
   			}
@@ -131,7 +132,7 @@
   			}
 
   			@include media-query(palm){
-  				font-size: 20px;
+  				font-size: 22px;
   				line-height: 21px;
   			}
 

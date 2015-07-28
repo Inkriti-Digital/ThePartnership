@@ -1791,7 +1791,8 @@ td {
 }
 @media only screen and (max-width: 768px) {
   .header .head-image {
-    max-height: 225px;
+    max-height: none;
+    padding-top: 0;
   }
 }
 .header .head-image img {
@@ -1799,7 +1800,7 @@ td {
 }
 @media only screen and (max-width: 768px) {
   .header .head-image img {
-    width: 150%;
+    width: 120%;
     max-width: none;
   }
 }
@@ -1808,13 +1809,13 @@ td {
   position: absolute;
   color: white;
   z-index: 10;
-  left: 12%;
-  top: 18%;
+  left: 9%;
+  top: 24%;
 }
 @media only screen and (max-width: 768px) {
   .header .head-title {
     left: 8%;
-    top: 12%;
+    top: 30%;
   }
 }
 .header .head-title h1 {
@@ -1825,8 +1826,8 @@ td {
 }
 @media only screen and (max-width: 768px) {
   .header .head-title h1 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 31px;
+    line-height: 32px;
     margin-bottom: 10px;
     margin-top: -10px;
   }
@@ -1839,7 +1840,7 @@ td {
 }
 @media only screen and (max-width: 768px) {
   .header .head-title .head-cta {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 21px;
   }
 }
@@ -3486,6 +3487,19 @@ td {
   }
 }
 /*for landscape*/
+@media (min-width: 481px) and (max-width: 768px) {
+  .header .head-image {
+    padding-top: 76px;
+  }
+
+  .header .head-title {
+    margin-top: 4%;
+  }
+
+  .seperator-red, .seperator-blue, .seperator-aqua {
+    height: 72px;
+  }
+}
 /*for tablet*/
 @media (min-width: 240px) and (max-width: 767px) {
   #logo {
@@ -3811,17 +3825,19 @@ td {
   }
 
   .header {
-    top: 85px;
+    min-height: 300px;
   }
 
   .home-header {
-    min-height: 270px !important;
+    min-height: 300px !important;
+    height: 340px;
   }
 }
 /*for desktop*/
-@media (min-width: 768px) and (max-width: 1023px) {
-  #logo {
+@media (min-width: 767px) and (max-width: 1023px) {
+  .logo {
     display: block;
+    width: 38%;
   }
 
   #mobil-navico {
@@ -3878,6 +3894,22 @@ td {
     margin: 18px 0;
     clear: left;
     padding-left: 35px;
+  }
+
+  .seperator-red, .seperator-blue, .seperator-aqua {
+    height: 72px;
+  }
+
+  .header .head-title h1 {
+    font-family: 'kepler-std';
+    letter-spacing: 0.05em;
+    font-size: 40px;
+    line-height: 41px;
+    margin-top: 15%;
+  }
+
+  .header .head-title {
+    left: 5%;
   }
 
   .main-nav#topnav {
@@ -4040,12 +4072,29 @@ td {
   }
 
   .header {
-    top: 85px;
     max-height: 340px;
-    min-height: 235px;
+    min-height: 235px !important;
+    height: auto;
   }
   .header .head-image {
-    padding-top: 0;
+    padding-top: 76px;
+  }
+
+  .header .head-title {
+    left: 8%;
+    top: 43%;
+  }
+
+  .header .head-title h1 {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+  .header .head-title .head-cta {
+    font-size: 16px;
+    line-height: 14px;
   }
 
   .logo {
@@ -4058,7 +4107,7 @@ td {
   }
 
   #searchblock input[type='text'] {
-    width: 336px;
+    width: 83%;
     height: 52px;
     z-index: 9999;
     float: left;
@@ -4071,6 +4120,7 @@ td {
   #searchblock .search_button {
     float: right;
     height: 52px;
+    width: 17%;
     background: url(../img/search_arrow.png) no-repeat center center #e2273d;
   }
 
@@ -4141,25 +4191,23 @@ td {
     position: absolute;
     right: 12px;
   }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px) and (max-width: 768px) {
-  .news-block {
-    padding: 0;
-  }
-  .news-block .posts-wrap .post-row {
-    padding: 0;
-  }
-  .news-block .posts-wrap .post-row .post-img {
-    margin-bottom: 0;
-  }
-  .news-block .biz-block {
-    padding-bottom: 0;
-  }
-  .news-block .biz-block h2 {
-    margin-bottom: 0;
-  }
-}
 
+  .contact-seperator .red-block .three-col {
+    border: 0;
+    width: 100%;
+  }
+  .contact-seperator .red-block .three-col .address-view {
+    float: none;
+    max-width: 270px;
+    padding: 30px 0px 0 0;
+    text-align: center;
+    min-height: 127px;
+  }
+  .contact-seperator .red-block .three-col .address-view p {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+  }
+}
 /*for desktop*/
 @media (min-width: 1250px) and (max-width: 1799px) {
   .header .head-title h1 {

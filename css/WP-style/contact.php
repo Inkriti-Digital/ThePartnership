@@ -18,19 +18,21 @@ Template Name: Contact
       <p><?php the_content();?></p>
     </div>
   </div>
-  <div class="inner-seperator">
+  <div class="inner-seperator contact-seperator">
     <div class="red-block">
    
       <div class="three-col">
         <div class="address-view">
-          <h4>Address</h4>
+          <h4><?php the_field("contact_address_text");?></h4>
           <p><?php the_field("contact_address_direction");?></p>
-          <a target="_blank" href="<?php  the_field("contact_address_direction_link") ?>" class="directions-link">get directions <img src="<?php echo get_template_directory_uri(); ?>/assets/img/direction-btnbg.png" alt=""></a> </div>
+          <a target="_blank" href="<?php  the_field("contact_address_direction_link") ?>" class="directions-link"><?php  the_field("contact_us_get_direction_text") ?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/direction-btnbg.png" alt=""></a> </div>
       </div>
       <div class="three-col">
         <div class="address-view">
-          <h4>Address</h4>
-          <p><?php the_field("contact_address");?></p>
+          <h4><?php the_field("contact_address_block_2_text");?></h4>
+          <p><?php the_field("contact_number");?>
+          <?php the_field("conatct_mail");?>
+          </p>
         </div>
       </div>
       
@@ -44,55 +46,55 @@ Template Name: Contact
     </div>
   </div>
   <div class="inner-container">
-    <div class="page-body-block corp-block contact-block">
+    <div class="page-body-block corp-block">
       <!--contact form-->
       <div class="contact-form-wrap">
         <h3>Send Us A Message</h3>
         <div class="divider"> </div>
         <div class="contact-form">
-        <form>
+        <form action="" method="post" enctype="multipart/form-data">
           <div class="form-elements">
             <div class="form-col">
               <label>First Name:*</label>
-              <input type="text" placeholder="">
+              <input type="text" placeholder="" name="fname">
             </div>
             <div class="form-col right-col">
               <label>Last Name:*</label>
-              <input type="text" placeholder="">
+              <input type="text" placeholder="" name="lname">
             </div>
           </div>
           <!--form row-->
           <div class="form-elements">
             <div class="form-col">
               <label>Job Title:</label>
-              <input type="text" placeholder="">
+              <input type="text" placeholder="" name="jobTitle">
             </div>
             <div class="form-col right-col">
               <label>Company:*</label>
-              <input type="text" placeholder="">
+              <input type="text" placeholder="" name="company">
             </div>
           </div>
           <!--form row-->
           <div class="form-elements">
             <div class="form-col">
               <label>Phone Number:</label>
-              <input type="text" placeholder="">
+              <input type="text" placeholder="" name="phonenumber">
             </div>
             <div class="form-col right-col">
               <label>Reason for Contacting:</label>
-              <input type="text" placeholder="">
+              <input type="text" placeholder="" name="reasonofContact">
             </div>
           </div>
           <!--form row-->
           <div class="form-elements">
             <label>Message:*</label>
-            <textarea class="textareatab"></textarea>
+            <textarea class="textareatab" name="message"></textarea>
           </div>
           <div class="form-elements">
             <label>
-              <input type="checkbox">
+              <input type="checkbox" name="joml" value="yes">
               Join Our Mailing List</label>
-            <input type="submit" value="Submit" class="submit-button">
+            <input type="submit" value="Submit" name="contactus" class="submit-button">
           </div>
           </form>
         </div>
