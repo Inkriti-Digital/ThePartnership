@@ -11,7 +11,7 @@
 <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.png">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.min.css">
-<!--link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css"-->
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles-v2.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css.map">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/sweetalert.min.js"></script>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/lib/sweetalert.css">
@@ -41,6 +41,13 @@ function redirectme(){
 	window.location = "www.google.com";
 }
 </script>
+<style type="text/css">
+.classdetails a {
+    clear: none; 
+    float: none;
+	margin-top:0px;
+}
+</style>
 <?php wp_head(); ?>
 </head>
 <body>

@@ -4073,11 +4073,15 @@ td {
 
   .header {
     max-height: 340px;
-    min-height: 235px !important;
+    min-height: 205px !important;
     height: auto;
   }
   .header .head-image {
-    padding-top: 76px;
+    padding-top: 82px;
+  }
+
+  .home-header {
+    min-height: 230px !important;
   }
 
   .header .head-title {

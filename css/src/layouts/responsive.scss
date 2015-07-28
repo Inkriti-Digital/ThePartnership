@@ -740,12 +740,16 @@ height: 77px;
 	.header {
 		// top: 85px;
 		max-height: 340px;
-		min-height: 235px !important;
+		min-height: 205px !important;
 		height: auto;
 
 		.head-image{
-			padding-top: 76px;
+			padding-top: 82px;
 		}
+ 	}
+
+ 	.home-header{
+ 		min-height: 230px !important;
  	}
 
  	.header .head-title {
